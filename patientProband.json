@@ -50,6 +50,10 @@
           "valueId": "FA03939"
         },
         {
+          "url": "familyComposition",
+          "valueCode": "trio +"
+        },
+        {
           "url": "ethnicity",
           "valueCode": "Canadien-Francais"
         },
@@ -60,24 +64,34 @@
       ]
     }
   ],
-  "link": [
+  "link": [  // Only mother, father and sibs
     {
-      "other": {"reference": "Patient/PT000441"},
+      "other": { "reference": "Patient/PT000441" },
       "type": "refer",
       "extension": [
         {
           "url": "http://hl7.org/fhir/valueset-relatedperson-relationshiptype",
-          "valueCode": "FTH"
+          "valueCode": "FTH"  // father
         }
       ]
     },
     {
-      "other": {"reference": "Patient/PT000949"},
+      "other": { "reference": "Patient/PT000949" },
       "type": "refer",
       "extension": [
         {
           "url": "http://hl7.org/fhir/valueset-relatedperson-relationshiptype",
-          "valueCode": "MTH"
+          "valueCode": "MTH"  // mother
+        }
+      ]
+    },
+    {
+      "other": { "reference": "Patient/PT00092" },
+      "type": "refer",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/valueset-relatedperson-relationshiptype",
+          "valueCode": "TWIN"  // Twin brother
         }
       ]
     }
