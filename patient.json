@@ -1,0 +1,81 @@
+{
+  "resourceType": "Patient",
+  "id": "PT000001",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-03-09T10:33:38.304+00:00"
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://www.hl7.org/FHIR/valueset-identifier-type",
+            "code": "MR",
+            "display": "Medical record number"
+          }
+        ]
+      },
+      "value": "458746"
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://www.hl7.org/FHIR/valueset-identifier-type",
+            "code": "JHN",
+            "display": "RAMQ"
+          }
+        ]
+      },
+      "value": "BERS18101119"
+    }
+  ],
+  "active": "true",
+  "name": {
+    "use": "official",
+    "family": "Bertrand",
+    "given": ["Stephane"]
+  },
+  "birthDate": "2018-10-11",
+  "gender": "male",
+  "generalPractitioner": { "reference": "Practitioner/PR00001" },
+  "managingOrganization": { "reference": "Organization/ORG001" },
+  "extension": [
+    {
+      "url": "https://github.com/cr-ste-justine/clin-FHIR",
+      "extension": [
+        {
+          "url": "familyId",
+          "valueId": "FA03939"
+        },
+        {
+          "url": "ethnicity",
+          "valueCode": "Canadien-Francais"
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "other": {"reference": "Patient/PT000441"},
+      "type": "refer",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/valueset-relatedperson-relationshiptype",
+          "valueCode": "FTH"
+        }
+      ]
+    },
+    {
+      "other": {"reference": "Patient/PT000949"},
+      "type": "refer",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/valueset-relatedperson-relationshiptype",
+          "valueCode": "MTH"
+        }
+      ]
+    }
+  ]
+}
