@@ -3,9 +3,10 @@
   "id": "PR00001",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2019-03-09T10:33:38.304+00:00"
+    "lastUpdated": "2019-03-09T10:33:38.304+00:00",
+    "text": "Praticioner's personal information"
   },
-  "active": "true",
+
   "identifier": [
     {
       "use": "official",
@@ -16,31 +17,19 @@
             "system": "http://hl7.org/fhir/identifier-type",
             "display": "Medical License number"
           }
-        ]
+        ],
+        "text": "Numero de License Médicale du Québec"
       },
+      "system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-qc-license-physician.html",
       "value": "000002516"
     }
   ],
-  "name": {
-    "use": "official",
-    "family": "Dujardin",
-    "given": ["Patrick"]
-  },
-
-  "telecom": {
-    "system": "phone",
-    "value": "+1 (514) 985-692",
-    "use": "work"
-  },
-
-  "address": {
-    "use": "work",
-    "line": ["Service Pediatrique 2e Etage-3175 Ch Cote Ste Catherine"],
-    "city": "Montreal",
-    "postalCode": "H3T 1C5",
-    "state": "Quebec",
-    "country": "Canada"
-  },
-
-  "gender": "male"
+  "name": [
+    {
+      "use": "official",
+      "family": "Dujardin",
+      "given": ["Patrick"],
+      "prefix": ["Dr."]
+    }
+  ]
 }
