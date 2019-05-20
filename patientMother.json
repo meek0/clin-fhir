@@ -3,18 +3,20 @@
   "id": "PT000002",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2019-03-09T10:33:38.304+00:00"
+    "lastUpdated": "2019-03-09T10:33:38.304+00:00",
+    "text" : "Patient's personal and demographic information"
   },
   "identifier": [
     {
       "type": {
         "coding": [
           {
-            "system": "http://www.hl7.org/FHIR/valueset-identifier-type",
+            "system": "http://www.hl7.org/FHIR/valueset-identifier-type.html",
             "code": "MR",
             "display": "Medical record number"
           }
-        ]
+        ],
+        "text": "Numéro du dossier médical"
       },
       "value": "4533941"
     },
@@ -22,11 +24,13 @@
       "type": {
         "coding": [
           {
-            "system": "http://www.hl7.org/FHIR/valueset-identifier-type",
+            "system": "http://www.hl7.org/FHIR/valueset-identifier-type.html",
             "code": "JHN",
-            "display": "RAMQ"
+            "display": "Jurisdictional health number (Canada)"
           }
-        ]
+        ],
+        "text": "Numéro assurance maladie du Québec",
+        "system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-qc-patient-healthcare-id.html"
       },
       "value": "BERF18106921"
     }
@@ -48,11 +52,11 @@
         {
           "url": "familyId",
           "valueId": "FA03939"
-        },        
+        },
         {
-            "url": "familyComposition",
-            "valueCode": "trio +"
-          },
+          "url": "familyComposition",
+          "valueCode": "trio +"
+        },
         {
           "url": "ethnicity",
           "valueCode": "Canadien-Francais"
@@ -64,4 +68,4 @@
       ]
     }
   ]
- }
+}
