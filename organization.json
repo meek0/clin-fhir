@@ -1,0 +1,12 @@
+{
+	"resourceType": "Organization",
+	"id": "ORG001",
+	"meta": {
+		"versionId": "1",
+		"lastUpdated": "2019-03-09T10:33:38.304+00:00",
+		"text" : "Organisation name"
+	  },
+
+	"name":"CHU Ste Justine",
+	"alias":"CHUSJ"
+}
