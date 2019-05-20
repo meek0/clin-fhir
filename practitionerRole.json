@@ -3,19 +3,23 @@
   "id": "PRR00001",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2019-03-09T10:33:38.304+00:00"
+    "lastUpdated": "2019-03-09T10:33:38.304+00:00",
+    "text": "Practitioner's organisation and roles"
   },
-  "active": "true",
 
   "practitioner": { "reference": "Practitioner/PR00001" },
   "organization": { "reference": "Organization/ORG001" },
 
-  "code": {  // other roles : Geneticist (Julie), Healthcare service manager (Rene),
-             // Supporting services personnel (Virginie)
-    "coding": {
-      "system": "http://www.hl7.org/FHIR/valueset-practitioner-role.html",
-      "code": "158967008",
-      "display": "Consultant physician"
+  "code": [
+    {
+      "coding": [
+        {
+          "system": "http://www.hl7.org/FHIR/valueset-practitioner-role.html",
+          "code": "158967008",
+          "display": "Consultant physician  (NOTE: other roles : Geneticist (Julie), Healthcare service manager (Rene), Supporting services personnel (Virginie)"
+        }
+      ],
+      "text": "Médecin traitant"
     }
-  }
+  ]
 }
