@@ -1,0 +1,35 @@
+{
+  "resourceType": "Specimen",
+  "id": "SP000002",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-03-09T10:33:38.304+00:00",
+    "text" : "Specimen information"
+  },
+
+  "status": "available",
+
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "24851008",
+        "display": "Deoxyribonucleic acid (substance)"
+      }
+    ],
+    "text": "DNA"
+  },
+  "subject": { "reference": "Patient/P000001" },
+  "receivedTime": "2019-05-19T10:00:00+00:00",
+  "parent": [
+      { "reference": "Specimen/SP000001" }
+  ],
+  "request": [
+      { "reference": "ServiceRequest/SR000002" }
+  ],
+  "container": [
+    {
+      "identifier": [{ "value": "barcode xxx" }]
+    }
+  ]
+}
