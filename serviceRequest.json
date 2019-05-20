@@ -1,0 +1,22 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "SR000001",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-03-09T10:33:38.304+00:00",
+    "text" : "DNA sequencing requests from molecular diagnosis laboratories"
+  },
+
+  "status": "completed",
+  "intent": "order",
+  "authoredOn": "2019-05-09T11:00:00+00:00",
+
+  "code": {
+    "text" : "WXS"
+  },
+
+  "requester": { "reference": "Practitioner/PRR00001 (NOTE: Exemple Julie)" },
+  "subject": { "reference": "Patient/P000001" },
+  "encounter": { "reference": "encounter/EN03938  Note: c'est le encounter du medecin traitant" },
+  "specimen": { "reference": "specimen/SP39383" }
+}
