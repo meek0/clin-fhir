@@ -23,6 +23,7 @@
       }
     ]
   },
+  "note": [ {"text" : "une note en texte libre sur l'observation"}],
   "interpretation": [
     {
       "coding": [
