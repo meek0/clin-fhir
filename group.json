@@ -1,0 +1,35 @@
+{
+  "resourceType": "Group",
+  "id": "FA30494",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-03-09T10:33:38.304+00:00",
+    "text": "Group info, mainly used to describe families"
+  },
+  "type": "person",
+
+  "code": {
+    "text": "family"
+  },
+
+  "member": [
+    {
+      "entity": { "reference": "Patient/PA39393" },
+      "extension": [
+        {
+          "url": "https://github.com/cr-ste-justine/clin-FHIR/pedigree.html",
+          "valueString": "1.2"
+        }
+      ]
+    },
+    {
+      "entity": { "reference": "Patient/PA39553" },
+      "extension": [
+        {
+          "url": "https://github.com/cr-ste-justine/clin-FHIR/pedigree.html",
+          "valueString": "2.2"
+        }
+      ]
+    }
+  ]
+}
