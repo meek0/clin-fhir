@@ -60,6 +60,10 @@
           "valueCode": "Canadien-Francais"
         },
         {
+          "url": "familyComposition",
+          "valueCode": "trio +"
+        },
+        {
           "url": "isProband",
           "valueBoolean": "true"
         }
