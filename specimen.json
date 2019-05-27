@@ -20,7 +20,6 @@
     "text": "DNA"
   },
   "subject": { "reference": "Patient/P000001" },
-  "receivedTime": "2019-05-19T10:00:00+00:00",
   "parent": [
       { "reference": "Specimen/SP000001" }
   ],

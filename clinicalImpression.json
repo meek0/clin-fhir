@@ -28,39 +28,13 @@
             ]
         }
     ],
-
-  "extension": [
+    "extension": [
         {
-            "url": "https://github.com/cr-ste-justine/clin-FHIR",
-            "extension": [
-                {
-                    "url": "value_age_year",
-                    "valueAge":{
-                        "value": 2,
-                        "unit": "year",
-                        "system": "http://unitsofmeasure.org",
-                        "code": "a"
-                    }
-                },
-                {
-                    "url": "value_age",
-                    "valueAge":{
-                        "value": 2,
-                        "unit": "mouths",
-                        "system": "http://unitsofmeasure.org",
-                        "code": "mo"
-                    }
-                },
-                {
-                    "url": "value_age",
-                    "valueAge":{
-                        "value": 20,
-                        "unit": "days",
-                        "system": "http://unitsofmeasure.org",
-                        "code": "d"
-                    }
-                }
-            ]
+            "url": "http://fhir-es.transcendinsights.com/stu3/StructureDefinition/runtime-patient-age",
+            "valueAge": {
+                "value": 234,
+                "unit": "days"
+            }
         }
     ]
 }
