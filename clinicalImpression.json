@@ -1,0 +1,66 @@
+{
+    "resourceType": "clinicalImpression",
+    "id": "CI30494",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2019-03-09T10:33:38.304+00:00",
+        "text": "clinical impression from the consultant physician"
+    },
+    "status": "completed",
+    "subject": {
+        "reference": "Patient/PA39393"
+    },
+    "investigation": [
+        {
+            "code": {
+                "text": "Initial Examination"
+            },
+            "item": [
+                {
+                    "reference": "OBS0001"
+                },
+                {
+                    "reference": "OBS0002"
+                },
+                {
+                    "reference": "FMH00001"
+                }
+            ]
+        }
+    ],
+
+  "extension": [
+        {
+            "url": "https://github.com/cr-ste-justine/clin-FHIR",
+            "extension": [
+                {
+                    "url": "value_age_year",
+                    "valueAge":{
+                        "value": 2,
+                        "unit": "year",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "a"
+                    }
+                },
+                {
+                    "url": "value_age",
+                    "valueAge":{
+                        "value": 2,
+                        "unit": "mouths",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "mo"
+                    }
+                },
+                {
+                    "url": "value_age",
+                    "valueAge":{
+                        "value": 20,
+                        "unit": "days",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "d"
+                    }
+                }
+            ]
+        }
+    ]
+}
