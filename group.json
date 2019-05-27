@@ -7,6 +7,7 @@
     "text": "Group info, mainly used to describe families"
   },
   "type": "person",
+  "actual":"true",
 
   "code": {
     "text": "family"
@@ -27,7 +28,7 @@
       "extension": [
         {
           "url": "https://github.com/cr-ste-justine/clin-FHIR/pedigree.html",
-          "valueString": "2.2"
+          "valueString": "II.2"
         }
       ]
     }
