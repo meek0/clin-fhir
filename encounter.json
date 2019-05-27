@@ -7,6 +7,7 @@
     "text" : "Patient consultation event"
   },
   "status": "finished",
+  "class":"short stay",
   "period": {
     "start": "2019-05-18T14:12:28.804Z"
   },
@@ -16,6 +17,31 @@
   "participant": [
     {
       "individual": { "reference": "Practitioner/PR201" }
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://github.com/cr-ste-justine/clin-FHIR",
+      "extension": [
+        {
+          "value": 2,
+          "unit": "year",
+          "system": "http://unitsofmeasure.org",
+          "code": "a"
+        },
+        {
+          "value": 2,
+          "unit": "mouths",
+          "system": "http://unitsofmeasure.org",
+          "code": "mo"
+        },
+        {
+          "value": 20,
+          "unit": "days",
+          "system": "http://unitsofmeasure.org",
+          "code": "d"
+        }
+      ]
     }
   ]
 }
