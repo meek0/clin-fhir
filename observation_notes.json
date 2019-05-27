@@ -8,7 +8,7 @@
   },
   "status": "final",
   
-  "code": { "text": "phenotype observation" },
+  "code": { "text": "Medicale note" },
   "subject": { "reference": "Patient/P002" },
   "performer": { "reference": "Practitioner/PR00001" },
   "effectivedateTime": "2012-05-27T01:18:39+04:00",
