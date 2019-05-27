@@ -76,7 +76,7 @@
       "type": "refer",
       "extension": [
         {
-          "url": "http://hl7.org/fhir/valueset-relatedperson-relationshiptype",
+          "url": "http://hl7.org/fhir/valueset-relatedperson-relationshiptype.html",
           "valueCode": "FTH"
         }
       ]
@@ -86,8 +86,17 @@
       "type": "refer",
       "extension": [
         {
-          "url": "http://hl7.org/fhir/valueset-relatedperson-relationshiptype",
+          "url": "http://hl7.org/fhir/valueset-relatedperson-relationshiptype.html",
           "valueCode": "MTH"
+        }
+      ]
+    },{
+      "other": {"reference": "Patient/PT000949"},
+      "type": "refer",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/valueset-relatedperson-relationshiptype.html",
+          "valueCode": "SIS || HSIS || TWINSIS || BRO || HBRO || TWINBRO "
         }
       ]
     }
