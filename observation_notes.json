@@ -1,0 +1,17 @@
+{
+  "resourceType": "Observation",
+  "id": "OBS0001",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-03-09T10:33:38.304+00:00",
+    "text": "Report on a phenotype observation (HPO). Provided by the physician"
+  },
+  "status": "final",
+  
+  "code": { "text": "phenotype observation" },
+  "subject": { "reference": "Patient/P002" },
+  "performer": { "reference": "Practitioner/PR00001" },
+  "effectivedateTime": "2012-05-27T01:18:39+04:00",
+  "encounter": { "reference": "Encounter/EN0393" },
+  "note": [ {"text" : "Le patient a été adressé par son medecin de famille apres une consultation datant de 2019-10-12 pour retard de l'acquisition de la marche"}]
+}
