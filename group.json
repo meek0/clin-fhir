@@ -15,12 +15,12 @@
   "member": [
     {
       "entity": {
-        "reference": "Patient/PA39393"
+        "reference": "Patient/PT39393"
       }
     },
     {
       "entity": {
-        "reference": "Patient/PA39311"
+        "reference": "Patient/PT39311"
       }
     }
   ]
