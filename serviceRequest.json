@@ -13,10 +13,10 @@
     "text": "WXS"
   },
   "requester": {
-    "reference": "Practitioner/PRR00001 (NOTE: Exemple Julie)"
+    "reference": "PractitionerRole/PR00001"
   },
   "subject": {
-    "reference": "Patient/P000001"
+    "reference": "Patient/PT000001"
   },
   "specimen": [
     {
