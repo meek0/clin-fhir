@@ -1,10 +1,10 @@
 {
-    "resourceType": "Practitioner",
+    "resourceType": "PractitionerRole",
     "id": "PR00001",
     "meta": {
-      "versionId": "1",
-      "lastUpdated": "2019-03-09T10:33:38.304+00:00",
-      "text": "PraticionerRole include organization and practitioner's speciality"
+        "versionId": "1",
+        "lastUpdated": "2019-03-09T10:33:38.304+00:00",
+        "text": "PraticionerRole include organization and practitioner's speciality"
     },
     "active": "true",
     "practitioner": {
@@ -13,18 +13,16 @@
     "organization": {
         "reference": "Organization/ORG001"
     },
-    "code": [{
-        "coding": {
-            "system": "http://www.hl7.org/FHIR/valueset-practitioner-role.html",
-            "code": "82296001",
-            "display": "Pediatrician"
+    "code": [
+        {
+            "coding": [
+                {
+                    "system": "http://www.hl7.org/FHIR/valueset-practitioner-role.html",
+                    "code": "158967008",
+                    "display": "Consultant physician  (NOTE: other roles : Geneticist (Julie), Healthcare service manager (Rene), Supporting services personnel (Virginie)"
+                }
+            ],
+            "text": "Médecin consultant"
         }
-    }],
-    "speciality": [{
-        "coding": {
-            "system": "http://www.hl7.org/FHIR/valueset-c80-practice-codes.html",
-            "code": "420208008",
-            "display": "Pediatric genetics"
-        }
-    }]
+    ]
 }
