@@ -10,6 +10,7 @@
     "subject": {
         "reference": "Patient/PA39393"
     },
+    "assessor":{"reference":"Practitioner/PR00001"},
     "investigation": [
         {
             "code": {
