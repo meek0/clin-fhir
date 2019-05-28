@@ -9,7 +9,7 @@
   "status": "final",
   
   "code": { "text": "phenotype observation" },
-  "subject": { "reference": "Patient/P002" },
+  "subject": { "reference": "Patient/PT00002" },
   "performer": [{ "reference": "Practitioner/P00001" }],
   "effectivedateTime": "2012-05-27T01:18:39+04:00",
 
