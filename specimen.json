@@ -19,7 +19,7 @@
     ],
     "text": "DNA"
   },
-  "subject": { "reference": "Patient/P000001" },
+  "subject": { "reference": "Patient/PT000001" },
   "parent": [
       { "reference": "Specimen/SP000001" }
   ],
