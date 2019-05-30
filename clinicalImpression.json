@@ -10,6 +10,7 @@
     "subject": {
         "reference": "Patient/PT39393"
     },
+    "effectiveDateTime":"2019-03-09T10:33:38.304+00:00",
     "assessor":{"reference":"PractitionerRole/PR00001"},
     "investigation": [
         {
