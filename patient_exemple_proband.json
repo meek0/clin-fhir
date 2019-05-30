@@ -45,7 +45,7 @@
   },
   "birthDate": "2018-10-11",
   "gender": "male",
-  "generalPractitioner": { "reference": "PractitionerRole/PR00001" },
+  "generalPractitioner": [{ "reference": "PractitionerRole/PR00001" }],
   "managingOrganization": { "reference": "Organization/ORG001" },
   "extension": [
     {

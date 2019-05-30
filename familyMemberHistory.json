@@ -7,7 +7,7 @@
       "text": "Report on family history. Provided by the physician"
     },
     "status": "completed",
-    "patient": { "reference": "Patient/P002" },
+    "patient": { "reference": "Patient/PT000001" },
     "date":"2012-05-27T01:18:39+04:00",
     "note": [ {"text" : "Mariage consanguin des parents (cousins)"}]
 }
