@@ -11,7 +11,7 @@
   "code": { "text": "Medicale note" },
   "subject": { "reference": "Patient/PT00002" },
   "performer": [{ "reference": "Practitioner/P00001" }],
-  "effectivedateTime": "2012-05-27T01:18:39+04:00",
+  "effectiveDateTime": "2012-05-27T01:18:39+04:00",
 
   "note": [ {"text" : "Le patient a été adressé par son medecin de famille apres une consultation datant de 2019-10-12 pour retard de l'acquisition de la marche"}]
 }
