@@ -29,8 +29,7 @@
             "display": "Jurisdictional health number (Canada)"
           }
         ],
-        "text": "Numéro assurance maladie du Québec",
-        "system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-qc-patient-healthcare-id.html"
+        "text": "Numéro assurance maladie du Québec"
       },
       "value": "BERF18106921"
     }
@@ -64,7 +63,7 @@
         },
         {
           "url": "isProband",
-          "valueBoolean": "true"
+          "valueBoolean": true
         }
       ]
     }
@@ -95,7 +94,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/valueset-relatedperson-relationshiptype.html",
-          "valueCode": "SIS || HSIS || TWINSIS || BRO || HBRO || TWINBRO "
+          "valueCode": "SIS||HSIS||TWINSIS||BRO||HBRO||TWINBRO"
         }
       ]
     }
