@@ -5,6 +5,11 @@
         "versionId": "1",
         "lastUpdated": "2019-03-09T10:33:38.304+00:00"
     },
+    "text":{
+        "status":"generated",
+        "div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Clinical impression from the consultant physician</p></div>"
+    },
+
     "status": "completed",
     "subject": {
         "reference": "Patient/PT39393"
@@ -35,7 +40,7 @@
             "valueAge": {
                 "value": 234,
                 "unit": "days",
-                "system":"https://www.hl7.org/fhir/valueset-age-units.html",
+                "system":"http://hl7.org/fhir/ValueSet/age-units",
                 "code":"d"
             }
         }

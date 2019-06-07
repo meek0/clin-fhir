@@ -5,6 +5,11 @@
         "versionId": "1",
         "lastUpdated": "2019-03-09T10:33:38.304+00:00"
     },
+    "text":{
+        "status":"generated",
+        "div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>PraticionerRole include organization and practitioner's speciality</p></div>"
+    },
+    
     "active": true,
     "practitioner": {
         "reference": "Practitioner/P00001"

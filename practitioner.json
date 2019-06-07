@@ -5,6 +5,10 @@
     "versionId": "1",
     "lastUpdated": "2019-03-09T10:33:38.304+00:00"
   },
+  "text":{
+    "status":"generated",
+    "div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Praticioner's personal information</p></div>"
+  },
 
   "identifier": [
     {
@@ -13,7 +17,7 @@
         "coding": [
           {
             "code": "MD",
-            "system": "http://www.hl7.org/fhir/identifier-type.html",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
             "display": "Medical License number"
           }
         ],
