@@ -22,14 +22,14 @@
       }
     ]
   },
-  "note": [ {"text" : "une note en texte libre sur l'observation"}],
+  "note": [{"text" : "une note en texte libre sur l'observation"}],
   "interpretation": [
     {
       "coding": [
         {
-          "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-          "code": "POS || NEG",
-          "display": "Positive || NEG"
+          "system": "https://www.hl7.org/fhir/v3/ObservationInterpretation/vs.html",
+          "code": "POS",
+          "display": "Positive || Negative"
         }
       ],
       "text": "Observed || Not Observed"
