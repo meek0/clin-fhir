@@ -28,18 +28,17 @@
             "display": "Jurisdictional health number (Canada)"
           }
         ],
-        "text": "Numéro assurance maladie du Québec",
-        "system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-qc-patient-healthcare-id.html"
+        "text": "Numéro assurance maladie du Québec"
       },
       "value": "BERF18106921"
     }
   ],
-  "active": "true",
-  "name": {
+  "active": true,
+  "name": [{
     "use": "official",
     "family": "Bertrand",
     "given": ["Francine"]
-  },
+  }],
   "birthDate": "2018-10-11",
   "gender": "female",
   "generalPractitioner": [{ "reference": "PractitionerRole/PR00001" }],
@@ -62,7 +61,7 @@
         },
         {
           "url": "isProband",
-          "valueBoolean": "false"
+          "valueBoolean": false
         }
       ]
     }
