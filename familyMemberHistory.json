@@ -7,6 +7,15 @@
     },
     "status": "completed",
     "patient": { "reference": "Patient/PT000001" },
+    "relationship":{
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "72705000",
+          "display": "Mother"
+        }
+      ]
+    },
     "date":"2012-05-27T01:18:39+04:00",
     "note": [ {"text" : "Mariage consanguin des parents (cousins)"}]
 }
