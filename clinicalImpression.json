@@ -1,5 +1,5 @@
 {
-    "resourceType": "clinicalImpression",
+    "resourceType": "ClinicalImpression",
     "id": "CI30494",
     "meta": {
         "versionId": "1",
@@ -34,7 +34,9 @@
             "url": "http://fhir-es.transcendinsights.com/stu3/StructureDefinition/runtime-patient-age",
             "valueAge": {
                 "value": 234,
-                "unit": "days"
+                "unit": "days",
+                "system":"https://www.hl7.org/fhir/valueset-age-units.html",
+                "code":"d"
             }
         }
     ]
