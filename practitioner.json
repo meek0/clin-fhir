@@ -13,13 +13,12 @@
         "coding": [
           {
             "code": "MD",
-            "system": "http://hl7.org/fhir/identifier-type",
+            "system": "http://www.hl7.org/fhir/identifier-type.html",
             "display": "Medical License number"
           }
         ],
         "text": "Numero de License Médicale du Québec"
       },
-      "system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-qc-license-physician.html",
       "value": "000002516"
     }
   ],
