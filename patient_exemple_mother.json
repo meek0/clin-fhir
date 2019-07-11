@@ -67,6 +67,10 @@
         {
           "url": "isProband",
           "valueBoolean": false
+        },
+        {
+          "url": "status",
+          "valueBoolean": false
         }
       ]
     }
