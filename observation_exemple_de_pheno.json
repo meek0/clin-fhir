@@ -39,11 +39,5 @@
       ],
       "text": "Observed || Not Observed"
     }
-  ],
-  "extension": [
-    {
-      "url": "https://www.hl7.org/fhir/clinicalimpression.html",
-      "valueReference": {"reference": "ClinicalImpression/CI8837"}
-    }
   ]
 }
