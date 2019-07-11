@@ -31,7 +31,8 @@
       "use": "official",
       "family": "Dujardin",
       "given": ["Patrick"],
-      "prefix": ["Dr. || Dre. || Mr. || Me. || autre"]
+      "prefix": ["Dr. || Dre. || Mr. || Me. || autre"],
+      "suffix": ["MD. || PhD. || autre"]
     }
   ]
 }
