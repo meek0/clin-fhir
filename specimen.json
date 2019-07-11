@@ -20,7 +20,7 @@
         "display": "Deoxyribonucleic acid (substance)"
       }
     ],
-    "text": "DNA"
+    "text": "ADN"
   },
   "subject": { "reference": "Patient/PT000001" },
   "parent": [
