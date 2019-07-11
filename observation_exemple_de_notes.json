@@ -17,5 +17,11 @@
   "performer": [{ "reference": "Practitioner/P00001" }],
   "effectiveDateTime": "2012-05-27T01:18:39+04:00",
 
-  "note": [ {"text" : "Le patient a été adressé par son medecin de famille apres une consultation datant de 2019-10-12 pour retard de l'acquisition de la marche"}]
+  "note": [ {"text" : "Le patient a été adressé par son medecin de famille apres une consultation datant de 2019-10-12 pour retard de l'acquisition de la marche"}],
+  "extension": [
+    {
+      "url": "https://www.hl7.org/fhir/clinicalimpression.html",
+      "valueReference": {"reference": "ClinicalImpression/CI8837"}
+    }
+  ]
 }
