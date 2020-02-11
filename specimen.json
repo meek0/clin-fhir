@@ -9,6 +9,9 @@
     "status":"generated",
     "div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Specimen information</p></div>"
   },
+   "accessionIdentifier": {
+    "value": "X352356"
+  },
 
   "status": "available",
 
