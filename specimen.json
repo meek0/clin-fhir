@@ -19,11 +19,11 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "24851008", (119297000)
-        "display": "Deoxyribonucleic acid (substance)" ("Blood specimen")
+        "code": "24851008",
+        "display": "Deoxyribonucleic acid (substance)"
       }
     ],
-    "text": "ADN" ("Blood specimen")
+    "text": "ADN"
   },
   "subject": { "reference": "Patient/PT000001" },
   "parent": [
