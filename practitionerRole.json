@@ -17,6 +17,26 @@
     "organization": {
         "reference": "Organization/ORG001"
     },
+    
+    "telecom":[
+        {
+            "system": "phone",
+            "value": "514 456-84736",
+            "use": "work",
+            "rank":1
+          },
+          {
+            "system": "phone",
+            "value": "4567",
+            "use": "work",
+            "rank":2
+          },
+          {
+            "system": "email",
+            "value": "dr.stejustine@example.org",
+            "use": "work"
+          }
+    ],
     "code": [
         {
             "coding": [
