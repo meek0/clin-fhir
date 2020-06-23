@@ -73,7 +73,12 @@
         {
           "url": "status",
           "valueBoolean": true
+        },
+        {
+          "url": "inbreeding",
+          "valueBoolean": false
         }
+
       ]
     }
   ],
