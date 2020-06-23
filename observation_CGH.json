@@ -17,7 +17,7 @@
     "performer": [{ "reference": "Practitioner/PR00101" }],
     "effectiveDateTime": "2012-05-27T01:18:39+04:00",
 
-    "valueBoolean":"true",
+    "valueBoolean":true,
     "note": [ {"text" : "Si anormal - donc valueBoolean=True"}]
   }
   
