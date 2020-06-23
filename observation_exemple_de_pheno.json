@@ -23,8 +23,14 @@
       {
         "system": "https://hpo.jax.org/app/",
         "code": "HP:0001252",
-        "display": "Muscular hypotonia"
+        "display": "Phenotype"
+      },
+      {
+        "system": "https://hpo.jax.org/app/",
+        "code": "HP:0003593",
+        "display": "Age_at_onset"
       }
+
     ]
   },
   "note": [{"text" : "une note en texte libre sur l'observation"}],
