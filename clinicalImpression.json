@@ -10,7 +10,7 @@
         "div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Clinical impression from the consultant physician</p></div>"
     },
 
-    "status": "completed",
+    "status":"preparation|in-progress|completed|entered-in-error  see https://www.hl7.org/fhir/codesystem-event-status.html for all status",
     "subject": {
         "reference": "Patient/PT39393"
     },
@@ -36,13 +36,23 @@
     ],
     "extension": [
         {
-            "url": "http://fhir-es.transcendinsights.com/stu3/StructureDefinition/runtime-patient-age",
-            "valueAge": {
-                "value": 234,
-                "unit": "days",
-                "system":"http://hl7.org/fhir/ValueSet/age-units",
-                "code":"d"
+        "url": "https://www.hl7.org/fhir/extensibility.html",
+        "extension": [
+            {
+                "url":"http://hl7.org/fhir/ValueSet/age-units",
+                "valueAge": {
+                    "value": 234,
+                    "unit": "days",
+                    "code":"d"
+                },
+            },{
+                "url":"https://www.hl7.org/fhir/references.html#Reference",
+                "valueReference": {
+                    "reference": "Practitioner/PR0002",
+                    "diaplay": "supervisor"
+                }
             }
+          ]
         }
     ]
 }
