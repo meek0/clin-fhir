@@ -26,15 +26,22 @@
     "text": "ADN"
   },
   "subject": { "reference": "Patient/PT000001" },
-  "parent": [
-      { "reference": "Specimen/SP000001" }
-  ],
   "request": [
       { "reference": "ServiceRequest/SR000002" }
   ],
-  "container": [
+  "extension": [
     {
-      "identifier": [{ "value": "barcode xxx" }]
+      "url": "https://github.com/cr-ste-justine/clin-FHIR/wiki/URL-additionnelles",
+      "extension": [
+        {
+          "url": "TissueOrigin",
+          "valueString": "Tissu d'origine ayant servi a l'extraction de l'ADN"
+        },
+        {
+          "url": "TissueType",
+          "valueString": "Type du tissu ayant servi a l'extraction de l'ADN"
+        }
+      ]
     }
   ]
 }
