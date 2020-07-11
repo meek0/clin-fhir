@@ -1,0 +1,47 @@
+{
+  "resourceType": "Observation",
+  "id": "ph-001",
+  "meta": {
+    "profile": [
+      "http://fhir.clin.ferlab.bio/StructureDefinition/clin-phenotype"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://fhir.clin.ferlab.bio/StructureDefinition/age-at-event",
+      "valueAge": {
+        "value": 10,
+        "unit": "d",
+        "system": "http://unitsofmeasure.org",
+        "code": "days"
+      }
+    }
+  ],
+  "status": "preliminary",
+  "code": {
+    "coding": [
+      {
+        "system": "http://purl.obolibrary.org/obo/hp.owl",
+        "code": "HP:0004307",
+        "display": "Abnormal anatomic location of the heart"
+      }
+    ],
+    "text": "Abnormal Cardiac Situs"
+  },
+  "subject": {
+    "reference": "Patient/pt-001"
+  },
+  "effectiveDateTime": "2019-06-15",
+  "interpretation": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+          "code": "POS",
+          "display": "Positive"
+        }
+      ],
+      "text": "Positive"
+    }
+  ]
+}
