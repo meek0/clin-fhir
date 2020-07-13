@@ -34,3 +34,9 @@ integration tests.
 ```shell
 fhirutil validate ./site_root/ig.ini --publisher_opts='-tx n/a'
 ```
+
+### 4. Publish the model
+
+```shell
+fhirutil publish .site_root/input/resources/ --base_url="http://localhost:8080/hapi-fhir-jpaserver/fhir"
+```
