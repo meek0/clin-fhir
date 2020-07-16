@@ -276,7 +276,7 @@
   "fhirVersion": [
     "4.0.1"
   ],
-  "id": "Clin",
+  "id": "clin",
   "license": "CC0-1.0",
   "name": "ClinImplementationGuide",
   "packageId": "clin",
@@ -284,6 +284,6 @@
   "resourceType": "ImplementationGuide",
   "status": "active",
   "title": "Clin Implementation Guide",
-  "url": "http://fhir.clin.ferlab.bio/ImplementationGuide/KidsFirst",
+  "url": "http://fhir.clin.ferlab.bio/ImplementationGuide/clin",
   "version": "0.1.0"
 }
