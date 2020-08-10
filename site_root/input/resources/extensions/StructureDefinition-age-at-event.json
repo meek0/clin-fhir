@@ -1,27 +1,19 @@
 {
   "resourceType": "StructureDefinition",
   "id": "age-at-event",
-  "url": "http://fhir.clin.ferlab.bio/StructureDefinition/age-at-event",
+  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event",
   "version": "0.1.0",
   "name": "age-at-event",
   "title": "Age At Event",
   "status": "draft",
-  "description": "Age (in days since birth) of Clin Patient at time of event.",
-  "fhirVersion": "4.0.0",
+  "description": "Patient's age (in days since birth) at the time of medical consultation",
+  "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
   "context": [
     {
       "type": "element",
-      "expression": "Observation"
-    },
-    {
-      "type": "element",
-      "expression": "Condition"
-    },
-    {
-      "type": "element",
-      "expression": "Specimen"
+      "expression": "ClinicalImpression"
     }
   ],
   "type": "Extension",
@@ -33,7 +25,7 @@
         "id": "Extension",
         "path": "Extension",
         "short": "Age at event",
-        "definition": "Age (in days since birth) of the Clin Patient at time of event.",
+        "definition": "Age at the time of medical consultation",
         "min": 0,
         "max": "1",
         "mustSupport": true,
@@ -51,7 +43,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "http://fhir.clin.ferlab.bio/StructureDefinition/age-at-event"
+        "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event"
       },
       {
         "id": "Extension.value[x]",
@@ -63,5 +55,6 @@
         ]
       }
     ]
-  }
+  },
+  "date": "2020-08-04T15:39:58-04:00"
 }

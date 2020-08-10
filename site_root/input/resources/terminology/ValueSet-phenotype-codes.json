@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "phenotype-codes",
-  "url": "http://fhir.clin.ferlab.bio/ValueSet/phenotype-codes",
+  "url": "http://fhir.cqdg.ferlab.bio/ValueSet/phenotype-codes",
   "version": "0.1.0",
   "name": "phenotype-codes",
   "title": "Phenotype Codes",

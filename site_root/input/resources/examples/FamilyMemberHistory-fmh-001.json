@@ -1,0 +1,21 @@
+{
+    "resourceType": "FamilyMemberHistory",
+    "id": "fmh-001",
+    "meta": {
+        "profile": [
+            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh"
+        ]
+    },
+    
+    "status": "completed",
+    "patient": { "reference": "Patient/pt-001" },
+    "relationship":{
+      "coding": [
+        {
+          "code": "MGRFTH",
+          "display": "maternal grandfather"
+        }
+      ]
+    },
+    "note": [ {"text" : "retard de croissance"}]
+}

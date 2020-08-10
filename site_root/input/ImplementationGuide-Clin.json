@@ -1,7 +1,7 @@
 {
   "contact": [
     {
-      "name": "Clin",
+      "name": "Cqgc",
       "telecom": [
         {
           "system": "email",
@@ -18,7 +18,7 @@
         {
           "generation": "markdown",
           "nameUrl": "index.html",
-          "title": "Clin Implementation Guide"
+          "title": "cqgc Implementation Guide"
         }
       ],
       "title": "Table of Contents"
@@ -55,31 +55,47 @@
     ],
     "resource": [
       {
-        "description": "StructureDefinition clin-patient, Base: Patient",
+        "description": "StructureDefinition cqgc-patient, Base: Patient",
         "exampleBoolean": false,
-        "name": "StructureDefinition/clin-patient",
+        "name": "StructureDefinition/cqgc-patient",
         "reference": {
-          "reference": "StructureDefinition/clin-patient"
+          "reference": "StructureDefinition/cqgc-patient"
         }
       },
       {
-        "description": "StructureDefinition clin-phenotype, Base: Observation",
+        "description": "StructureDefinition blood-relationship, Base: Extension",
         "exampleBoolean": false,
-        "name": "StructureDefinition/clin-phenotype",
+        "name": "StructureDefinition/blood-relationship",
         "reference": {
-          "reference": "StructureDefinition/clin-phenotype"
+          "reference": "StructureDefinition/blood-relationship"
         }
       },
       {
-        "description": "StructureDefinition clin-specimen, Base: Specimen",
-        "exampleBoolean": false,
-        "name": "StructureDefinition/clin-specimen",
+        "description": "Organization or-001, Profiles: Organization",
+        "exampleBoolean": true,
+        "name": "Organization/or-001",
         "reference": {
-          "reference": "StructureDefinition/clin-specimen"
+          "reference": "Organization/or-001"
         }
       },
       {
-        "description": "Patient pt-001, Profiles: clin-patient",
+        "description": "Observation inv-001, Profiles: cqgc-observation",
+        "exampleBoolean": true,
+        "name": "Observation/inv-001",
+        "reference": {
+          "reference": "Observation/inv-001"
+        }
+      },
+      {
+        "description": "PractitionerRole prr-001, Profiles: PractitionerRole",
+        "exampleBoolean": true,
+        "name": "PractitionerRole/prr-001",
+        "reference": {
+          "reference": "PractitionerRole/prr-001"
+        }
+      },
+      {
+        "description": "Patient pt-001, Profiles: cqgc-patient",
         "exampleBoolean": true,
         "name": "Patient/pt-001",
         "reference": {
@@ -87,15 +103,39 @@
         }
       },
       {
-        "description": "Specimen bs-001, Profiles: clin-specimen",
+        "description": "Observation ind-001, Profiles: cqgc-observation",
         "exampleBoolean": true,
-        "name": "Specimen/bs-001",
+        "name": "Observation/ind-001",
         "reference": {
-          "reference": "Specimen/bs-001"
+          "reference": "Observation/ind-001"
         }
       },
       {
-        "description": "Observation ph-001, Profiles: clin-phenotype",
+        "description": "FamilyMemberHistory fmh-001, Profiles: cqgc-fmh",
+        "exampleBoolean": true,
+        "name": "FamilyMemberHistory/fmh-001",
+        "reference": {
+          "reference": "FamilyMemberHistory/fmh-001"
+        }
+      },
+      {
+        "description": "Practitioner pr-001, Profiles: Practitioner",
+        "exampleBoolean": true,
+        "name": "Practitioner/pr-001",
+        "reference": {
+          "reference": "Practitioner/pr-001"
+        }
+      },
+      {
+        "description": "ClinicalImpression ci-001, Profiles: cqdg-clinical-impression",
+        "exampleBoolean": true,
+        "name": "ClinicalImpression/ci-001",
+        "reference": {
+          "reference": "ClinicalImpression/ci-001"
+        }
+      },
+      {
+        "description": "Observation ph-001, Profiles: cqgc-observation",
         "exampleBoolean": true,
         "name": "Observation/ph-001",
         "reference": {
@@ -103,131 +143,19 @@
         }
       },
       {
-        "description": "Patient pt-003, Profiles: clin-patient",
+        "description": "Observation cgh-001, Profiles: cqgc-observation",
         "exampleBoolean": true,
-        "name": "Patient/pt-003",
+        "name": "Observation/cgh-001",
         "reference": {
-          "reference": "Patient/pt-003"
+          "reference": "Observation/cgh-001"
         }
       },
       {
-        "description": "Patient pt-002, Profiles: clin-patient",
+        "description": "ServiceRequest sr-001, Profiles: cqgc-service-request",
         "exampleBoolean": true,
-        "name": "Patient/pt-002",
+        "name": "ServiceRequest/sr-001",
         "reference": {
-          "reference": "Patient/pt-002"
-        }
-      },
-      {
-        "description": "StructureDefinition age-at-event, Base: Extension",
-        "exampleBoolean": false,
-        "name": "StructureDefinition/age-at-event",
-        "reference": {
-          "reference": "StructureDefinition/age-at-event"
-        }
-      },
-      {
-        "description": "StructureDefinition concentration, Base: Extension",
-        "exampleBoolean": false,
-        "name": "StructureDefinition/concentration",
-        "reference": {
-          "reference": "StructureDefinition/concentration"
-        }
-      },
-      {
-        "description": "StructureDefinition us-core-race, Base: Extension",
-        "exampleBoolean": false,
-        "name": "StructureDefinition/us-core-race",
-        "reference": {
-          "reference": "StructureDefinition/us-core-race"
-        }
-      },
-      {
-        "description": "StructureDefinition relation, Base: Extension",
-        "exampleBoolean": false,
-        "name": "StructureDefinition/relation",
-        "reference": {
-          "reference": "StructureDefinition/relation"
-        }
-      },
-      {
-        "description": "StructureDefinition us-core-ethnicity, Base: Extension",
-        "exampleBoolean": false,
-        "name": "StructureDefinition/us-core-ethnicity",
-        "reference": {
-          "reference": "StructureDefinition/us-core-ethnicity"
-        }
-      },
-      {
-        "description": "SearchParameter age-at-event",
-        "exampleBoolean": false,
-        "name": "SearchParameter/age-at-event",
-        "reference": {
-          "reference": "SearchParameter/age-at-event"
-        }
-      },
-      {
-        "description": "SearchParameter concentration",
-        "exampleBoolean": false,
-        "name": "SearchParameter/concentration",
-        "reference": {
-          "reference": "SearchParameter/concentration"
-        }
-      },
-      {
-        "description": "SearchParameter us-core-race",
-        "exampleBoolean": false,
-        "name": "SearchParameter/us-core-race",
-        "reference": {
-          "reference": "SearchParameter/us-core-race"
-        }
-      },
-      {
-        "description": "SearchParameter relation-note",
-        "exampleBoolean": false,
-        "name": "SearchParameter/relation-note",
-        "reference": {
-          "reference": "SearchParameter/relation-note"
-        }
-      },
-      {
-        "description": "SearchParameter relation",
-        "exampleBoolean": false,
-        "name": "SearchParameter/relation",
-        "reference": {
-          "reference": "SearchParameter/relation"
-        }
-      },
-      {
-        "description": "SearchParameter us-core-ethnicity",
-        "exampleBoolean": false,
-        "name": "SearchParameter/us-core-ethnicity",
-        "reference": {
-          "reference": "SearchParameter/us-core-ethnicity"
-        }
-      },
-      {
-        "description": "SearchParameter relation-subject",
-        "exampleBoolean": false,
-        "name": "SearchParameter/relation-subject",
-        "reference": {
-          "reference": "SearchParameter/relation-subject"
-        }
-      },
-      {
-        "description": "ValueSet detailed-ethnicity",
-        "exampleBoolean": false,
-        "name": "ValueSet/detailed-ethnicity",
-        "reference": {
-          "reference": "ValueSet/detailed-ethnicity"
-        }
-      },
-      {
-        "description": "ValueSet detailed-race",
-        "exampleBoolean": false,
-        "name": "ValueSet/detailed-race",
-        "reference": {
-          "reference": "ValueSet/detailed-race"
+          "reference": "ServiceRequest/sr-001"
         }
       },
       {
@@ -239,27 +167,27 @@
         }
       },
       {
-        "description": "CodeSystem cdcrec",
+        "description": "CodeSystem qc-ethnicity",
         "exampleBoolean": false,
-        "name": "CodeSystem/cdcrec",
+        "name": "CodeSystem/qc-ethnicity",
         "reference": {
-          "reference": "CodeSystem/cdcrec"
+          "reference": "CodeSystem/qc-ethnicity"
         }
       },
       {
-        "description": "ValueSet omb-ethnicity-category",
+        "description": "ValueSet age-at-onset",
         "exampleBoolean": false,
-        "name": "ValueSet/omb-ethnicity-category",
+        "name": "ValueSet/age-at-onset",
         "reference": {
-          "reference": "ValueSet/omb-ethnicity-category"
+          "reference": "ValueSet/age-at-onset"
         }
       },
       {
-        "description": "ValueSet omb-race-category",
+        "description": "ValueSet fmh-relationship",
         "exampleBoolean": false,
-        "name": "ValueSet/omb-race-category",
+        "name": "ValueSet/fmh-relationship",
         "reference": {
-          "reference": "ValueSet/omb-race-category"
+          "reference": "ValueSet/fmh-relationship"
         }
       },
       {
@@ -269,21 +197,157 @@
         "reference": {
           "reference": "ValueSet/phenotype-codes"
         }
+      },
+      {
+        "description": "CodeSystem fmh-relationship-plus",
+        "exampleBoolean": false,
+        "name": "CodeSystem/fmh-relationship-plus",
+        "reference": {
+          "reference": "CodeSystem/fmh-relationship-plus"
+        }
+      },
+      {
+        "description": "ValueSet qc-ethnicity",
+        "exampleBoolean": false,
+        "name": "ValueSet/qc-ethnicity",
+        "reference": {
+          "reference": "ValueSet/qc-ethnicity"
+        }
+      },
+      {
+        "description": "StructureDefinition cqgc-service-request, Base: ServiceRequest",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/cqgc-service-request",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-service-request"
+        }
+      },
+      {
+        "description": "StructureDefinition cqgc-clinical-impression, Base: ClinicalImpression",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/cqgc-clinical-impression",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-clinical-impression"
+        }
+      },
+      {
+        "description": "StructureDefinition cqgc-fmh, Base: FamilyMemberHistory",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/cqgc-fmh",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-fmh"
+        }
+      },
+      {
+        "description": "StructureDefinition is-proband, Base: Extension",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/is-proband",
+        "reference": {
+          "reference": "StructureDefinition/is-proband"
+        }
+      },
+      {
+        "description": "StructureDefinition qc-ethnicity, Base: Extension",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/qc-ethnicity",
+        "reference": {
+          "reference": "StructureDefinition/qc-ethnicity"
+        }
+      },
+      {
+        "description": "StructureDefinition ref-clin-impression, Base: Extension",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/ref-clin-impression",
+        "reference": {
+          "reference": "StructureDefinition/ref-clin-impression"
+        }
+      },
+      {
+        "description": "StructureDefinition age-at-onset, Base: Extension",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/age-at-onset",
+        "reference": {
+          "reference": "StructureDefinition/age-at-onset"
+        }
+      },
+      {
+        "description": "StructureDefinition age-at-event, Base: Extension",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/age-at-event",
+        "reference": {
+          "reference": "StructureDefinition/age-at-event"
+        }
+      },
+      {
+        "description": "ValueSet observation-code",
+        "exampleBoolean": false,
+        "name": "ValueSet/observation-code",
+        "reference": {
+          "reference": "ValueSet/observation-code"
+        }
+      },
+      {
+        "description": "CodeSystem observation-code",
+        "exampleBoolean": false,
+        "name": "CodeSystem/observation-code",
+        "reference": {
+          "reference": "CodeSystem/observation-code"
+        }
+      },
+      {
+        "description": "StructureDefinition cqgc-observation, Base: Observation",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/cqgc-observation",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-observation"
+        }
+      },
+      {
+        "description": "ValueSet service-request-code",
+        "exampleBoolean": false,
+        "name": "ValueSet/service-request-code",
+        "reference": {
+          "reference": "ValueSet/service-request-code"
+        }
+      },
+      {
+        "description": "CodeSystem service-request-code",
+        "exampleBoolean": false,
+        "name": "CodeSystem/service-request-code",
+        "reference": {
+          "reference": "CodeSystem/service-request-code"
+        }
+      },
+      {
+        "description": "CodeSystem blood-relationship",
+        "exampleBoolean": false,
+        "name": "CodeSystem/blood-relationship",
+        "reference": {
+          "reference": "CodeSystem/blood-relationship"
+        }
+      },
+      {
+        "description": "ValueSet blood-relationship",
+        "exampleBoolean": false,
+        "name": "ValueSet/blood-relationship",
+        "reference": {
+          "reference": "ValueSet/blood-relationship"
+        }
       }
     ]
   },
-  "description": "Documentation for the Clin FHIR data model",
+  "description": "Documentation for the cqgc FHIR data model",
   "fhirVersion": [
     "4.0.1"
   ],
-  "id": "clin",
+  "id": "Cqgc",
   "license": "CC0-1.0",
-  "name": "ClinImplementationGuide",
-  "packageId": "clin",
+  "name": "CqgcImplementationGuide",
+  "packageId": "cqgc",
   "publisher": "Ferlab.bio",
   "resourceType": "ImplementationGuide",
   "status": "active",
-  "title": "Clin Implementation Guide",
-  "url": "http://fhir.clin.ferlab.bio/ImplementationGuide/clin",
+  "title": "Cqgc Implementation Guide",
+  "url": "http://fhir.cqgc.ferlab.bio/ImplementationGuide/Cqgc",
   "version": "0.1.0"
 }
