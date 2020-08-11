@@ -2,7 +2,7 @@
   "package-id": "Clin",
   "title": "Clin Implementation Guide",
   "canonical": "http://fhir.clin.ferlab.bio",
-  "introduction": "An example of how FSH can be used to create an IG about Clint",
+  "introduction": "An example of how FSH can be used to create an IG about CQGC",
   "list": [
     {
       "version": "current",
