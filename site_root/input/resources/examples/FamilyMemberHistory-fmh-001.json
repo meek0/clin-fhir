@@ -6,8 +6,7 @@
             "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh"
         ]
     },
-    
-    "status": "completed",
+
     "patient": { "reference": "Patient/pt-001" },
     "relationship":{
       "coding": [
