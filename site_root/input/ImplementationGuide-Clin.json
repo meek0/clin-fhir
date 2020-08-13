@@ -349,6 +349,46 @@
         "reference": {
           "reference": "StructureDefinition/hpo-category"
         }
+      },
+      {
+        "description": "Group fa-001, Profiles: cqgc-family-group",
+        "exampleBoolean": true,
+        "name": "Group/fa-001",
+        "reference": {
+          "reference": "Group/fa-001"
+        }
+      },
+      {
+        "description": "CodeSystem fm-structure",
+        "exampleBoolean": false,
+        "name": "CodeSystem/fm-structure",
+        "reference": {
+          "reference": "CodeSystem/fm-structure"
+        }
+      },
+      {
+        "description": "ValueSet fm-structure",
+        "exampleBoolean": false,
+        "name": "ValueSet/fm-structure",
+        "reference": {
+          "reference": "ValueSet/fm-structure"
+        }
+      },
+      {
+        "description": "StructureDefinition cqgc-family-group, Base: Group",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/cqgc-family-group",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-family-group"
+        }
+      },
+      {
+        "description": "StructureDefinition fm-structure, Base: Extension",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/fm-structure",
+        "reference": {
+          "reference": "StructureDefinition/fm-structure"
+        }
       }
     ]
   },

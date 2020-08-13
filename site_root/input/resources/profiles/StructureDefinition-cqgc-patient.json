@@ -58,7 +58,7 @@
         "sliceName": "is-proband",
         "short": "Position of cqgc Patient",
         "definition": "Allows to know if the patient is a proband or not",
-        "min":0,
+        "min": 0,
         "max": "1",
         "type": [
           {
@@ -77,7 +77,7 @@
         "sliceName": "blood-relationship",
         "short": "Parents' consanguinity concept",
         "definition": "This field gives us information if the parents are inbred",
-        "min":0,
+        "min": 0,
         "max": "1",
         "type": [
           {
@@ -90,46 +90,46 @@
         "mustSupport": true,
         "isModifier": false
       },
-        {
-          "id": "Patient.telecom",
-          "path": "Patient.telecom",
-          "max": "0"
-        },
-        {
-          "id": "Patient.deceased[x]",
-          "path": "Patient.deceased[x]",
-          "max": "0"
-        },
-        {
-          "id": "Patient.address",
-          "path": "Patient.address",
-          "max": "0"
-        },
-        {
-          "id": "Patient.maritalStatus",
-          "path": "Patient.maritalStatus",
-          "max": "0"
-        },
-        {
-          "id": "Patient.multipleBirth[x]",
-          "path": "Patient.multipleBirth[x]",
-          "max": "0"
-        },
-        {
-          "id": "Patient.photo",
-          "path": "Patient.photo",
-          "max": "0"
-        },
-        {
-          "id": "Patient.contact",
-          "path": "Patient.contact",
-          "max": "0"
-        },
-        {
-          "id": "Patient.communication",
-          "path": "Patient.communication",
-          "max": "0"
-        }
+      {
+        "id": "Patient.telecom",
+        "path": "Patient.telecom",
+        "max": "0"
+      },
+      {
+        "id": "Patient.deceased[x]",
+        "path": "Patient.deceased[x]",
+        "max": "0"
+      },
+      {
+        "id": "Patient.address",
+        "path": "Patient.address",
+        "max": "0"
+      },
+      {
+        "id": "Patient.maritalStatus",
+        "path": "Patient.maritalStatus",
+        "max": "0"
+      },
+      {
+        "id": "Patient.multipleBirth[x]",
+        "path": "Patient.multipleBirth[x]",
+        "max": "0"
+      },
+      {
+        "id": "Patient.photo",
+        "path": "Patient.photo",
+        "max": "0"
+      },
+      {
+        "id": "Patient.contact",
+        "path": "Patient.contact",
+        "max": "0"
+      },
+      {
+        "id": "Patient.communication",
+        "path": "Patient.communication",
+        "max": "0"
+      }
     ]
   },
   "date": "2020-08-04T13:13:12-04:00"
