@@ -12,8 +12,7 @@
   "compositional": false,
   "versionNeeded": false,
   "content": "complete",
-  "count": 1,
-  
+  "count": 15332,
   "concept": [
     { 
       "code":"HP:0000001",
@@ -73611,5 +73610,6 @@
       "display":"Abnormality of mandibular symphysis",
       "definition":"A structural abnormality of a mandibular symphysis"
     }
-  ]
+  ],
+  "date": "2020-08-13T10:49:27-04:00"
 }

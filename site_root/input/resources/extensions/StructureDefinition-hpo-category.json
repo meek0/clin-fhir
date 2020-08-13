@@ -1,12 +1,12 @@
 {
     "resourceType": "StructureDefinition",
-    "id": "age-at-onset",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset",
+    "id": "hpo-category",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category",
     "version": "0.1.0",
-    "name": "age-at-onset",
-    "title": "Age At Onset",
+    "name": "hpo-category",
+    "title": "HPO category",
     "status": "draft",
-    "description": "The age of appearance of the clinical sign (refers to an age group defined by a term HPO)",
+    "description": "Category of anomaly (HPO code)",
     "fhirVersion": "4.0.1",
     "kind": "complex-type",
     "abstract": false,
@@ -24,8 +24,8 @@
         {
           "id": "Extension",
           "path": "Extension",
-          "short": "Age at onset",
-          "definition": "The age of appearance of the clinical sign (refers to an age group defined by a term HPO)",
+          "short": "HPO category",
+          "definition": "Category of anomaly (HPO code)",
           "min": 0,
           "max": "1",
           "mustSupport": true,
@@ -43,7 +43,7 @@
               "code": "uri"
             }
           ],
-          "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset"
+          "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category"
         },
         {
           "id": "Extension.value[x]",
@@ -55,8 +55,8 @@
           ],
           "binding": {
             "strength": "required",
-            "description": "The age of appearance of the clinical sign is an HPO term, the possible values ​​of which are limited to a list defined in a ValueSet source",
-            "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset"
+            "description": "Category of anomaly (HPO code)",
+            "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/hpo-category"
           }
         }
       ]

@@ -44,6 +44,27 @@
         "isModifier": false
       },
       {
+        "id": "Observation.extension:hpo-category",
+        "path": "Observation.extension",
+        "sliceName": "hpo-category",
+        "sliceIsConstraining": false,
+        "label": "hpo-category",
+        "short": "Category of anomaly (HPO code)",
+        "definition": "Category of anomaly (HPO code)",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": false
+      },
+      {
         "id": "Observation.identifier",
         "path": "Observation.identifier",
         "max": "0"
@@ -148,5 +169,5 @@
       }
     ]
   },
-  "date": "2020-08-04T12:33:35-04:00"
+  "date": "2020-08-12T13:19:14-04:00"
 }

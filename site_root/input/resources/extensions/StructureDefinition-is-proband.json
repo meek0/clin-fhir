@@ -7,7 +7,7 @@
     "title": "Patient is a proband",
     "status": "draft",
     "description": "Allows to know if the patient is a proband or not",
-    "fhirVersion": "4.0.0",
+    "fhirVersion": "4.0.1",
     "kind": "primitive-type",
     "abstract": false,
     "context": [
@@ -55,5 +55,6 @@
           ]
         }
       ]
-    }
+    },
+    "date": "2020-08-12T13:29:08-04:00"
   }

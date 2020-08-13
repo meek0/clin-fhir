@@ -11,6 +11,7 @@
     "description": "This field gives us information if the parents of the patient are inbred",
     "caseSensitive": true,
     "content": "complete",
+    "count": 3,
     "concept": [
       {
         "code": "Y",
@@ -45,5 +46,6 @@
           }
         ]
       }
-    ]
+    ],
+    "date": "2020-08-13T10:54:02-04:00"
   }

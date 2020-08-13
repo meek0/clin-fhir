@@ -7,7 +7,7 @@
   "title": "Qc Ethnicity",
   "status": "draft",
   "description": "Concepts classifying people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
-  "fhirVersion": "4.0.0",
+  "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
   "context": [
@@ -60,5 +60,6 @@
         }
       }
     ]
-  }
+  },
+  "date": "2020-08-12T13:29:08-04:00"
 }

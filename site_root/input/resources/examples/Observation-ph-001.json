@@ -15,6 +15,14 @@
             "display": "Pediatric onset"
 
           }
+        },
+        {
+          "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category",
+          "valueCoding": {
+            "code": "HP:0001626",
+            "display": "Abnormality of the cardiovascular system"
+
+          }
         }
       ],
 

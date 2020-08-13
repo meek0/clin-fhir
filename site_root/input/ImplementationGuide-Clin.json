@@ -333,6 +333,22 @@
         "reference": {
           "reference": "ValueSet/blood-relationship"
         }
+      },
+      {
+        "description": "ValueSet hpo-category",
+        "exampleBoolean": false,
+        "name": "ValueSet/hpo-category",
+        "reference": {
+          "reference": "ValueSet/hpo-category"
+        }
+      },
+      {
+        "description": "StructureDefinition hpo-category, Base: Extension",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/hpo-category",
+        "reference": {
+          "reference": "StructureDefinition/hpo-category"
+        }
       }
     ]
   },
