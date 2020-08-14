@@ -53,6 +53,27 @@
         "isModifier": false
       },
       {
+        "id": "Patient.extension:family-id",
+        "path": "Patient.extension",
+        "sliceName": "family-id",
+        "sliceIsConstraining": false,
+        "label": "family-id",
+        "short": "Family (Group) ID",
+        "definition": "Refers to the family identifier which is a Group",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-id"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": false
+      },
+      {
         "id": "Patient.extension:is-proband",
         "path": "Patient.extension",
         "sliceName": "is-proband",
@@ -132,5 +153,5 @@
       }
     ]
   },
-  "date": "2020-08-04T13:13:12-04:00"
+  "date": "2020-08-14T12:07:27-04:00"
 }

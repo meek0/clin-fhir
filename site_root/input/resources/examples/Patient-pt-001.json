@@ -17,6 +17,10 @@
             }
         },
         {
+            "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-id",
+            "valueReference": {"reference": "Group/fa-001"}
+        },
+        {
             "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-proband",
             "valueBoolean": true
         },
@@ -66,6 +70,6 @@
     }],
     "birthDate": "2018-10-11",
     "gender": "female",
-    "generalPractitioner": [{ "reference": "PractitionerRole/prr-001" }],
+    "generalPractitioner": [{ "reference": "Practitioner/pr-001" }],
     "managingOrganization": { "reference": "Organization/or-001" }
   }

@@ -389,6 +389,14 @@
         "reference": {
           "reference": "StructureDefinition/fm-structure"
         }
+      },
+      {
+        "description": "StructureDefinition family-id, Base: Extension",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/family-id",
+        "reference": {
+          "reference": "StructureDefinition/family-id"
+        }
       }
     ]
   },

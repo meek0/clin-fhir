@@ -33,7 +33,7 @@
       ]
     },
     "requester": {
-      "reference": "PractitionerRole/prr-001"
+      "reference": "Practitioner/pr-001"
     },
     "subject": {
       "reference": "Patient/pt-001"
