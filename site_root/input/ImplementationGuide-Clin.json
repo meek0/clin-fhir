@@ -397,6 +397,54 @@
         "reference": {
           "reference": "StructureDefinition/family-id"
         }
+      },
+      {
+        "description": "ValueSet organization-type",
+        "exampleBoolean": false,
+        "name": "ValueSet/organization-type",
+        "reference": {
+          "reference": "ValueSet/organization-type"
+        }
+      },
+      {
+        "description": "ValueSet request-status",
+        "exampleBoolean": false,
+        "name": "ValueSet/request-status",
+        "reference": {
+          "reference": "ValueSet/request-status"
+        }
+      },
+      {
+        "description": "CodeSystem request-status-plus",
+        "exampleBoolean": false,
+        "name": "CodeSystem/request-status-plus",
+        "reference": {
+          "reference": "CodeSystem/request-status-plus"
+        }
+      },
+      {
+        "description": "CodeSystem organization-type-plus",
+        "exampleBoolean": false,
+        "name": "CodeSystem/organization-type-plus",
+        "reference": {
+          "reference": "CodeSystem/organization-type-plus"
+        }
+      },
+      {
+        "description": "StructureDefinition cqgc-organization, Base: Organization",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/cqgc-organization",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-organization"
+        }
+      },
+      {
+        "description": "StructureDefinition status-history, Base: Extension",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/status-history",
+        "reference": {
+          "reference": "StructureDefinition/status-history"
+        }
       }
     ]
   },
