@@ -1,10 +1,10 @@
 {
     "resourceType": "ValueSet",
-    "id": "request-status-plus",
+    "id": "request-status",
     "url": "http://fhir.cqgc.ferlab.bio/ValueSet/request-status",
     "version": "0.1.0",
-    "name": "request-status-plus",
-    "title": "ServiceRequest status-plus",
+    "name": "request-status",
+    "title": "ServiceRequest status",
     "status": "draft",
     "experimental": false,
     "publisher": "Ferlab.bio",
