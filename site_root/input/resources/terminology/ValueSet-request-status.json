@@ -1,0 +1,66 @@
+{
+    "resourceType": "ValueSet",
+    "id": "request-status-plus",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/request-status",
+    "version": "0.1.0",
+    "name": "request-status-plus",
+    "title": "ServiceRequest status-plus",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "Values ​​assigned to the request status",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/request-status",
+          "concept": [
+            {
+              "code": "draft",
+              "display": "Draft",
+              "designation": [
+                {
+                  "language": "fr",
+                  "value": "Brouillon"
+                }
+              ]
+            },
+            {
+                "code": "on-hold",
+                "display": "On Hold",
+                "designation": [
+                  {
+                    "language": "fr",
+                    "value": "Soumis"
+                  }
+                ]
+            },
+            {
+                "code": "revoked",
+                "display": "Revoked",
+                "designation": [
+                  {
+                    "language": "fr",
+                    "value": "Rejeté"
+                  }
+                ]
+            },
+            {
+                "code": "completed",
+                "display": "Completed",
+                "designation": [
+                  {
+                    "language": "fr",
+                    "value": "Terminé"
+                  }
+                ]
+            }
+
+          ]
+        },
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/request-status-plus"
+        }
+      ]
+    },
+    "date": "2020-08-20T10:53:21-04:00"
+  }
