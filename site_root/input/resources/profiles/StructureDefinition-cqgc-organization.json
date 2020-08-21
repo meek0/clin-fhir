@@ -21,11 +21,6 @@
         {
           "id": "Organization.type",
           "path": "Organization.type",
-          "type": [
-            {
-              "code": "code"
-            }
-          ],
           "binding": {
             "strength": "required",
             "description": "Organization type",

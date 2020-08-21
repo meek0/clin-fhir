@@ -54,41 +54,6 @@
         "isModifier": false
       },
       {
-        "id": "ServiceRequest.extension:status-history",
-        "path": "ServiceRequest.extension",
-        "sliceName": "status-history",
-        "sliceIsConstraining": false,
-        "label": "status-history",
-        "short": "history of the status of the request",
-        "definition": "This extension allows to keep the previous status of the request",
-        "min": 0,
-        "max": "*",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://fhir.cqgc.ferlab.bio/StructureDefinition/status-history"
-            ]
-          }
-        ],
-        "mustSupport": true,
-        "isModifier": false
-      },
-      {
-        "id": "ServiceRequest.status",
-        "path": "ServiceRequest.status",
-        "type": [
-          {
-            "code": "code"
-          }
-        ],
-        "binding": {
-          "strength": "required",
-          "description": "Service request status",
-          "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/request-status"
-        }
-      },
-      {
         "id": "ServiceRequest.code",
         "path": "ServiceRequest.code",
         "type": [

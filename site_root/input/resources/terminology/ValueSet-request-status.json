@@ -16,43 +16,19 @@
           "concept": [
             {
               "code": "draft",
-              "display": "Draft",
-              "designation": [
-                {
-                  "language": "fr",
-                  "value": "Brouillon"
-                }
-              ]
+              "display": "Draft"
             },
             {
                 "code": "on-hold",
-                "display": "On Hold",
-                "designation": [
-                  {
-                    "language": "fr",
-                    "value": "Soumis"
-                  }
-                ]
+                "display": "On Hold"
             },
             {
                 "code": "revoked",
-                "display": "Revoked",
-                "designation": [
-                  {
-                    "language": "fr",
-                    "value": "Rejeté"
-                  }
-                ]
+                "display": "Revoked"
             },
             {
                 "code": "completed",
-                "display": "Completed",
-                "designation": [
-                  {
-                    "language": "fr",
-                    "value": "Terminé"
-                  }
-                ]
+                "display": "Completed"
             }
 
           ]

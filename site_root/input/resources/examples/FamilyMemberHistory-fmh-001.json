@@ -6,12 +6,13 @@
             "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh"
         ]
     },
+    "status":"completed",
     "patient": { "reference": "Patient/pt-001" },
     "relationship":{
       "coding": [
         {
-          "code": "MGRFTH",
-          "display": "maternal grandfather"
+          "code": "MATMEM",
+          "display": "Maternal Member"
         }
       ]
     },

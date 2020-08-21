@@ -11,31 +11,10 @@
         {
           "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression",
           "valueReference": {"reference": "ClinicalImpression/ci-001"}
-        },
-        {
-          "url":"http://fhir.cqgc.ferlab.bio/StructureDefinition/status-history",
-          "extension":[
-            {
-              "url":"http://fhir.cqgc.ferlab.bio/StructureDefinition/status-history",
-              "valueAnnotation":{
-                "authorString":"Dr. XXXX",
-                "time":"2019-05-09T11:00:00+00:00",
-                "text":"on-hold"
-              }
-            },
-            {
-              "url":"http://fhir.cqgc.ferlab.bio/StructureDefinition/status-history",
-              "valueAnnotation":{
-                "authorString":"Dr. XXXX",
-                "time":"2019-05-10T11:00:00+00:00",
-                "text":"accepted"
-              }
-            }
-          ]
         }
     ],
   
-    "status": "accepted",
+    "status": "draft",
     "intent": "order",
     "authoredOn": "2019-05-09T11:00:00+00:00",
     "category": [

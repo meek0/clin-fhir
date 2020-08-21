@@ -16,35 +16,17 @@
       {
         "code": "accepted",
         "display": "Accepted",
-        "definition":"The request that was submitted by the doctor is accepted by the diagnostic laboratory",
-        "designation":[
-            {
-              "language":"fr",
-              "value":"Accepté"
-            }
-        ]
+        "definition":"The request that was submitted by the doctor is accepted by the diagnostic laboratory"
       },
       {
-        "code": "Sequenced",
+        "code": "sequenced",
         "display": "Sequenced",
-        "definition":"The files resulting from the sequencing of the genetic material contained in the sample are available",
-        "designation":[
-            {
-              "language":"fr",
-              "value":"Séquencé"
-            }
-        ]
+        "definition":"The files resulting from the sequencing of the genetic material contained in the sample are available"
       },
       {
         "code": "analyzed",
         "display": "Analyzed",
-        "definition":"After sequencing, the list of variants is analyzed by geneticists and some mutations have been selected to be included in the final report, which will be edited after the multidisciplinary consultation meeting",
-        "designation":[
-            {
-              "language":"fr",
-              "value":"Analysé"
-            }
-        ]
+        "definition":"After sequencing, the list of variants is analyzed by geneticists and some mutations have been selected to be included in the final report, which will be edited after the multidisciplinary consultation meeting"
       }
     ],
     "date": "2020-08-20T10:50:16-04:00"
