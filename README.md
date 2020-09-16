@@ -49,7 +49,7 @@ And then to generate the IG :
 java -jar scripts/publisher.jar -ig site_root/ig.ini -tx n/a
 ```
 
-### 5. Publishiing the model 
+### 5. Publishing the model 
 ```shell
 fhirutil publish --base_url <FHIR_API_BASE_URL> --username <USERNAME> --password <PWD>
 ```
