@@ -7,5 +7,12 @@
         ]
 	},
 	"name":"CHU Ste Justine",
-	"alias":["CHUSJ"]
+	"alias":["CHUSJ"],
+	"type":{
+           "coding": [
+              {
+                "code": "prov",
+              }
+           ]
+       }
 }
