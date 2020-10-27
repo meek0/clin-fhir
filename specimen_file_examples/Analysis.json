@@ -1,0 +1,97 @@
+{
+    "resourceType": "DocumentManifest",
+    "id": "654789",
+    "meta": {
+        "profile": [
+            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis"
+        ]
+    },
+    "status": "current",
+    "created": "2014-09-21T11:50:23-05:00",
+    "type": "Sequencing Alignment|Variant Calling",
+    "content": [
+        {
+            "reference": "DocumentReference/CRAM"
+        },
+        {
+            "reference": "DiagnosticReport/CRAI"
+        },
+        {
+            "reference": "DiagnosticReport/QCReport.txt"
+        }
+    ],
+    "extension": [
+        {
+            "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow",
+            "extension": [
+                {
+                    "url": "workflowName",
+                    "valueString": "Dragen"
+                },
+                {
+                    "url": "workflowVersion",
+                    "valueString": "1.1.0"
+                },
+                {
+                    "url": "genomeBuild",
+                    "valueString": "GRCh38"
+                }
+            ]
+        },
+        {
+            "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/experiment",
+            "extension": [
+                {
+                    "url": "platform",
+                    "valueString": "Illumina"
+                },
+                {
+                    "url": "libraryName",
+                    "valueString": "libraryNameExample"
+                },
+                {
+                    "url": "libraryType",
+                    "valueString": "libraryTypeExample"
+                },
+                {
+                    "url": "runId",
+                    "valueString": "98498938"
+                },
+                {
+                    "url": "runName",
+                    "valueString": "runNameExample"
+                },
+                {
+                    "url": "runDate",
+                    "valueDate": "2014-09-21T11:50:23-05:00"
+                },
+                {
+                    "url": "runAlias",
+                    "valueString": "runAliasExample"
+                },
+                {
+                    "url": "isPairedEnd",
+                    "valueBoolean": true
+                },
+                {
+                    "url": "fragmentSize",
+                    "valueInteger": "100"
+                },
+                {
+                    "url": "experimentalStrategy",
+                    "valueCode": "WXS"
+                },
+                {
+                    "url": "labAliquotId",
+                    "valueString": "292778s8f"
+                }
+            ]
+        }
+    ],
+    "related": [
+        {
+            "reference": "DocumentManifest/DM39938",
+            "display": "Parent analysis"
+        }
+    ]
+}
