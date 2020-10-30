@@ -57,7 +57,7 @@
                 "url": "http://objectstore.cqgc.ca/07a6483f-732b-461e-86b6-edb665c45510",
                 "size": 3654,
                 "hash": "MD5sum",
-                "title": "file name as given by the lab",
+                "title": "<file name as given by the lab>.cram",
                 "creation": "2005-12-24T09:35:00+11:00"
             },
             "format": {
@@ -77,7 +77,7 @@
     },
     "extension": [
         {
-            "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/alignment-metrics",
+            "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-metrics",
             "extension": [
                 {
                     "url": "%pcrDuplicate",
@@ -89,7 +89,7 @@
                 },
                 {
                     "url": "Supplementary",
-                    "valueInteger": "vvv"
+                    "valueInteger": "GRCh38"
                 },
                 {
                     "url": "duplicates",

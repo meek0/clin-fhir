@@ -1,0 +1,59 @@
+{
+    "resourceType": "DocumentManifest",
+    "id": "654789",
+    "meta": {
+        "profile": [
+            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis"
+        ]
+    },
+    "status": "current",
+    "created": "2014-09-21T11:50:23-05:00",
+    "type": "Variant Calling",
+    "content": [
+        {
+            "reference": "DocumentReference/gvcfFileId"
+        },
+        {
+            "reference": "DiagnosticReport/indexgVcfFileId"
+        }
+    ],
+    "extension": [
+        {
+            "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow",
+            "extension": [
+                {
+                    "url": "workflowName",
+                    "valueString": "Dragen"
+                },
+                {
+                    "url": "workflowVersion",
+                    "valueString": "1.1.0"
+                },
+                {
+                    "url": "genomeBuild",
+                    "valueString": "GRCh38"
+                },
+                {
+                    "url": "variantClass",
+                    "valueString": "germline"
+                }
+            ]
+        },
+        {
+            "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment",
+            "extension": [
+                {
+                    "url": "experimentalStrategy",
+                    "valueCode": "WXS"
+                }
+                
+            ]
+        }
+    ],
+    "related": [
+        {
+            "reference": "DocumentManifest/DM39938",
+            "display": "Parent analysis"
+        }
+    ]
+}

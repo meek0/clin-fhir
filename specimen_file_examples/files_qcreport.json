@@ -16,8 +16,8 @@
         "coding": [
             {
                 "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-types",
-                "code": "AR",
-                "display": "Aligned Reads"
+                "code": "ALIGNEMENTQC",
+                "display": "Read Aligment QC Report"
             }
         ]
     },
@@ -26,8 +26,8 @@
             "coding": [
                 {
                     "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-categories",
-                    "code": "SR",
-                    "display": "Sequencing Reads"
+                    "code": "SNV",
+                    "display": "Single Nucleotice Variation"
                 }
             ]
         }
@@ -53,17 +53,25 @@
     "content": [
         {
             "attachment": {
-                "contentType": "application/binary",
+                "contentType": "application/text",
                 "url": "http://objectstore.cqgc.ca/07a6483f-732b-461e-86b6-edb665c45510",
                 "size": 3654,
                 "hash": "MD5sum",
-                "title": "file name as given by the lab",
+                "title": "<file name as given by the lab>.txt",
                 "creation": "2005-12-24T09:35:00+11:00"
             },
             "format": {
                 "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-formats",
-                "code": "CRAM",
-                "display": "CRAM"
+                "code": "TXT",
+                "display": "TXT"
+            }
+        }
+    ],
+    "relatesTo": [
+        {
+            "code": "appends",
+            "target": {
+                "reference": "DocumentReference/CramFileId"
             }
         }
     ],
@@ -74,40 +82,6 @@
                 "display": "Specimen"
             }
         ]
-    },
-    "extension": [
-        {
-            "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/alignment-metrics",
-            "extension": [
-                {
-                    "url": "%pcrDuplicate",
-                    "valueDecimal": "32.4"
-                },
-                {
-                    "url": "totalReadsCount",
-                    "valueInteger": "1.1.0"
-                },
-                {
-                    "url": "Supplementary",
-                    "valueInteger": "vvv"
-                },
-                {
-                    "url": "duplicates",
-                    "valueInteger": 23333
-                },
-                {
-                    "url": "mapped",
-                    "valueInteger": "334343"
-                },
-                {
-                    "url": "properlyPaired",
-                    "valueInteger": "43432"
-                },
-                {
-                    "url": "verifyBamID",
-                    "valueDecimal": "4747.38"
-                }
-            ]
-        }
-    ]
+    }
+    
 }

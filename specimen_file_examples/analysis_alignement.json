@@ -8,13 +8,13 @@
     },
     "status": "current",
     "created": "2014-09-21T11:50:23-05:00",
-    "type": "Sequencing Alignment|Variant Calling|QC Report",
+    "type": "Sequencing Alignment",
     "content": [
         {
-            "reference": "DocumentReference/CRAM"
+            "reference": "DocumentReference/cramFileId"
         },
         {
-            "reference": "DiagnosticReport/CRAI"
+            "reference": "DiagnosticReport/craiFileId"
         }
     ],
     "extension": [
@@ -32,10 +32,6 @@
                 {
                     "url": "genomeBuild",
                     "valueString": "GRCh38"
-                },
-                {
-                    "url": "variantClass",
-                    "valueString": "germline|somatic"
                 }
             ]
         },
@@ -89,14 +85,8 @@
             ]
         },
         {
-            "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/supplementInfo",
-            "text": "JSON text"
-        }
-    ],
-    "related": [
-        {
-            "reference": "DocumentManifest/DM39938",
-            "display": "Parent analysis"
+            "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/supplement",
+            "text": "Json text"
         }
     ]
 }
