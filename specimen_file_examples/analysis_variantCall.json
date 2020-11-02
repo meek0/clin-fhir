@@ -17,6 +17,9 @@
             "reference": "DiagnosticReport/indexgVcfFileId"
         }
     ],
+    "subject": {
+        "reference": "Patient/PA00393"
+    },
     "extension": [
         {
             "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow",

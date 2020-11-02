@@ -80,8 +80,32 @@
             "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-metrics",
             "extension": [
                 {
-                    "url": "qu'est ce qu'on met",
-                    "valueDecimal": "32.4"
+                    "url": "SNV (Het)",
+                    "valueInteger": "46532"
+                },
+                {
+                    "url": "SNV (Hom)",
+                    " valueInteger": "29690"
+                },
+                {
+                    "url": "Deletions (Het)",
+                    " valueInteger": "3126"
+                },
+                {
+                    "url": "Deletions (Hom)",
+                    " valueInteger": "WXS"
+                },
+                {
+                    "url": "Insertions (Het)",
+                    " valueInteger": "2857"
+                },
+                {
+                    "url": "Insertions (Hom)",
+                    " valueInteger": "1744"
+                },
+                {
+                    "url": "InDbSNP",
+                    " valueInteger": "74308"
                 }
             ]
         }

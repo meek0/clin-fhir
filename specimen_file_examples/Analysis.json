@@ -17,6 +17,9 @@
             "reference": "DiagnosticReport/CRAI"
         }
     ],
+    "subject": {
+        "reference": "Patient/PA00393"
+    },
     "extension": [
         {
             "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow",
@@ -47,16 +50,8 @@
                     "valueString": "Illumina"
                 },
                 {
-                    "url": "libraryName",
-                    "valueString": "libraryNameExample"
-                },
-                {
-                    "url": "libraryType",
-                    "valueString": "libraryTypeExample"
-                },
-                {
-                    "url": "runId",
-                    "valueString": "98498938"
+                    "url": "sequencerID",
+                    "valueString": "NB552318"
                 },
                 {
                     "url": "runName",
@@ -69,6 +64,10 @@
                 {
                     "url": "runAlias",
                     "valueString": "runAliasExample"
+                },
+                {
+                    "url": "flowcellID",
+                    "valueInteger": "AHNVJGBGXG"
                 },
                 {
                     "url": "isPairedEnd",
@@ -85,6 +84,14 @@
                 {
                     "url": "labAliquotId",
                     "valueString": "292778s8f"
+                },
+                {
+                    "url": "captureKit",
+                    "valueString": "RocheKapaHyperExome"
+                },
+                {
+                    "url": "baitDefinition",
+                    "valueString": "KAPA_HyperExome_hg38_capture_targets"
                 }
             ]
         },

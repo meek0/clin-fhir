@@ -80,32 +80,64 @@
             "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/alignment-metrics",
             "extension": [
                 {
-                    "url": "%pcrDuplicate",
-                    "valueDecimal": "32.4"
+                    "url": "TotalReads",
+                    "valueInteger": "149737012"
                 },
                 {
-                    "url": "totalReadsCount",
-                    "valueInteger": "1.1.0"
+                    "url": "%PassFilterReads",
+                    "valueDecimal": "1.0"
                 },
                 {
-                    "url": "Supplementary",
-                    "valueInteger": "vvv"
+                    "url": "%PassFilterUniqueReads",
+                    "valueDecimal": "0.76"
                 },
                 {
-                    "url": "duplicates",
-                    "valueInteger": 23333
+                    "url": "%PassFilterUniqueAlignedReads",
+                    "valueDecimal": "0.59"
                 },
                 {
-                    "url": "mapped",
-                    "valueInteger": "334343"
+                    "url": "TargetAverageCoverage",
+                    "valueDecimal": "155.5"
                 },
                 {
-                    "url": "properlyPaired",
-                    "valueInteger": "43432"
+                    "url": "%TargetCoverage20x",
+                    "valueDecimal": "95.5%"
                 },
                 {
-                    "url": "verifyBamID",
-                    "valueDecimal": "4747.38"
+                    "url": "%OffTargetBases",
+                    "valueDecimal": "30.2%"
+                },
+                {
+                    "url": " EstimatedSampleContamination ",
+                    "valueFloat": "0.043432"
+                },
+                {
+                    "url": "SNV (Het)",
+                    "valueInteger": "46532"
+                },
+                {
+                    "url": "SNV (Hom)",
+                    " valueInteger": "29690"
+                },
+                {
+                    "url": "Deletions (Het)",
+                    " valueInteger": "3126"
+                },
+                {
+                    "url": "Deletions (Hom)",
+                    " valueInteger": "WXS"
+                },
+                {
+                    "url": "Insertions (Het)",
+                    " valueInteger": "2857"
+                },
+                {
+                    "url": "Insertions (Hom)",
+                    " valueInteger": "1744"
+                },
+                {
+                    "url": "InDbSNP",
+                    " valueInteger": "74308"
                 }
             ]
         }
