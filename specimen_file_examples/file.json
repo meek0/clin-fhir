@@ -70,8 +70,8 @@
     "context": {
         "related": [
             {
-                "reference": "specimen/SP03939",
-                "display": "Specimen"
+                "reference": "specimen/SP03939_DNA",
+                "display": "Aliquot"
             }
         ]
     },

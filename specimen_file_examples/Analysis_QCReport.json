@@ -11,7 +11,7 @@
     "type": "QC Report",
     "content": [
         {
-            "reference": "DocumentReference/QcReportFileId"
+            "reference": "DocumentReference/QcReportFileId.tar.gz"
         }
     ],
     "subject": {
@@ -39,7 +39,7 @@
         },
         {
             "reference": "DocumentManifest/VariantCallAnalysisManifest",
-            "display": "Variant Call Parent Analysis"
+            "display": "Parent Analysis"
         }
     ]
 }

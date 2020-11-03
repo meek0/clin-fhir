@@ -9,18 +9,14 @@
     {
       "value": "571312",
       "assigner": {
-        "reference": "Organisation/ORG2"
+        "reference": "Organisation/LDM_1"
       }
     }
   ],
   "subject": {
-    "reference": "Patient/PT000001"
+    "reference": "Patient/PT49494"
   },
-  "request": [
-    {
-      "reference": "ServiceRequest/SR000002"
-    }
-  ],
+  
   "type": {
     "coding": [
       {
