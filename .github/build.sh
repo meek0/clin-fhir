@@ -13,11 +13,15 @@ git remote set-branches origin '*'
 git fetch origin gh-pages
 git checkout -f gh-pages
 git rm -rf --ignore-unmatch ig
+
+# ignore unnecessary files
 sudo mv -f site_root/output ig
 sudo mkdir -p ignored
 sudo mv ig/*.zip ignored
 sudo mv ig/*.tgz ignored
 sudo mv ig/*.pack ignored
+
+# commit and push the generated IG
 git add ig
 git config --global user.email "no-mail"
 git config --global user.name "ig-deploy-bot"
