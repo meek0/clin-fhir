@@ -4,9 +4,9 @@ set -euo pipefail
 echo "Running pip install"
 pip install .
 
-sudo mv site_root/input/resources/terminology/CodeSystem-hp.json CodeSystem-hp.json
+mv site_root/input/resources/terminology/CodeSystem-hp.json CodeSystem-hp.json
 fhirutil validate --publisher_opts="n/a" --clear_output site_root/ig.ini
-sudo mv CodeSystem-hp.json site_root/input/resources/terminology/CodeSystem-hp.json
+mv CodeSystem-hp.json site_root/input/resources/terminology/CodeSystem-hp.json
 
 # replace gh-pages root ig directory with site_root/output
 git remote set-branches origin '*'

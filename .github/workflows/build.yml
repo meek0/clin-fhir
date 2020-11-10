@@ -18,8 +18,5 @@ jobs:
         env:
           REPO_TOKEN: ${{ secrets.CLIN_FHIR_DEPLOY_KEY }}
         run: |
-          SCRIPT=.github/build.sh
-          if [ -f $SCRIPT ]; then 
-            chmod u+x $SCRIPT
-            $SCRIPT
-          fi
+          chmod u+x .github/build.sh
+          .github/build.sh
