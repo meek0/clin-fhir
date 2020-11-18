@@ -14,7 +14,7 @@
             "reference": "DocumentReference/CRAM"
         },
         {
-            "reference": "DiagnosticReport/CRAI"
+            "reference": "DocumentReference/CRAI"
         }
     ],
     "subject": {

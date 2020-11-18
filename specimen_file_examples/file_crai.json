@@ -67,6 +67,14 @@
             }
         }
     ],
+    "context": {
+        "related": [
+            {
+                "reference": "specimen/SP03939_DNA",
+                "display": "Sample"
+            }
+        ]
+    },
     "relatesTo": [
         {
             "code": "transforms",
