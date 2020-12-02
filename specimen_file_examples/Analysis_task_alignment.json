@@ -1,26 +1,49 @@
 {
-    "resourceType": "DocumentManifest",
+    "resourceType": "Task",
     "id": "654789",
     "meta": {
         "profile": [
             "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis"
-        ],
-        "versionId": "0.1"
+        ]
     },
-    "status": "current",
-    "created": "2014-09-21T11:50:23-05:00",
-    "type": "Sequencing Alignment|Variant Calling|QC Report",
-    "content": [
+    "status": "completed",
+    "intent": "order",
+    "priority": "routine",
+    "code": {
+        "text": "Sequencing Alignment"
+    },
+    "for": {
+        "reference": "Patient/PA393893",
+        "display": "Patient PA39383"
+    },
+    "authoredOn": "2016-10-31T08:25:05+10:00",
+    "owner": {
+        "reference": "Organization/OR93939",
+        "display": "CQGC"
+    },
+    "note": [
         {
-            "reference": "DocumentReference/CRAM"
-        },
-        {
-            "reference": "DocumentReference/CRAI"
+            "text": "Key-values Json format "
         }
     ],
-    "subject": {
-        "reference": "Patient/PA00393"
-    },
+    "output": [
+        {
+            "type": {
+                "text": "Fichier d'alignement CRAM"
+            },
+            "valueReference": {
+                "reference": "DocumentReference/DR93983_CRAM"
+            }
+        },
+        {
+            "type": {
+                "text": "Fichier d'index CRAI"
+            },
+            "valueReference": {
+                "reference": "DocumentReference/DR93983_CRAI"
+            }
+        }
+    ],
     "extension": [
         {
             "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow",
@@ -36,10 +59,6 @@
                 {
                     "url": "genomeBuild",
                     "valueString": "GRCh38"
-                },
-                {
-                    "url": "variantClass",
-                    "valueString": "germline|somatic"
                 }
             ]
         },
@@ -95,16 +114,6 @@
                     "valueString": "KAPA_HyperExome_hg38_capture_targets"
                 }
             ]
-        },
-        {
-            "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/supplementInfo",
-            "text": "JSON text"
-        }
-    ],
-    "related": [
-        {
-            "reference": "DocumentManifest/DM39938",
-            "display": "Parent analysis"
         }
     ]
 }

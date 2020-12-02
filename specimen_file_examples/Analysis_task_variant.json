@@ -1,0 +1,101 @@
+{
+    "resourceType": "Task",
+    "id": "654789",
+    "meta": {
+      "profile": [
+        "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis"
+      ]
+    },
+    "status": "completed",
+    "intent": "order",
+    "priority": "routine",
+    "code": {
+      "text": "Variant Calling"
+    },
+    "for": {
+      "reference": "Patient/PA393893",
+      "display": "Patient PA39383"
+    },
+    "authoredOn": "2016-10-31T08:25:05+10:00",
+    "owner": {
+      "reference": "Organization/OR93939",
+      "display": "CQGC"
+    },
+    "note": [
+      {
+        "text": "Key-values Json format "
+      }
+    ],
+    "input": [
+      {
+        "type": {
+          "text": "Analyse parent"
+        },
+        "valueReference": {
+          "reference": "task/TA101"
+        }
+      }
+    ],
+    "output": [
+      {
+        "type": {
+          "text": "Fichier Variant VCF"
+        },
+        "valueReference": {
+          "reference": "DocumentReference/DR93983_VCF"
+        }
+      },
+      {
+        "type": {
+          "text": "Fichier d'index TBI"
+        },
+        "valueReference": {
+          "reference": "DocumentReference/DR93983_TBI"
+        }
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow",
+        "extension": [
+          {
+            "url": "workflowName",
+            "valueString": "Dragen"
+          },
+          {
+            "url": "workflowVersion",
+            "valueString": "1.1.0"
+          },
+          {
+            "url": "genomeBuild",
+            "valueString": "GRCh38"
+          },
+          {
+            "url": "variantClass",
+            "valueString": "germline"
+          }
+        ]
+      },
+      {
+        "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment",
+        "extension": [
+          {
+            "url": "experimentalStrategy",
+            "valueCode": "WXS"
+          },
+          {
+            "url": "labAliquotId",
+            "valueString": "292778s8f"
+          },
+          {
+            "url": "captureKit",
+            "valueString": "RocheKapaHyperExome"
+          },
+          {
+            "url": "baitDefinition",
+            "valueString": "KAPA_HyperExome_hg38_capture_targets"
+          }
+        ]
+      }
+    ]
+  }

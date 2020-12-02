@@ -46,7 +46,8 @@
           ],
           "text": "Numéro du dossier médical"
         },
-        "value": "4533941"
+        "value": "4533941",
+        "assigner" : { "reference": "Organization/or-001" }
       },
       {
         "type": {
@@ -70,6 +71,5 @@
     }],
     "birthDate": "2018-10-11",
     "gender": "female",
-    "generalPractitioner": [{ "reference": "Practitioner/pr-001" }],
-    "managingOrganization": { "reference": "Organization/or-001" }
+    "generalPractitioner": [{ "reference": "Practitioner/pr-001" }]
   }

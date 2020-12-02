@@ -14,7 +14,7 @@
   },
   "for": {
     "reference": "Patient/PA393893",
-    "display": "Peter James Chalmers"
+    "display": "Patient PA39383"
   },
   "authoredOn": "2016-10-31T08:25:05+10:00",
   "owner": {
@@ -29,7 +29,7 @@
   "input": [
     {
       "type": {
-        "text": "Parent analysis"
+        "text": "Analyse parent"
       },
       "valueReference": {
         "reference": "task/TA101"
@@ -39,7 +39,7 @@
   "output": [
     {
       "type": {
-        "text": "CRAM File"
+        "text": "Fichier d'alignement CRAM"
       },
       "valueReference": {
         "reference": "DocumentReference/DR93983_CRAM"
@@ -47,7 +47,7 @@
     },
     {
       "type": {
-        "text": "CRAI File"
+        "text": "Fichier d'index CRAI"
       },
       "valueReference": {
         "reference": "DocumentReference/DR93983_CRAI"
