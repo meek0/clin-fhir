@@ -33,6 +33,25 @@
         }
       },
       {
+        "id": "ServiceRequest.extension:is-submitted",
+        "path": "ServiceRequest.extension",
+        "sliceName": "is-submitted",
+        "short": "Submission status of ServiceRequest",
+        "definition": "Whether the Service Request is submitted or not",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-submitted"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": false
+      },
+      {
         "id": "ServiceRequest.extension:clinical-impression",
         "path": "ServiceRequest.extension",
         "sliceName": "clinical-impression",

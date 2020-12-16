@@ -9,3 +9,4 @@ Clin Fhir Implementation Guide
 Vincent Ferretti | [vferretti](https://github.com/vferretti)
 Emma Drieux | [Emma-Drieux](https://github.com/Emma-Drieux)
 Jeremy Costanza | [jecos](https://github.com/jecos)
+Yanis | [yanlabchu](https://github.com/YanLabCHU)
