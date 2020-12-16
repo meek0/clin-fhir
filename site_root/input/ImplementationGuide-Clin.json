@@ -445,6 +445,14 @@
         "reference": {
           "reference": "StructureDefinition/status-history"
         }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition is-submitted, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/is-submitted",
+        "reference": {
+          "reference": "StructureDefinition/is-submitted"
+        }
       }
     ]
   },
