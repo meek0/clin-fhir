@@ -15,9 +15,9 @@
     "type": {
         "coding": [
             {
-                "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-types",
-                "code": "VCFINDEX",
-                "display": "VCF Index"
+                "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
+                "code": "INDEX",
+                "display": "Sequencing Data Index"
             }
         ]
     },
@@ -25,9 +25,9 @@
         {
             "coding": [
                 {
-                    "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-categories",
-                    "code": "SNV",
-                    "display": "Single Nucleotice Variation"
+                    "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-category",
+                    "code": "SR",
+                    "display": "Sequencing Reads"
                 }
             ]
         }
@@ -37,15 +37,16 @@
     },
     "date": "2005-12-24T09:43:41+11:00",
     "custodian": {
-        "reference": "Organization/cqgc"
+        "reference": "Organization/cqgc",
+        "type":"Organization"
     },
     "securityLabel": [
         {
             "coding": [
                 {
                     "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
-                    "code": "V",
-                    "display": "very restricted"
+                    "code": "R",
+                    "display": "restricted"
                 }
             ]
         }
@@ -61,27 +62,26 @@
                 "creation": "2005-12-24T09:35:00+11:00"
             },
             "format": {
-                "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-formats",
-                "code": "TBI",
-                "display": "TBI"
-            }
-        }
-    ],
-    "relatesTo": [
-        {
-            "code": "transforms",
-            "target": {
-                "reference": "DocumentReference/VcfFileId"
+                "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+                "code": "CRAI",
+                "display": "CRAI Index File"
             }
         }
     ],
     "context": {
         "related": [
             {
-                "reference": "specimen/SP03939",
-                "display": "Normal sample"
+                "reference": "specimen/SP03939_DNA",
+                "type": "Specimen"
             }
         ]
-    }
-    
+    },
+    "relatesTo": [
+        {
+            "code": "transforms",
+            "target": {
+                "reference": "DocumentReference/CramFileId"
+            }
+        }
+    ]
 }

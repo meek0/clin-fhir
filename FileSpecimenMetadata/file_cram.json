@@ -15,7 +15,7 @@
     "type": {
         "coding": [
             {
-                "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-types",
+                "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
                 "code": "AR",
                 "display": "Aligned Reads"
             }
@@ -25,7 +25,7 @@
         {
             "coding": [
                 {
-                    "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-categories",
+                    "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-category",
                     "code": "SR",
                     "display": "Sequencing Reads"
                 }
@@ -37,15 +37,16 @@
     },
     "date": "2005-12-24T09:43:41+11:00",
     "custodian": {
-        "reference": "Organization/cqgc"
+        "reference": "Organization/cqgc",
+        "type":"Organization"
     },
     "securityLabel": [
         {
             "coding": [
                 {
                     "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
-                    "code": "V",
-                    "display": "very restricted"
+                    "code": "R",
+                    "display": "restricted"
                 }
             ]
         }
@@ -57,87 +58,59 @@
                 "url": "http://objectstore.cqgc.ca/07a6483f-732b-461e-86b6-edb665c45510",
                 "size": 3654,
                 "hash": "MD5sum",
-                "title": "file name as given by the lab",
+                "title": "<file name as given by the lab>.cram",
                 "creation": "2005-12-24T09:35:00+11:00"
             },
             "format": {
-                "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-formats",
+                "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
                 "code": "CRAM",
-                "display": "CRAM"
+                "display": "CRAM File"
             }
         }
     ],
     "context": {
         "related": [
             {
-                "reference": "specimen/SP03939_DNA",
-                "display": "Sample"
+                "reference": "specimen/SP03939",
+                "type": "Specimen"
             }
         ]
     },
     "extension": [
         {
-            "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/alignment-metrics",
+            "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/seq-metrics",
             "extension": [
                 {
-                    "url": "TotalReads",
+                    "url": "totalReads",
                     "valueInteger": "149737012"
                 },
                 {
-                    "url": "%PassFilterReads",
+                    "url": "passFilterReadsPercent",
                     "valueDecimal": "1.0"
                 },
                 {
-                    "url": "%PassFilterUniqueReads",
+                    "url": "passFilterUniqueReadsPercent",
                     "valueDecimal": "0.76"
                 },
                 {
-                    "url": "%PassFilterUniqueAlignedReads",
+                    "url": "passFilterUniqueAlignedReadsPercent",
                     "valueDecimal": "0.59"
                 },
                 {
-                    "url": "TargetAverageCoverage",
+                    "url": "targetAverageCoverage",
                     "valueDecimal": "155.5"
                 },
                 {
-                    "url": "%TargetCoverage20x",
+                    "url": "targetCoverage20xPercent",
                     "valueDecimal": "95.5%"
                 },
                 {
-                    "url": "%OffTargetBases",
+                    "url": "offTargetBasesPercent",
                     "valueDecimal": "30.2%"
                 },
                 {
-                    "url": " EstimatedSampleContamination ",
+                    "url": "estimatedSampleContamination",
                     "valueFloat": "0.043432"
-                },
-                {
-                    "url": "SNV (Het)",
-                    "valueInteger": "46532"
-                },
-                {
-                    "url": "SNV (Hom)",
-                    " valueInteger": "29690"
-                },
-                {
-                    "url": "Deletions (Het)",
-                    " valueInteger": "3126"
-                },
-                {
-                    "url": "Deletions (Hom)",
-                    " valueInteger": "WXS"
-                },
-                {
-                    "url": "Insertions (Het)",
-                    " valueInteger": "2857"
-                },
-                {
-                    "url": "Insertions (Hom)",
-                    " valueInteger": "1744"
-                },
-                {
-                    "url": "InDbSNP",
-                    " valueInteger": "74308"
                 }
             ]
         }

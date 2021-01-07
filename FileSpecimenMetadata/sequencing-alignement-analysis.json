@@ -1,26 +1,70 @@
 {
-    "resourceType": "DocumentManifest",
+    "resourceType": "Task",
     "id": "654789",
     "meta": {
         "profile": [
-            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis"
-        ],
-        "versionId": "0.1"
+            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-sequencing-alignement-analysis"
+        ]
     },
-    "status": "current",
-    "created": "2014-09-21T11:50:23-05:00",
-    "type": "Sequencing Alignment|Variant Calling|QC Report",
-    "content": [
+    "status": "completed",
+    "intent": "order",
+    "priority": "routine",
+    "focus": {
+        "reference": "ServiceRequet/SR93939"
+    },
+    "Code": {
+        "coding": [
+            {
+                "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type",
+                "code": "SA",
+                "display": "Sequencing Alignment"
+            }
+        ]
+    },
+    "for": {
+        "reference": "Patient/PA393893",
+        "type": "Patient"
+    },
+    "authoredOn": "2016-10-31T08:25:05+10:00",
+    "owner": {
+        "reference": "Organization/OR93939",
+        "type": "Organization"
+    },
+    "note": [
         {
-            "reference": "DocumentReference/CRAM"
-        },
-        {
-            "reference": "DocumentReference/CRAI"
+            "text": "Key-values Json format "
         }
     ],
-    "subject": {
-        "reference": "Patient/PA00393"
-    },
+    "output": [
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+                        "code": "CRAM",
+                        "display": "CRAM File Format"
+                    }
+                ]
+            },
+            "valueReference": {
+                "reference": "DocumentReference/DR93983"
+            }
+        },
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+                        "code": "CRAI",
+                        "display": "CRAI Index File"
+                    }
+                ]
+            },
+            "valueReference": {
+                "reference": "DocumentReference/DR93984"
+            }
+        }
+    ],
     "extension": [
         {
             "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow",
@@ -34,12 +78,8 @@
                     "valueString": "1.1.0"
                 },
                 {
-                    "url": "genomeBuild",
-                    "valueString": "GRCh38"
-                },
-                {
-                    "url": "variantClass",
-                    "valueString": "germline|somatic"
+                    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/genome-build",
+                    "valueCode": "GRCh38"
                 }
             ]
         },
@@ -79,7 +119,7 @@
                     "valueInteger": "100"
                 },
                 {
-                    "url": "experimentalStrategy",
+                    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/experimental-strategy",
                     "valueCode": "WXS"
                 },
                 {
@@ -95,16 +135,6 @@
                     "valueString": "KAPA_HyperExome_hg38_capture_targets"
                 }
             ]
-        },
-        {
-            "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/supplementInfo",
-            "text": "JSON text"
-        }
-    ],
-    "related": [
-        {
-            "reference": "DocumentManifest/DM39938",
-            "display": "Parent analysis"
         }
     ]
 }

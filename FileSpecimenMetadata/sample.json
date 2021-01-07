@@ -16,7 +16,6 @@
     "subject": {
         "reference": "Patient/PT000001"
     },
-    
     "parent": [
         {
             "reference": "specimen/SP0093"
@@ -25,11 +24,10 @@
     "type": {
         "coding": [
             {
-                "system": "http://snomed.info/sct",
-                "code": "24851008",
-                "display": "Deoxyribonucleic acid (substance)"
+                "system": "http://fhir.cqgc.ferlab.bio/StructureDefinition/specimen-types",
+                "code": "DNA",
+                "display": "DNA"
             }
-        ],
-        "text": "DNA"
+        ]
     }
 }

@@ -16,16 +16,14 @@
   "subject": {
     "reference": "Patient/PT49494"
   },
-  
   "type": {
     "coding": [
       {
-        "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
-        "code": "BLD|TUMOR",
-        "display": "Whole blood|Tumor"
+        "system": "http://fhir.cqgc.ferlab.bio/StructureDefinition/specimen-type",
+        "code": "TUMOR",
+        "display": "Tumor Specimen"
       }
-    ],
-    "text": "Blood|Tumor"
+    ]
   },
   "collection": {
     "bodySite": {
@@ -35,8 +33,7 @@
           "code": "21483005",
           "display": "Structure of central nervous system"
         }
-      ],
-      "text": "Central Nervous System"
+      ]
     }
   }
 }
