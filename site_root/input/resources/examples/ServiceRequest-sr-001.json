@@ -41,5 +41,19 @@
   },
   "subject": {
     "reference": "Patient/pt-001"
-  }
+  },
+  "note": [
+    {
+      "reference": "Practitioner/pr-001",
+      "authorString": "Joe Smith",
+      "time": "2019-05-09T11:00:00+00:00",
+      "text": "Nouveau statut: **Incomplète**.  Note: Manque de l'information"
+    },
+    {
+      "reference": "Practitioner/pr-001",
+      "authorString": "Joe blo",
+      "time": "2019-05-09T11:00:00+00:00",
+      "text": "Nouveau statut: **Approuvée**"
+    }
+  ]
 }
