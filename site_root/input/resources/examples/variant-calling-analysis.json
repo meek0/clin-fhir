@@ -1,0 +1,124 @@
+{
+  "resourceType": "Task",
+  "id": "654789",
+  "meta": {
+    "profile": [
+      "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-variant-calling-analysis"
+    ]
+  },
+  "status": "completed",
+  "intent": "order",
+  "priority": "routine",
+  "focus": {
+    "reference": "ServiceRequet/SR93939"
+  },
+  "Code": {
+    "coding": [
+      {
+        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type",
+        "code": "VC",
+        "display": "Variant Calling Analysis"
+      }
+    ]
+  },
+  "for": {
+    "reference": "Patient/PA393893",
+    "type": "Patient"
+  },
+  "authoredOn": "2016-10-31T08:25:05+10:00",
+  "owner": {
+    "reference": "Organization/OR93939",
+    "type": "Organization"
+  },
+  "note": [
+    {
+      "text": "Key-values Json format"
+    }
+  ],
+  "input": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type",
+            "code": "SA",
+            "display": "Sequencing Alignment Analysis"
+          }
+        ]
+      },
+      "valueReference": {
+        "reference": "task/TA0202"
+      }
+    }
+  ],
+  "output": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+            "code": "VCF",
+            "display": "VCF File"
+          }
+        ]
+      },
+      "valueReference": {
+        "reference": "DocumentReference/DR93983"
+      }
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+            "code": "TBI",
+            "display": "TBI Index File"
+          }
+        ]
+      },
+      "valueReference": {
+        "reference": "DocumentReference/DR93984"
+      }
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow",
+      "extension": [
+        {
+          "url": "workflowName",
+          "valueString": "Dragen Germline"
+        },
+        {
+          "url": "workflowVersion",
+          "valueString": "1.1.0"
+        },
+        {
+          "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/genome-build",
+          "valueCode": "GRCh38"
+        }
+      ]
+    },
+    {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment",
+      "extension": [
+        {
+          "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/experimental-strategy",
+          "valueCode": "WXS"
+        },
+        {
+          "url": "labAliquotId",
+          "valueString": "292778s8f"
+        },
+        {
+          "url": "captureKit",
+          "valueString": "RocheKapaHyperExome"
+        },
+        {
+          "url": "baitDefinition",
+          "valueString": "KAPA_HyperExome_hg38_capture_targets"
+        }
+      ]
+    }
+  ]
+}

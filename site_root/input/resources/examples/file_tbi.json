@@ -1,0 +1,88 @@
+{
+    "resourceType": "DocumentReference",
+    "id": "FI000002",
+    "meta": {
+        "profile": [
+            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-document"
+        ]
+    },
+    "masterIdentifier": {
+        "system": "https://objectstore.cqgc.ca/",
+        "value": "07a6483f-732b-461e-86b6-edb665c45510"
+    },
+    "status": "current",
+    "docStatus": "final",
+    "type": {
+        "coding": [
+            {
+                "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
+                "code": "INDEX",
+                "display": "Sequencing Data Index"
+            }
+        ]
+    },
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-category",
+                    "code": "SNV",
+                    "display": "Single Nucleotide Variation"
+                }
+            ]
+        }
+    ],
+    "subject": {
+        "reference": "Patient/PA00393"
+    },
+    "date": "2005-12-24T09:43:41+11:00",
+    "custodian": {
+        "reference": "Organization/cqgc",
+        "type":"Organization"
+    },
+    "securityLabel": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+                    "code": "R",
+                    "display": "restricted"
+                }
+            ]
+        }
+    ],
+    "content": [
+        {
+            "attachment": {
+                "contentType": "application/binary",
+                "url": "http://objectstore.cqgc.ca/07a6483f-732b-461e-86b6-edb665c45510",
+                "size": 3654,
+                "hash": "MD5sum",
+                "title": "<file name as given by the lab>.tbi",
+                "creation": "2005-12-24T09:35:00+11:00"
+            },
+            "format": {
+                "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+                "code": "TBI",
+                "display": "TBI Index File"
+            }
+        }
+    ],
+    "relatesTo": [
+        {
+            "code": "transforms",
+            "target": {
+                "reference": "DocumentReference/VcfFileId"
+            }
+        }
+    ],
+    "context": {
+        "related": [
+            {
+                "reference": "specimen/SP03939",
+                "type": "Specimen"
+            }
+        ]
+    }
+    
+}
