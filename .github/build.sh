@@ -5,6 +5,7 @@ echo "Running pip install"
 pip install .
 
 mv site_root/input/resources/terminology/CodeSystem-hp.json CodeSystem-hp.json
+mv site_root/input/resources/examples examples
 fhirutil validate --publisher_opts="n/a" --clear_output site_root/ig.ini
 mv CodeSystem-hp.json site_root/input/resources/terminology/CodeSystem-hp.json
 

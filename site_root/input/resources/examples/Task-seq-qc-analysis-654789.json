@@ -1,0 +1,79 @@
+{
+  "resourceType": "Task",
+  "id": "seq-qc-analysis-654789",
+  "meta": {
+    "profile": [
+      "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-sequencing-qc-analysis"
+    ]
+  },
+  "status": "completed",
+  "intent": "order",
+  "priority": "routine",
+  "focus": {
+    "reference": "ServiceRequet/SR93939"
+  },
+  "Code": {
+    "coding": [
+      {
+        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-types",
+        "code": "QC",
+        "display": "Sequencing QC Analysis"
+      }
+    ]
+  },
+  "for": {
+    "reference": "Patient/PA393893",
+    "type": "Patient"
+  },
+  "authoredOn": "2016-10-31T08:25:05+10:00",
+  "owner": {
+    "reference": "Organization/OR93939",
+    "type": "Organization"
+  },
+  "input": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type",
+            "code": "SA",
+            "display": "Sequencing Alignment Analysis"
+          }
+        ]
+      },
+      "valueReference": {
+        "reference": "task/TA0202"
+      }
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type",
+            "code": "VC",
+            "display": "Variant Calling Analysis"
+          }
+        ]
+      },
+      "valueReference": {
+        "reference": "task/TA0203"
+      }
+    }
+  ],
+  "output": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+            "code": "TGZ",
+            "display": "TGZ Archive File"
+          }
+        ]
+      },
+      "valueReference": {
+        "reference": "DocumentReference/DR923983"
+      }
+    }
+  ]
+}
