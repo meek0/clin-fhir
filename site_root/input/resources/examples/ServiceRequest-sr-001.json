@@ -47,13 +47,13 @@
       "reference": "Practitioner/pr-001",
       "authorString": "Joe Smith",
       "time": "2019-05-09T11:00:00+00:00",
-      "text": "Nouveau statut: **Incomplète**.  Note: Manque de l'information"
+      "text": "**Statut**: *Incomplète*. **Commentaire** : Manque d'information"
     },
     {
       "reference": "Practitioner/pr-001",
       "authorString": "Joe blo",
       "time": "2019-05-09T11:00:00+00:00",
-      "text": "Nouveau statut: **Approuvée**"
+      "text": "**Statut**: *Approuvée*"
     }
   ]
 }
