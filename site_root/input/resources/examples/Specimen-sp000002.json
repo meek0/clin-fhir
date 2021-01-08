@@ -1,0 +1,39 @@
+{
+  "resourceType": "Specimen",
+  "id": "sp000002",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-03-09T10:33:38.304+00:00"
+  },
+  "identifier": [
+    {
+      "value": "571312",
+      "assigner": {
+        "reference": "Organisation/LDM_1"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/PT49494"
+  },
+  "type": {
+    "coding": [
+      {
+        "system": "http://fhir.cqgc.ferlab.bio/StructureDefinition/specimen-type",
+        "code": "TUMOR",
+        "display": "Tumor Specimen"
+      }
+    ]
+  },
+  "collection": {
+    "bodySite": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "21483005",
+          "display": "Structure of central nervous system"
+        }
+      ]
+    }
+  }
+}
