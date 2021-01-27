@@ -35,6 +35,16 @@
             "text": "Key-values Json format "
         }
     ],
+    "input": [
+        {
+            "type": {
+                "text": "analysed sample"
+            },
+            "valueReference": {
+                "reference": "Specimen/101"
+            }
+        }
+    ],
     "output": [
         {
             "type": {
