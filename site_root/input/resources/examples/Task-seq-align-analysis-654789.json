@@ -38,7 +38,7 @@
     "input": [
         {
             "type": {
-                "text": "analysed sample"
+                "text": "Analysed sample"
             },
             "valueReference": {
                 "reference": "Specimen/101"
