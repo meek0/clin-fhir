@@ -57,8 +57,8 @@
         "coding": [
           {
             "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
-            "code": "VCF",
-            "display": "VCF File"
+            "code": "GVCF",
+            "display": "gVCF File"
           }
         ]
       },
