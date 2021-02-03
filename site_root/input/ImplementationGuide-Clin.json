@@ -349,6 +349,22 @@
         "reference": {
           "reference": "StructureDefinition/is-submitted"
         }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition is-fetus, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/is-fetus",
+        "reference": {
+          "reference": "StructureDefinition/is-fetus"
+        }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition family-relation, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/family-relation",
+        "reference": {
+          "reference": "StructureDefinition/family-relation"
+        }
       }
     ]
   },
