@@ -93,6 +93,25 @@
         "isModifier": false
       },
       {
+        "id": "Patient.extension:is-fetus",
+        "path": "Patient.extension",
+        "sliceName": "is-fetus",
+        "short": "Position of cqgc Patient",
+        "definition": "Allows to know if the patient is a fetus or not",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-fetus"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": false
+      },
+      {
         "id": "Patient.extension:blood-relationship",
         "path": "Patient.extension",
         "sliceName": "blood-relationship",
@@ -105,6 +124,25 @@
             "code": "Extension",
             "profile": [
               "http://fhir.cqgc.ferlab.bio/StructureDefinition/blood-relationship"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": false
+      },
+      {
+        "id": "Patient.extension:family-relation",
+        "path": "Patient.extension",
+        "sliceName": "family-relation",
+        "short": "Relation familliale",
+        "definition": "Information about the family members",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation"
             ]
           }
         ],
