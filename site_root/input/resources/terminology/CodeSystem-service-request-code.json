@@ -1,50 +1,199 @@
 {
-    "resourceType": "CodeSystem",
-    "id": "service-request-code",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
-    "version": "0.1.0",
-    "name": "service-request-code",
-    "title": "service request code",
-    "status": "draft",
-    "experimental": false,
-    "publisher": "Ferlab.bio",
-    "description": "Codes of service request in our system",
-    "caseSensitive": true,
-    "content": "complete",
-    "count": 3,
-    "concept": [
-      {
-        "code": "WXS",
-        "display":"Whole Exome Sequencing",
-        "definition":"Process of determining the complete DNA sequence of the genome at a single time",
-        "designation":[
-          {
-            "language":"fr",
-            "value":"Séquençage du Génome Entier"
-          }
-        ]
-      },
-      {
-        "code": "WGS",
-        "display":"Whole Genome Sequencing",
-        "definition":"Process of determining all of the exons within the genome sequence at a single time",
-        "designation":[
-          {
-            "language":"fr",
-            "value":"Séquençage de l'Exome Entier"
-          }
-        ]
-      },
-      {
-        "code": "GP",
-        "display":"Gene Panel",
-        "definition":"Process of determining the complete sequences of the indicated gene panel at a single time",
-        "designation":[
-          {
-            "language":"fr",
-            "value":"Panel de Gènes"
-          }
-        ]
-      }
-    ]
-  }
+  "resourceType": "CodeSystem",
+  "id": "service-request-code",
+  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+  "version": "0.1.0",
+  "name": "service-request-code",
+  "title": "service request code",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Codes of service request in our system",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "WXS",
+      "display": "Whole Exome Sequencing",
+      "definition": "Process of determining the complete DNA sequence of the genome at a single time",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Séquençage du Génome Entier"
+        }
+      ]
+    },
+    {
+      "code": "WGS",
+      "display": "Whole Genome Sequencing",
+      "definition": "Process of determining all of the exons within the genome sequence at a single time",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Séquençage de l'Exome Entier"
+        }
+      ]
+    },
+    {
+      "code": "GP",
+      "display": "Gene Panel",
+      "definition": "Process of determining the complete sequences of the indicated gene panel at a single time",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Panel de Gènes"
+        }
+      ]
+    },
+    {
+      "code": "PCA",
+      "display": "Prédisposition aux cancers chez l'adulte",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Prédisposition aux cancers chez l'adulte"
+        }
+      ]
+    },
+    {
+      "code": "PTSE",
+      "display": "Prédisposition aux tumeurs solides de l'enfant",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Prédisposition aux tumeurs solides de l'enfant"
+        }
+      ]
+    },
+    {
+      "code": "PHME",
+      "display": "Prédisposition aux hématopathies malignes de l'enfant",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Prédisposition aux hématopathies malignes de l'enfant"
+        }
+      ]
+    },
+    {
+      "code": "SED",
+      "display": "Syndrome d’Ehlers-Danlos",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Syndrome d’Ehlers-Danlos"
+        }
+      ]
+    },
+    {
+      "code": "SP",
+      "display": "Syndromes polymalformatifs (trio)",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Syndromes polymalformatifs (trio)"
+        }
+      ]
+    },
+    {
+      "code": "MM",
+      "display": "Maladies musculaires",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Maladies musculaires"
+        }
+      ]
+    },
+    {
+      "code": "SLA",
+      "display": "Sclérose latérale amyotrophique",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Sclérose latérale amyotrophique"
+        }
+      ]
+    },
+    {
+      "code": "RET",
+      "display": "Retinopathies",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Retinopathies"
+        }
+      ]
+    },
+    {
+      "code": "SUR",
+      "display": "Surdité",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Surdité"
+        }
+      ]
+    },
+    {
+      "code": "DI",
+      "display": "Déficience Intellectuelle (trio)",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Déficience Intellectuelle (trio)"
+        }
+      ]
+    },
+    {
+      "code": "GMN",
+      "display": "Gènes mitochondriaux nucléaires",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Gènes mitochondriaux nucléaires"
+        }
+      ]
+    },
+    {
+      "code": "RAS",
+      "display": "Rasopathies",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Rasopathies"
+        }
+      ]
+    },
+    {
+      "code": "CAR",
+      "display": "Cardiomyopathies",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Cardiomyopathies"
+        }
+      ]
+    },
+    {
+      "code": "AH",
+      "display": "Arythmies héréditaires",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Arythmies héréditaires"
+        }
+      ]
+    },
+    {
+      "code": "AOR",
+      "display": "Aortopathies",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Aortopathies"
+        }
+      ]
+    }
+  ]
+}
