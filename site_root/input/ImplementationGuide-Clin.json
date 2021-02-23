@@ -365,61 +365,13 @@
         "reference": {
           "reference": "StructureDefinition/family-relation"
         }
-      },
-      {
-        "description": "Ferlab.bio StructureDefinition variant-type, Base: Extension",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio StructureDefinition/variant-type",
-        "reference": {
-          "reference": "StructureDefinition/variant-type"
-        }
-      },
-      {
-        "description": "Ferlab.bio StructureDefinition document-format, Base: Extension",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio StructureDefinition/document-format",
-        "reference": {
-          "reference": "StructureDefinition/document-format"
-        }
-      },
+      }
       {
         "description": "Ferlab.bio StructureDefinition specimen-type, Base: Extension",
         "exampleBoolean": false,
         "name": "Ferlab.bio StructureDefinition/specimen-type",
         "reference": {
           "reference": "StructureDefinition/specimen-type"
-        }
-      },
-      {
-        "description": "Ferlab.bio StructureDefinition data-type, Base: Extension",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio StructureDefinition/data-type",
-        "reference": {
-          "reference": "StructureDefinition/data-type"
-        }
-      },
-      {
-        "description": "Ferlab.bio StructureDefinition data-category, Base: Extension",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio StructureDefinition/data-category",
-        "reference": {
-          "reference": "StructureDefinition/data-category"
-        }
-      },
-      {
-        "description": "Ferlab.bio StructureDefinition genome-build, Base: Extension",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio StructureDefinition/genome-build",
-        "reference": {
-          "reference": "StructureDefinition/genome-build"
-        }
-      },
-      {
-        "description": "Ferlab.bio StructureDefinition experimental-strategy, Base: Extension",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio StructureDefinition/experimental-strategy",
-        "reference": {
-          "reference": "StructureDefinition/experimental-strategy"
         }
       },
       {
@@ -559,171 +511,155 @@
         }
       },
       {
-        "description": "Ferlab.bio StructureDefinition cqgc-document-reference-vcf, Base: DocumentReference",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio StructureDefinition/cqgc-document-reference-vcf",
+        "description": "Ferlab.bio Patient pt-001, Profiles: cqgc-patient",
+        "exampleBoolean": true,
+        "name": "Ferlab.bio Patient/pt-001",
         "reference": {
-          "reference": "StructureDefinition/cqgc-document-reference-vcf"
+          "reference": "Patient/pt-001"
         }
       },
       {
-        "description": "Ferlab.bio StructureDefinition cqgc-document-reference-cram, Base: DocumentReference",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio StructureDefinition/cqgc-document-reference-cram",
+        "description": "Ferlab.bio Observation cgh-001, Profiles: cqgc-observation",
+        "exampleBoolean": true,
+        "name": "Ferlab.bio Observation/cgh-001",
         "reference": {
-          "reference": "StructureDefinition/cqgc-document-reference-cram"
+          "reference": "Observation/cgh-001"
         }
       },
       {
-        "description": "Ferlab.bio StructureDefinition cqgc-document-reference-qc-report, Base: DocumentReference",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio StructureDefinition/cqgc-document-reference-qc-report",
+        "description": "Ferlab.bio Specimen sp000002",
+        "exampleBoolean": true,
+        "name": "Ferlab.bio Specimen/sp000002",
         "reference": {
-          "reference": "StructureDefinition/cqgc-document-reference-qc-report"
+          "reference": "Specimen/sp000002"
         }
       },
       {
-        "description": "Ferlab.bio StructureDefinition cqgc-document-reference-crai, Base: DocumentReference",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio StructureDefinition/cqgc-document-reference-crai",
+        "description": "Ferlab.bio Specimen sp000003",
+        "exampleBoolean": true,
+        "name": "Ferlab.bio Specimen/sp000003",
         "reference": {
-          "reference": "StructureDefinition/cqgc-document-reference-crai"
+          "reference": "Specimen/sp000003"
         }
       },
       {
-        "description": "Ferlab.bio StructureDefinition cqgc-document-reference-tbi, Base: DocumentReference",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio StructureDefinition/cqgc-document-reference-tbi",
+        "description": "Ferlab.bio PractitionerRole prr-001, Profiles: PractitionerRole",
+        "exampleBoolean": true,
+        "name": "Ferlab.bio PractitionerRole/prr-001",
         "reference": {
-          "reference": "StructureDefinition/cqgc-document-reference-tbi"
+          "reference": "PractitionerRole/prr-001"
         }
       },
       {
-        "description": "Ferlab.bio StructureDefinition cqgc-variant-calling-task, Base: Task",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio StructureDefinition/cqgc-variant-calling-task",
+        "description": "Ferlab.bio Observation ph-001, Profiles: cqgc-observation",
+        "exampleBoolean": true,
+        "name": "Ferlab.bio Observation/ph-001",
         "reference": {
-          "reference": "StructureDefinition/cqgc-variant-calling-task"
+          "reference": "Observation/ph-001"
         }
       },
       {
-        "description": "Ferlab.bio StructureDefinition seq-metrics, Base: Extension",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio StructureDefinition/seq-metrics",
+        "description": "Ferlab.bio FamilyMemberHistory fmh-001, Profiles: cqgc-fmh",
+        "exampleBoolean": true,
+        "name": "Ferlab.bio FamilyMemberHistory/fmh-001",
         "reference": {
-          "reference": "StructureDefinition/seq-metrics"
+          "reference": "FamilyMemberHistory/fmh-001"
         }
       },
       {
-        "description": "Ferlab.bio ValueSet v3-confidentiality",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio ValueSet/v3-confidentiality",
+        "description": "Ferlab.bio ServiceRequest sr-001, Profiles: cqgc-service-request",
+        "exampleBoolean": true,
+        "name": "Ferlab.bio ServiceRequest/sr-001",
         "reference": {
-          "reference": "ValueSet/v3-confidentiality"
+          "reference": "ServiceRequest/sr-001"
         }
       },
       {
-        "description": "Ferlab.bio ValueSet document-reference-doc-status",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio ValueSet/document-reference-doc-status",
+        "description": "Ferlab.bio Practitioner pr-001, Profiles: Practitioner",
+        "exampleBoolean": true,
+        "name": "Ferlab.bio Practitioner/pr-001",
         "reference": {
-          "reference": "ValueSet/document-reference-doc-status"
+          "reference": "Practitioner/pr-001"
         }
       },
       {
-        "description": "Ferlab.bio CodeSystem document-reference-status",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio CodeSystem/document-reference-status",
+        "description": "Ferlab.bio Observation ind-001, Profiles: cqgc-observation",
+        "exampleBoolean": true,
+        "name": "Ferlab.bio Observation/ind-001",
         "reference": {
-          "reference": "CodeSystem/document-reference-status"
+          "reference": "Observation/ind-001"
         }
       },
       {
-        "description": "Ferlab.bio CodeSystem document-reference-doc-status",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio CodeSystem/document-reference-doc-status",
+        "description": "Ferlab.bio Organization or-001, Profiles: Organization",
+        "exampleBoolean": true,
+        "name": "Ferlab.bio Organization/or-001",
         "reference": {
-          "reference": "CodeSystem/document-reference-doc-status"
+          "reference": "Organization/or-001"
         }
       },
       {
-        "description": "Ferlab.bio CodeSystem task-intent",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio CodeSystem/task-intent",
+        "description": "Ferlab.bio Group fa-001, Profiles: cqgc-family-group",
+        "exampleBoolean": true,
+        "name": "Ferlab.bio Group/fa-001",
         "reference": {
-          "reference": "CodeSystem/task-intent"
+          "reference": "Group/fa-001"
         }
       },
       {
-        "description": "Ferlab.bio ValueSet task-status",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio ValueSet/task-status",
+        "description": "Ferlab.bio ClinicalImpression ci-001, Profiles: cqdg-clinical-impression",
+        "exampleBoolean": true,
+        "name": "Ferlab.bio ClinicalImpression/ci-001",
         "reference": {
-          "reference": "ValueSet/task-status"
+          "reference": "ClinicalImpression/ci-001"
         }
       },
       {
-        "description": "Ferlab.bio CodeSystem task-status",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio CodeSystem/task-status",
+        "description": "Ferlab.bio Observation inv-001, Profiles: cqgc-observation",
+        "exampleBoolean": true,
+        "name": "Ferlab.bio Observation/inv-001",
         "reference": {
-          "reference": "CodeSystem/task-status"
+          "reference": "Observation/inv-001"
         }
       },
       {
-        "description": "Ferlab.bio ValueSet task-intent",
+        "description": "Ferlab.bio CodeSystem hp",
         "exampleBoolean": false,
-        "name": "Ferlab.bio ValueSet/task-intent",
+        "name": "Ferlab.bio CodeSystem/hp",
         "reference": {
-          "reference": "ValueSet/task-intent"
+          "reference": "CodeSystem/hp"
         }
       },
       {
-        "description": "Ferlab.bio ValueSet document-reference-status",
+        "description": "Ferlab.bio StructureDefinition workflow, Base: Extension",
         "exampleBoolean": false,
-        "name": "Ferlab.bio ValueSet/document-reference-status",
+        "name": "Ferlab.bio StructureDefinition/workflow",
         "reference": {
-          "reference": "ValueSet/document-reference-status"
+          "reference": "StructureDefinition/workflow"
         }
       },
       {
-        "description": "Ferlab.bio ValueSet document-reference-relates-to",
+        "description": "Ferlab.bio StructureDefinition cqgc-analysis-task, Base: Task",
         "exampleBoolean": false,
-        "name": "Ferlab.bio ValueSet/document-reference-relates-to",
+        "name": "Ferlab.bio StructureDefinition/cqgc-analysis-task",
         "reference": {
-          "reference": "ValueSet/document-reference-relates-to"
+          "reference": "StructureDefinition/cqgc-analysis-task"
         }
       },
       {
-        "description": "Ferlab.bio ValueSet task-priority",
+        "description": "Ferlab.bio StructureDefinition sequencing-experiment, Base: Extension",
         "exampleBoolean": false,
-        "name": "Ferlab.bio ValueSet/task-priority",
+        "name": "Ferlab.bio StructureDefinition/sequencing-experiment",
         "reference": {
-          "reference": "ValueSet/task-priority"
+          "reference": "StructureDefinition/sequencing-experiment"
         }
       },
       {
-        "description": "Ferlab.bio CodeSystem document-reference-relates-to",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio CodeSystem/document-reference-relates-to",
+        "description": "Ferlab.bio Task analysis-task-654789, Profiles: cqgc-analysis-task",
+        "exampleBoolean": true,
+        "name": "Ferlab.bio Task/analysis-task-654789",
         "reference": {
-          "reference": "CodeSystem/document-reference-relates-to"
-        }
-      },
-      {
-        "description": "Ferlab.bio CodeSystem v3-confidentiality",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio CodeSystem/v3-confidentiality",
-        "reference": {
-          "reference": "CodeSystem/v3-confidentiality"
-        }
-      },
-      {
-        "description": "Ferlab.bio CodeSystem task-priority",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio CodeSystem/task-priority",
-        "reference": {
-          "reference": "CodeSystem/task-priority"
+          "reference": "Task/analysis-task-654789"
         }
       }
     ]
