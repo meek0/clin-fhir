@@ -8,14 +8,6 @@
   },
   "extension": [
     {
-      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/qc-ethnicity",
-      "valueCoding": {
-        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
-        "code": "CA-FR",
-        "display": "French Canadian"
-      }
-    },
-    {
       "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-id",
       "valueReference": {
         "reference": "Group/fa-001"
@@ -24,14 +16,6 @@
     {
       "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-proband",
       "valueBoolean": true
-    },
-    {
-      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/blood-relationship",
-      "valueCoding": {
-        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/blood-relationship",
-        "code": "Y",
-        "display": "Yes"
-      }
     }
   ],
   "identifier": [
