@@ -119,6 +119,9 @@
         "type": [
           {
             "code": "CodeableConcept"
+          },
+          {
+            "code": "boolean"
           }
         ]
       },

@@ -70,7 +70,7 @@
     },
     {
       "code": "CONS",
-      "display": "consanguinité",
+      "display": "consanguinity",
       "definition": "Information if the parents are consanguineous",
       "designation": [
         {
