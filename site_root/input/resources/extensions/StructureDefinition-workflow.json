@@ -155,7 +155,7 @@
         ],
         "binding": {
           "strength": "required",
-          "description": "",
+          "description": "Genome build",
           "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/genome-build"
         }
       }

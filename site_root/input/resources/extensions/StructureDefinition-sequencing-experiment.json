@@ -3,7 +3,7 @@
   "id": "sequencing-experiment",
   "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment",
   "version": "0.1.0",
-  "name": "Sequencing expriment",
+  "name": "sequencing-experiment",
   "title": "Sequencing expriment",
   "status": "draft",
   "fhirVersion": "4.0.1",
@@ -386,7 +386,7 @@
         ],
         "binding": {
           "strength": "required",
-          "description": "",
+          "description": "Experimental strategy",
           "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy"
         }
       },
