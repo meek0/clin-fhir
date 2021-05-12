@@ -1,9 +1,9 @@
 {
   "resourceType": "Task",
-  "id": "variant-calling-analysis-654789",
+  "id": "analysis-task-654789",
   "meta": {
     "profile": [
-      "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-variant-calling-analysis"
+      "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-task"
     ]
   },
   "status": "completed",
@@ -12,7 +12,7 @@
   "focus": {
     "reference": "ServiceRequet/SR93939"
   },
-  "Code": {
+  "code": {
     "coding": [
       {
         "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type",
@@ -42,7 +42,7 @@
           {
             "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type",
             "code": "SA",
-            "display": "Sequencing Alignment Analysis"
+              "display": "Sequencing Alignment Analysis"
           }
         ]
       },
@@ -83,7 +83,6 @@
   ],
   "extension": [
     {
-      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow",
       "extension": [
         {
           "url": "workflowName",
@@ -94,17 +93,25 @@
           "valueString": "1.1.0"
         },
         {
-          "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/genome-build",
-          "valueCode": "GRCh38"
+          "url": "genomeBuild",
+          "valueCoding": {
+            "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build",
+            "code": "GRCh38",
+            "display": "GRCh38"
+          }
         }
-      ]
+      ],
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow"
     },
     {
-      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment",
       "extension": [
         {
-          "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/experimental-strategy",
-          "valueCode": "WXS"
+          "url": "experimentalStrategy",
+          "valueCoding": {
+            "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy",
+            "code": "WXS",
+            "display": "Whole Exome Sequencing"
+          }
         },
         {
           "url": "labAliquotId",
@@ -118,7 +125,8 @@
           "url": "baitDefinition",
           "valueString": "KAPA_HyperExome_hg38_capture_targets"
         }
-      ]
+      ],
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment"
     }
   ]
 }
