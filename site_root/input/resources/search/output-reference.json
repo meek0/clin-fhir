@@ -1,0 +1,21 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "output_documentreference",
+  "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference",
+  "version": "0.1.0",
+  "name": "output_documentreference",
+  "status": "active",
+  "experimental": true,
+  "publisher": "Ferlab",
+  "description": "Searches Document references by task output.",
+  "code": "output_documentreference",
+  "base": [
+    "Task"
+  ],
+  "type": "reference",
+  "expression": "Task.output.value",
+  "target": [
+    "DocumentReference"
+  ],
+  "date": "2020-07-20T20:58:16.044037+00:00"
+}
