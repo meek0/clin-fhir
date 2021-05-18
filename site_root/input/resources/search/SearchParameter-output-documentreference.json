@@ -1,6 +1,6 @@
 {
   "resourceType": "SearchParameter",
-  "id": "output_documentreference",
+  "id": "output-documentreference",
   "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference",
   "version": "0.1.0",
   "name": "output_documentreference",

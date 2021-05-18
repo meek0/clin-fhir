@@ -517,6 +517,14 @@
         "reference": {
           "reference": "StructureDefinition/sequencing-experiment"
         }
+      },
+      {
+        "description": "Ferlab.bio SearchParameter output-documentreference",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio SearchParameter/output-documentreference",
+        "reference": {
+          "reference": "SearchParameter/output-documentreference"
+        }
       }
     ]
   },
