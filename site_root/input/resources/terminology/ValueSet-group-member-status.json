@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "id": "group-member-status",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/group-member-status",
+  "version": "0.1.0",
+  "name": "group-member-status",
+  "title": "Group member status",
+  "status": "draft",
+  "experimental": false,
+  "date": "2020-08-12T13:29:08-04:00",
+  "publisher": "Ferlab.bio",
+  "description": "This value set includes age at onset codes from Human Phenotype Ontology.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://purl.obolibrary.org/obo/hp.owl",
+        "concept": [
+          {
+            "code": "AFF",
+            "display": "Affected",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Atteint(e)"
+              }
+            ]
+          },
+          {
+            "code": "UNF",
+            "display": "Unaffected",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Non-atteint(e)"
+              }
+            ]
+          },
+          {
+            "code": "UNK",
+            "display": "Juvenile onset",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Inconnu"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+
