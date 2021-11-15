@@ -8,7 +8,7 @@ mv site_root/input/resources/terminology/CodeSystem-hp.json CodeSystem-hp.json
 mv site_root/input/resources/examples examples
 #fhirutil validate --clear_output site_root/ig.ini
 wget https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -O scripts/publisher.jar
-gem install jekyll
+sudo gem install jekyll
 java -jar scripts/publisher.jar -ig site_root/ig.ini
 mv CodeSystem-hp.json site_root/input/resources/terminology/CodeSystem-hp.json
 
