@@ -55,7 +55,7 @@
           ],
           "binding": {
             "strength": "required",
-            "description": "Rtructure of the family, relating to the number of individuals belonging to it. The possible values ​​of which are limited to a list defined in a ValueSet source",
+            "description": "Structure of the family, relating to the number of individuals belonging to it. The possible values of which are limited to a list defined in a ValueSet source",
             "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/fm-structure"
           }
         }
