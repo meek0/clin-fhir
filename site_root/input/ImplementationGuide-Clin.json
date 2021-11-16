@@ -557,6 +557,14 @@
         "reference": {
           "reference": "StructureDefinition/resident-supervisor"
         }
+      },
+      {
+        "description": "Ferlab.bio SearchParameter run-name",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio SearchParameter/run-name",
+        "reference": {
+          "reference": "SearchParameter/run-name"
+        }
       }
     ]
   },
