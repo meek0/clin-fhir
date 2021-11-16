@@ -565,6 +565,22 @@
         "reference": {
           "reference": "SearchParameter/run-name"
         }
+      },
+      {
+        "description": "Ferlab.bio SearchParameter input-specimen",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio SearchParameter/input-specimen",
+        "reference": {
+          "reference": "SearchParameter/input-specimen"
+        }
+      },
+      {
+        "description": "Ferlab.bio SearchParameter contextspecimen",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio SearchParameter/contextspecimen",
+        "reference": {
+          "reference": "SearchParameter/contextspecimen"
+        }
       }
     ]
   },
