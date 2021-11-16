@@ -549,6 +549,14 @@
         "reference": {
           "reference": "StructureDefinition/group-member-status"
         }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition resident-supervisor, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/resident-supervisor",
+        "reference": {
+          "reference": "StructureDefinition/resident-supervisor"
+        }
       }
     ]
   },
