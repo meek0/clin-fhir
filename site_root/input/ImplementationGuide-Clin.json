@@ -525,6 +525,30 @@
         "reference": {
           "reference": "SearchParameter/output-documentreference"
         }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition full-size, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/full-size",
+        "reference": {
+          "reference": "StructureDefinition/full-size"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet group-member-status",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/group-member-status",
+        "reference": {
+          "reference": "ValueSet/group-member-status"
+        }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition group-member-status, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/group-member-status",
+        "reference": {
+          "reference": "StructureDefinition/group-member-status"
+        }
       }
     ]
   },
