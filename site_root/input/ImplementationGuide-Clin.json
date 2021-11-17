@@ -549,6 +549,38 @@
         "reference": {
           "reference": "StructureDefinition/group-member-status"
         }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition resident-supervisor, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/resident-supervisor",
+        "reference": {
+          "reference": "StructureDefinition/resident-supervisor"
+        }
+      },
+      {
+        "description": "Ferlab.bio SearchParameter run-name",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio SearchParameter/run-name",
+        "reference": {
+          "reference": "SearchParameter/run-name"
+        }
+      },
+      {
+        "description": "Ferlab.bio SearchParameter input-specimen",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio SearchParameter/input-specimen",
+        "reference": {
+          "reference": "SearchParameter/input-specimen"
+        }
+      },
+      {
+        "description": "Ferlab.bio SearchParameter contextspecimen",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio SearchParameter/contextspecimen",
+        "reference": {
+          "reference": "SearchParameter/contextspecimen"
+        }
       }
     ]
   },

@@ -73,6 +73,27 @@
         "isModifier": false
       },
       {
+        "id": "ServiceRequest.extension:resident-supervisor",
+        "path": "ServiceRequest.extension",
+        "sliceName": "resident-supervisor",
+        "sliceIsConstraining": false,
+        "label": "resident_supervisor",
+        "short": "Resident Supervisor",
+        "definition": "Refers to the supervisor of the resident practitioner",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.cqgc.ferlab.bio/StructureDefinition/resident-supervisor"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": false
+      },
+      {
         "id": "ServiceRequest.code",
         "path": "ServiceRequest.code",
         "type": [

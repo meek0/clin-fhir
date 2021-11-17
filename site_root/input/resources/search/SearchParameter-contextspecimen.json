@@ -1,0 +1,17 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "contextspecimen",
+  "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/contextspecimen",
+  "version": "0.1.0",
+  "name": "contextspecimen",
+  "status": "active",
+  "experimental": true,
+  "date": "2020-07-20T20:58:16.044037+00:00",
+  "publisher": "Ferlab",
+  "description": "Searches Specimen related to a DocumentReference.",
+  "code": "contextspecimen",
+  "base": [ "DocumentReference" ],
+  "type": "reference",
+  "expression": "DocumentReference.context.related",
+  "target": [ "Specimen" ]
+}

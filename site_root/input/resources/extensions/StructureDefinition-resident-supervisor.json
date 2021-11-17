@@ -1,0 +1,48 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "resident-supervisor",
+  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/resident-supervisor",
+  "version": "0.1.0",
+  "name": "resident-supervisor",
+  "title": "Resident Supervisor",
+  "status": "draft",
+  "description": "Reference of the supervisor",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "context": [ {
+    "type": "element",
+    "expression": "ServiceRequest"
+  } ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [ {
+      "id": "Extension",
+      "path": "Extension",
+      "short": "Resident Supervisor",
+      "definition": "Reference of the supervisor",
+      "min": 1,
+      "max": "1",
+      "mustSupport": true,
+      "isModifier": false
+    }, {
+      "id": "Extension.extension",
+      "path": "Extension.extension"
+    }, {
+      "id": "Extension.url",
+      "path": "Extension.url",
+      "type": [ {
+        "code": "uri"
+      } ],
+      "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/resident-supervisor"
+    }, {
+      "id": "Extension.value[x]",
+      "path": "Extension.value[x]",
+      "type": [ {
+        "code": "Reference"
+      } ]
+    } ]
+  }
+}
