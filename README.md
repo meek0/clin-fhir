@@ -50,6 +50,16 @@ java -jar scripts/publisher.jar -ig site_root/ig.ini -tx n/a
 ```
 
 ### 5. Publishing the model 
+
 ```shell
 fhirutil publish --base_url <FHIR_API_BASE_URL> --username <USERNAME> --password <PWD>
+```
+
+Alternatively you can use docker image :
+```shell
+docker run -e OAUTH_CLIENT_ID=client_id \
+ -e OAUTH_CLIENT_SECRET=client_secret clin-fhir \
+ --base_url https://fhir-green.qa.clin.ferlab.bio/fhir \
+ --oauth-url https://auth.qa.clin.ferlab.bio/auth/realms/clin/protocol/openid-connect/token \
+ --oauth-uma-audience clin-acl
 ```
