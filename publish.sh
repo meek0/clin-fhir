@@ -1,5 +1,5 @@
 #!/bin/sh
-set -e
+set -xe
 
 if [[ ! -z ${OAUTH_URL} ]];
 then
@@ -36,7 +36,7 @@ then
   password="--password $PASSWORD"
 fi
 
-fhirutil publish $oauth_url $oauth_client_id $oauth_client_secret $oauth_client_secret $base_url $username $password $@ site_root/input/resources/terminology
-fhirutil publish $oauth_url $oauth_client_id $oauth_client_secret $oauth_client_secret $oauth_uma_audience $base_url $username $password $@ site_root/input/resources/extensions
-fhirutil publish $oauth_url $oauth_client_id $oauth_client_secret $oauth_client_secret $oauth_uma_audience $base_url $username $password $@ site_root/input/resources/search
-fhirutil publish $oauth_url $oauth_client_id $oauth_client_secret $oauth_client_secret $oauth_uma_audience $base_url $username $password $@ site_root/input/resources/profiles
+fhirutil publish $oauth_url $oauth_client_id $oauth_client_secret $oauth_uma_audience $base_url $username $password $@ site_root/input/resources/terminology
+fhirutil publish $oauth_url $oauth_client_id $oauth_client_secret $oauth_uma_audience $base_url $username $password $@ site_root/input/resources/extensions
+fhirutil publish $oauth_url $oauth_client_id $oauth_client_secret $oauth_uma_audience $base_url $username $password $@ site_root/input/resources/search
+fhirutil publish $oauth_url $oauth_client_id $oauth_client_secret $oauth_uma_audience $base_url $username $password $@ site_root/input/resources/profiles
