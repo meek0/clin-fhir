@@ -45,6 +45,18 @@
           "value": "Contrôle de qualité de séquençage"
         }
       ]
+    },
+    {
+      "code": "EGA",
+      "display": "Exome germline analysis",
+      "definition": "Exome germline analysis",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Analyse germinale d'exomes"
+        }
+      ]
     }
+
   ]
 }
