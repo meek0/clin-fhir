@@ -47,8 +47,8 @@
       ]
     },
     {
-      "code": "EGA",
-      "display": "Exome germline analysis",
+      "code": "GEAN",
+      "display": "GEAN",
       "definition": "Exome germline analysis",
       "designation": [
         {
