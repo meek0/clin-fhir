@@ -94,6 +94,27 @@
         "isModifier": false
       },
       {
+        "id": "ServiceRequest.extension:procedure-directedBy",
+        "path": "ServiceRequest.extension",
+        "sliceName": "procedure-directedBy",
+        "sliceIsConstraining": false,
+        "label": "procedure_directedBy",
+        "short": "Procedure DirectedBy",
+        "definition": "Refers to the supervisor of the resident practitioner",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/procedure-directedBy"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": false
+      },
+      {
         "id": "ServiceRequest.code",
         "path": "ServiceRequest.code",
         "type": [
