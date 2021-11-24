@@ -1,0 +1,47 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "group-member-status",
+  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/group-member-status",
+  "version": "0.1.0",
+  "name": "group-member-status",
+  "title": "Group member status",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Group member status",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "AFF",
+      "display": "Affected",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Atteint(e)"
+        }
+      ]
+    },
+    {
+      "code": "UNF",
+      "display": "Unaffected",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Non-atteint(e)"
+        }
+      ]
+    },
+    {
+      "code": "UNK",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Inconnu"
+        }
+      ]
+    }
+  ]
+}
