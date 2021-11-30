@@ -13,7 +13,7 @@
   "content": "complete",
   "concept": [
     {
-      "code": "MM-PG",
+      "code": "MMG",
       "display": "Maladies musculaires (Panel global)",
       "designation": [
         {
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "code": "MM-DYST",
+      "code": "DYSTM",
       "display": "Dystrophies Musculaires",
       "designation": [
         {
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "code": "MM-RHAB",
+      "code": "RHAB",
       "display": "Rhabdomyolyse",
       "designation": [
         {
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "code": "MM-MYOP",
+      "code": "MYOPC",
       "display": "Myopathies congénitales",
       "designation": [
         {
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "code": "MM-MYAS",
+      "code": "MYASC",
       "display": "Myasthenias congénitales",
       "designation": [
         {
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "code": "MM-HYP",
+      "code": "HYPM",
       "display": "Hyperthermie maligne",
       "designation": [
         {
