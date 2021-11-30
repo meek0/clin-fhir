@@ -36,6 +36,17 @@
         ]
       },
       {
+        "code": "CNV",
+        "display": "Raw CNV calls",
+        "definition":"Raw CNV calls",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Variabilité du nombre de copies"
+          }
+        ]
+      },
+      {
         "code": "QC",
         "display": "QC Report",
         "definition":"QC report",
