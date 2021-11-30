@@ -38,10 +38,6 @@
       },
       {
         "code": "path-resource",
-        "value": "input/resources/examples"
-      },
-      {
-        "code": "path-resource",
         "value": "input/resources/extensions"
       },
       {
