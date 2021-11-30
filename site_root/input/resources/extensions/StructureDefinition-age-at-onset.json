@@ -55,7 +55,7 @@
           ],
           "binding": {
             "strength": "required",
-            "description": "The age of appearance of the clinical sign is an HPO term, the possible values ​​of which are limited to a list defined in a ValueSet source",
+            "description": "The age of appearance of the clinical sign is an HPO term, the possible values of which are limited to a list defined in a ValueSet source",
             "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset"
           }
         }

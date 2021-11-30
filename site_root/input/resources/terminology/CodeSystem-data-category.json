@@ -36,6 +36,17 @@
         ]
       },
       {
+        "code": "CNV",
+        "display": "Copy Number Variations",
+        "definition":" Copy number variations",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Variabilité du nombre de copies"
+          }
+        ]
+      },
+      {
         "code": "CLIN",
         "display": "Clinical",
         "definition":"Clinical",
