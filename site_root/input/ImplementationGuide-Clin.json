@@ -583,14 +583,6 @@
         }
       },
       {
-        "description": "Ferlab.bio CodeSystem hp",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio CodeSystem/hp",
-        "reference": {
-          "reference": "CodeSystem/hp"
-        }
-      },
-      {
         "description": "Ferlab.bio CodeSystem group-member-status",
         "exampleBoolean": false,
         "name": "Ferlab.bio CodeSystem/group-member-status",
