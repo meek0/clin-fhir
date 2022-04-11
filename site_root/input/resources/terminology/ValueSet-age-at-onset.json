@@ -20,7 +20,7 @@
             "designation": [
               {
                 "language": "fr",
-                "value": "Apparition pédiatrique"
+                "value": "Apparition pédiatrique (<= 15 ans)"
               }
             ]
           },
@@ -30,7 +30,7 @@
             "designation": [
               {
                 "language": "fr",
-                "value": "Apparition dans l'enfance"
+                "value": "Apparition dans l'enfance (28 jours <= âge < 1 an)"
               }
             ]
           },
@@ -40,7 +40,7 @@
             "designation": [
               {
                 "language": "fr",
-                "value": "Apparition juvénile"
+                "value": "Apparition juvénile (5 ans <= âge <= 15 ans)"
               }
             ]
           },
@@ -50,7 +50,7 @@
             "designation": [
               {
                 "language": "fr",
-                "value": "d'apparition chez l'enfant"
+                "value": "Apparition chez l'enfant (1 an <= âge < 5 ans)"
               }
             ]
           },
@@ -60,7 +60,7 @@
             "designation": [
               {
                 "language": "fr",
-                "value": "d'apparition anténatale"
+                "value": "Apparition anténatale"
               }
             ]
           },
@@ -70,7 +70,7 @@
             "designation": [
               {
                 "language": "fr",
-                "value": "d'apparition embryonnaire"
+                "value": "Apparition embryonnaire (âge < 10 semaines de gestation)"
               }
             ]
           },
@@ -80,7 +80,7 @@
             "designation": [
               {
                 "language": "fr",
-                "value": "d'apparition foetale"
+                "value": "Apparition foetale (âge >= 10 semaines de gestation)"
               }
             ]
           },
@@ -90,7 +90,7 @@
             "designation": [
               {
                 "language": "fr",
-                "value": "d'apparition congénitale"
+                "value": "Apparition congénitale"
               }
             ]
           },
@@ -100,7 +100,7 @@
             "designation": [
               {
                 "language": "fr",
-                "value": "d'apparition néonatale"
+                "value": "Apparition néonatale (âge < 28 jours)"
               }
             ]
           },
@@ -110,7 +110,7 @@
             "designation": [
               {
                 "language": "fr",
-                "value": "Début à l'âge adulte"
+                "value": "Apparition à l'âge adulte ( âge >= 16 ans)"
               }
             ]
           },
@@ -120,7 +120,7 @@
             "designation": [
               {
                 "language": "fr",
-                "value": "d'apparition à l'âge moyen"
+                "value": "Apparition à l'âge moyen (40 ans <= âge < 60 ans)"
               }
             ]
           },
@@ -130,7 +130,7 @@
             "designation": [
               {
                 "language": "fr",
-                "value": "d'apparition chez l'adulte jeune"
+                "value": "Apparition chez le jeune adulte (16 ans <= âge < 40 ans)"
               }
             ]
           },
@@ -140,7 +140,7 @@
             "designation": [
               {
                 "language": "fr",
-                "value": "Début tardif"
+                "value": "Apparition tardive (âge >= 60 ans)"
               }
             ]
           }
