@@ -1,14 +1,14 @@
 {
   "resourceType": "ValueSet",
   "id": "hpo-category",
-  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-abnormalities",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-hpo",
   "version": "0.1.0",
-  "name": "rgdi-abnormalities",
-  "title": "Global developmental Delay / intellectual deficiency abnormalities",
+  "name": "rgdi-default-hpo",
+  "title": "Global developmental Delay / intellectual deficiency default clinical signs (HPO code)",
   "status": "draft",
   "experimental": false,
   "publisher": "Ferlab.bio",
-  "description": "Category of global developmental delay / intellectual deficiency abnormalities (HPO code)",
+  "description": "Global developmental Delay / intellectual deficiency default clinical signs (HPO code)",
   "compose": {
     "include": [
       {

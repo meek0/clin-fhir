@@ -1,14 +1,14 @@
 {
   "resourceType": "ValueSet",
   "id": "hpo-category",
-  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-abnormalities",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-hpo",
   "version": "0.1.0",
-  "name": "mmg-abnormalities",
-  "title": "Muscle abnormalities",
+  "name": "mmg-default-hpo",
+  "title": "Muscle disease  default clinical signs (HPO code)",
   "status": "draft",
   "experimental": false,
   "publisher": "Ferlab.bio",
-  "description": "Category of muscle abnormalities (HPO code)",
+  "description": "Muscle disease  default clinical signs (HPO code)",
   "compose": {
     "include": [
       {

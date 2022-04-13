@@ -1,14 +1,14 @@
 {
   "resourceType": "ValueSet",
   "id": "hpo-category",
-  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-abnormalities",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-hpo",
   "version": "0.1.0",
-  "name": "mitn-abnormalities",
-  "title": "Nuclear Mitochondriopathies abnormalities",
+  "name": "mitn-default-hpo",
+  "title": "Nuclear Mitochondriopathies default clinical signs (HPO code)",
   "status": "draft",
   "experimental": false,
   "publisher": "Ferlab.bio",
-  "description": "Category of Nuclear Mitochondriopathies abnormalities (HPO code)",
+  "description": "Category of Nuclear Mitochondriopathies default clinical signs (HPO code)",
   "compose": {
     "include": [
       {
