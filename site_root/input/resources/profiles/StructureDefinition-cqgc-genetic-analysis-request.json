@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
   "id": "cqgc-service-request",
-  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-service-request",
+  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-genetic-analysis-request",
   "version": "0.1.0",
-  "name": "cqgc-service-request",
-  "title": "cqgc Service Request",
+  "name": "cqgc-genetic-analysis-request",
+  "title": "CQGC Genetic Analysis Service Request",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",
@@ -33,39 +33,20 @@
         }
       },
       {
-        "id": "ServiceRequest.extension:is-submitted",
+        "id": "ServiceRequest.extension:request-statutReason",
         "path": "ServiceRequest.extension",
-        "sliceName": "is-submitted",
-        "short": "Submission status of ServiceRequest",
-        "definition": "Whether the Service Request is submitted or not",
-        "min": 1,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-submitted"
-            ]
-          }
-        ],
-        "mustSupport": true,
-        "isModifier": false
-      },
-      {
-        "id": "ServiceRequest.extension:clinical-impression",
-        "path": "ServiceRequest.extension",
-        "sliceName": "clinical-impression",
+        "sliceName": "request-statutReason",
         "sliceIsConstraining": false,
-        "label": "clinical_impression",
-        "short": "Medical Consultation",
-        "definition": "Refers to the consultation from which the request results",
+        "label": "request-statutReason",
+        "short": "request-statutReason",
+        "definition": "Captures the reason for the current state of the resource",
         "min": 0,
-        "max": "1",
+        "max": 1,
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression"
+              "http://hl7.org/fhir/StructureDefinition/request-statusReason"
             ]
           }
         ],
@@ -81,7 +62,7 @@
         "short": "Resident Supervisor",
         "definition": "Refers to the supervisor of the resident practitioner",
         "min": 0,
-        "max": "1",
+        "max": 1,
         "type": [
           {
             "code": "Extension",
@@ -102,7 +83,7 @@
         "short": "Procedure DirectedBy",
         "definition": "Refers to the supervisor of the resident practitioner",
         "min": 0,
-        "max": "1",
+        "max": 1,
         "type": [
           {
             "code": "Extension",
@@ -125,8 +106,23 @@
         "binding": {
           "strength": "required",
           "description": "ServiceRequest codes",
-          "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/service-request-code"
+          "valueSet": "http://fhir.cqgc.ferlab.bio/CodeSystem/gene-panel-code"
         }
+      },
+      {
+        "id": "ServiceRequest.basedOn",
+        "path": "ServiceRequest.basedOn",
+        "max": 0
+      },
+      {
+        "id": "ServiceRequest.specimen",
+        "path": "ServiceRequest.specimen",
+        "max": 0
+      },
+      {
+        "id": "ServiceRequest.supportingInfo",
+        "path": "ServiceRequest.supportingInfo",
+        "min": 1
       }
     ]
   },

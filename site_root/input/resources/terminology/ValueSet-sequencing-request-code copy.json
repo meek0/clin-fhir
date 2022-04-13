@@ -1,0 +1,19 @@
+{
+  "resourceType": "ValueSet",
+  "id": "service-request-code",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/sequencing-request-code",
+  "version": "0.1.0",
+  "name": "sequencing-request-code",
+  "title": "Sequencing request code ",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Codes of sequencing request in our system",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy"
+      }
+    ]
+  }
+}

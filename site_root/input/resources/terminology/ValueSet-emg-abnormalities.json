@@ -1,0 +1,62 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hpo-category",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/emg-abnormalities",
+  "version": "0.1.0",
+  "name": "emg-abnormalities",
+  "title": "EMG abnormalities",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Category of EMG abnormalities (HPO code)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://purl.obolibrary.org/obo/hp.owl",
+        "concept": [
+          {
+            "code": "HP:0030006",
+            "display": "Single fiber EMG abnormality",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie EMG à fibre unique"
+              }
+            ]
+          },
+          {
+            "code": "HP:0030000",
+            "display": "EMG: repetitive nerve stimulation abnormality",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "EMG : anomalie de la stimulation nerveuse répétitive"
+              }
+            ]
+          },
+          {
+            "code": "HP:0003445",
+            "display": "EMG: neuropathic changes",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "EMG : modifications neuropathiques"
+              }
+            ]
+          },
+          {
+            "code": "HP:0003458",
+            "display": "EMG: myopathic abnormalities",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "EMG : anomalies myopathiques"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "date": "2020-08-13T10:49:27-04:00"
+}

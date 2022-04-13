@@ -1,0 +1,262 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hpo-category",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/bmus-abnormalities",
+  "version": "0.1.0",
+  "name": "bmus-abnormalities",
+  "title": "Muscle biopsy abnormalities",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Category of mucle biopsy abnormalities (HPO code)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://purl.obolibrary.org/obo/hp.owl",
+        "concept": [
+          {
+            "code": "HP:0030089",
+            "display": "Abnormal muscle fiber protein expression",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Expression anormale des protéines des fibres musculaires"
+              }
+            ]
+          },
+          {
+            "code": "HP:0100299",
+            "display": "Muscle fiber inclusion bodies",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Corps d'inclusion de fibres musculaires"
+              }
+            ]
+          },
+          {
+            "code": "HP:0012269",
+            "display": "Abnormal muscle glycogen content",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Teneur anormale en glycogène musculaire"
+              }
+            ]
+          },
+          {
+            "code": "HP:0020201",
+            "display": "Abnormal sarcomere morphology",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Morphologie anormale des sarcomères"
+              }
+            ]
+          },
+          {
+            "code": "HP:0033684",
+            "display": "Abnormal muscle fiber-type distribution",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Distribution anormale des types de fibres musculaires"
+              }
+            ]
+          },
+          {
+            "code": "HP:0100295",
+            "display": "Muscle fiber atrophy",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Atrophie des fibres musculaires"
+              }
+            ]
+          },
+          {
+            "code": "HP:0012084",
+            "display": "Abnormality of skeletal muscle fiber size",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie de la taille des fibres des muscles squelettiques"
+              }
+            ]
+          },
+          {
+            "code": "HP:0009058",
+            "display": "Increased muscle lipid content",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Augmentation de la teneur en lipides musculaires"
+              }
+            ]
+          },
+          {
+            "code": "HP:0003200",
+            "display": "Ragged-red muscle fibers",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Fibres musculaires rouges en lambeaux"
+              }
+            ]
+          },
+          {
+            "code": "HP:0003687",
+            "display": "Centrally nucleated skeletal muscle fibers",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Fibres musculaires squelettiques à nucléation centrale"
+              }
+            ]
+          },
+          {
+            "code": "HP:0003736",
+            "display": "Autophagic vacuoles",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Vacuoles autophagiques"
+              }
+            ]
+          },
+          {
+            "code": "HP:0003555",
+            "display": "Muscle fiber splitting",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Fractionnement des fibres musculaires"
+              }
+            ]
+          },
+          {
+            "code": "HP:0003791",
+            "display": "Deposits immunoreactive to beta-amyloid protein",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Dépôts immunoréactifs à la protéine bêta-amyloïde"
+              }
+            ]
+          },
+          {
+            "code": "HP:0031542",
+            "display": "Myelin-like whorls in vacuolated fibers",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Verticilles ressemblant à de la myéline dans des fibres vacuolées"
+              }
+            ]
+          },
+          {
+            "code": "HP:0100298",
+            "display": "Motheaten muscle fibers",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Fibres musculaires mâchées"
+              }
+            ]
+          },
+          {
+            "code": "HP:0030362",
+            "display": "Reduced muscle carnitine level",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Réduction du niveau de carnitine musculaire"
+              }
+            ]
+          },
+          {
+            "code": "HP:0003805",
+            "display": "Rimmed vacuoles",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Vacuoles bordées"
+              }
+            ]
+          },
+          {
+            "code": "HP:0100293",
+            "display": "Muscle fiber hypertrophy",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Hypertrophie des fibres musculaires"
+              }
+            ]
+          },
+          {
+            "code": "HP:0100297",
+            "display": "Increased endomysial connective tissue",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Augmentation du tissu conjonctif endomysial"
+              }
+            ]
+          },
+          {
+            "code": "HP:0030230",
+            "display": "Central core regions in muscle fibers",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Régions du noyau central des fibres musculaires"
+              }
+            ]
+          },
+          {
+            "code": "HP:0100305",
+            "display": "Ring fibers",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Fibres annulaires"
+              }
+            ]
+          },
+          {
+            "code": "HP:0100296",
+            "display": "Perifascicular muscle fiber atrophy",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Atrophie des fibres musculaires périfasciculaires"
+              }
+            ]
+          },
+          {
+            "code": "HP:0031238",
+            "display": "Necklace skeletal muscle fibers",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Collier de fibres musculaires squelettiques"
+              }
+            ]
+          },
+          {
+            "code": "HP:0003713",
+            "display": "Muscle fiber necrosis",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Nécrose des fibres musculaires"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "date": "2020-08-13T10:49:27-04:00"
+}
