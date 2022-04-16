@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "cqgc-service-request",
-  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-genetic-analysis-request",
+  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-request",
   "version": "0.1.0",
-  "name": "cqgc-genetic-analysis-request",
+  "name": "cqgc-analysis-request",
   "title": "CQGC Genetic Analysis Service Request",
   "status": "draft",
   "fhirVersion": "4.0.1",

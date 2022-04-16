@@ -276,6 +276,26 @@
           "value": "Test syndrome de X fragile"
         }
       ]
+    },
+    {
+      "code": "MFTH",
+      "display": "Missing Mother",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Mère manquante"
+        }
+      ]
+    },
+    {
+      "code": "MMTH",
+      "display": "Missing Father",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Père manquant"
+        }
+      ]
     }
   ]
 }
