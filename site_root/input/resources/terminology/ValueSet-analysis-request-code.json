@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "id": "service-request-code",
+  "id": "analysis-request-code",
   "url": "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code",
   "version": "0.1.0",
   "name": "analysis-request-code",

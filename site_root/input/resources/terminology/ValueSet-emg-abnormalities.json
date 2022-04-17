@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "id": "hpo-category",
+  "id": "emg-abnormalities",
   "url": "http://fhir.cqgc.ferlab.bio/ValueSet/emg-abnormalities",
   "version": "0.1.0",
   "name": "emg-abnormalities",

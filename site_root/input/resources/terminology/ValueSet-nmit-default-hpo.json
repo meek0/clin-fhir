@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "id": "hpo-category",
+  "id": "mitn-default-hpo",
   "url": "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-hpo",
   "version": "0.1.0",
   "name": "mitn-default-hpo",

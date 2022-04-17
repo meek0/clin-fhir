@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "id": "hpo-category",
+  "id": "mmg-default-hpo",
   "url": "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-hpo",
   "version": "0.1.0",
   "name": "mmg-default-hpo",

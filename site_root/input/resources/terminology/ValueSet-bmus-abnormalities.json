@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "id": "hpo-category",
+  "id": "bmus-abnormalities",
   "url": "http://fhir.cqgc.ferlab.bio/ValueSet/bmus-abnormalities",
   "version": "0.1.0",
   "name": "bmus-abnormalities",

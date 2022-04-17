@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "id": "hpo-category",
+  "id": "rgdi-default-hpo",
   "url": "http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-hpo",
   "version": "0.1.0",
   "name": "rgdi-default-hpo",
