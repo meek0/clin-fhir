@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
   "id": "cqgc-service-request",
-  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-request",
+  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-service-request",
   "version": "0.1.0",
-  "name": "cqgc-analysis-request",
-  "title": "CQGC Genetic Analysis Service Request",
+  "name": "cqgc-service-request",
+  "title": "CQGC Service Request",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",
@@ -105,7 +105,7 @@
         ],
         "binding": {
           "strength": "required",
-          "description": "ServiceRequest codes",
+          "description": "Analysis request codes",
           "valueSet": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"
         }
       },
@@ -127,21 +127,6 @@
         ],
         "mustSupport": true,
         "isModifier": false
-      },
-      {
-        "id": "ServiceRequest.basedOn",
-        "path": "ServiceRequest.basedOn",
-        "max": 0
-      },
-      {
-        "id": "ServiceRequest.specimen",
-        "path": "ServiceRequest.specimen",
-        "max": 0
-      },
-      {
-        "id": "ServiceRequest.supportingInfo",
-        "path": "ServiceRequest.supportingInfo",
-        "min": 1
       }
     ]
   },
