@@ -1,83 +1,67 @@
 {
-    "resourceType": "CodeSystem",
-    "id": "data-type",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
-    "version": "0.1.0",
-    "name": "data-type",
-    "title": "Data types",
-    "status": "draft",
-    "experimental": false,
-    "publisher": "Ferlab.bio",
-    "description": "Data types",
-    "caseSensitive": true,
-    "content": "complete",
-    "count": 6,
-    "concept": [
-      {
-        "code": "AR",
-        "display": "Aligned Reads",
-        "definition":"Aligned reads",
-        "designation":[
-          {
-            "language":"fr",
-            "value":"Fragments alignés"
-          }
-        ]
-      },
-      {
-        "code": "SNV",
-        "display": "Raw SNV Calls",
-        "definition":"Raw SNV calls",
-        "designation":[
-          {
-            "language":"fr",
-            "value":"SNVs sans annotation"
-          }
-        ]
-      },
-      {
-        "code": "CNV",
-        "display": "Raw CNV calls",
-        "definition":"Raw CNV calls",
-        "designation":[
-          {
-            "language":"fr",
-            "value":"Variabilité du nombre de copies"
-          }
-        ]
-      },
-      {
-        "code": "QC",
-        "display": "QC Report",
-        "definition":"QC report",
-        "designation":[
-          {
-            "language":"fr",
-            "value":"Rapport contrôle de qualité"
-          }
-        ]
-      },
-      {
-        "code": "INDEX",
-        "display": "Sequencing Data Index",
-        "definition":"Sequencing data index",
-        "designation":[
-          {
-            "language":"fr",
-            "value":"Index de données de séquençage"
-          }
-        ]
-      },
-      {
-        "code": "CF",
-        "display": "Consent Form",
-        "definition":"Consent form",
-        "designation":[
-          {
-            "language":"fr",
-            "value":"Formulaire de consentement"
-          }
-        ]
-      }
-    ]
-  }
+  "resourceType": "CodeSystem",
+  "id": "data-type",
+  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
+  "version": "0.1.0",
+  "name": "data-type",
+  "title": "Data types",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Data types",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "ALIR",
+      "display": "Aligned Reads",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Fragments alignés"
+        }
+      ]
+    },
+    {
+      "code": "SNV",
+      "display": "SNV Calls",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "SNV"
+        }
+      ]
+    },
+    {
+      "code": "CNV",
+      "display": "CNV Calls",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "CNV"
+        }
+      ]
+    },
+    {
+      "code": "QCRE",
+      "display": "Quality Control Report",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Rapport de controle de qualité"
+        }
+      ]
+    },
+    {
+      "code": "INDX",
+      "display": "Sequencing Data Index",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Index de données de séquençage"
+        }
+      ]
+    }
+  ]
+}

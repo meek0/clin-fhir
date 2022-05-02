@@ -1,0 +1,19 @@
+{
+    "resourceType": "ValueSet",
+    "id": "analysis-type",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code",
+    "version": "0.1.0",
+    "name": "bioinfo-analysis-code",
+    "title": "Bioinformatic analysis codes",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "Bioinformatic analysis codes",
+    "compose": {
+      "include": [
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code"
+        }
+      ]
+    }
+  }

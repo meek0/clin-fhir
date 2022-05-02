@@ -1,83 +1,27 @@
 {
-    "resourceType": "CodeSystem",
-    "id": "data-category",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-category",
-    "version": "0.1.0",
-    "name": "data-category",
-    "title": "Data categories",
-    "status": "draft",
-    "experimental": false,
-    "publisher": "Ferlab.bio",
-    "description": "Data categories",
-    "caseSensitive": true,
-    "content": "complete",
-    "count": 6,
-    "concept": [
-      {
-        "code": "SR",
-        "display": "Sequencing Reads",
-        "definition":"Sequencing reads",
-        "designation":[
-          {
-            "language":"fr",
-            "value":"Fragments de séquençage"
-          }
-        ]
-      },
-      {
-        "code": "SNV",
-        "display": "Simple Nucleotide Variations",
-        "definition":"Simple nucleotide variations",
-        "designation":[
-          {
-            "language":"fr",
-            "value":"Variations nucléotidiques simples"
-          }
-        ]
-      },
-      {
-        "code": "CNV",
-        "display": "Copy Number Variations",
-        "definition":" Copy number variations",
-        "designation":[
-          {
-            "language":"fr",
-            "value":"Variabilité du nombre de copies"
-          }
-        ]
-      },
-      {
-        "code": "CLIN",
-        "display": "Clinical",
-        "definition":"Clinical",
-        "designation":[
-          {
-            "language":"fr",
-            "value":"Clinique"
-          }
-        ]
-      },
-      {
-        "code": "PA",
-        "display": "Patient Consent",
-        "definition":"Patient consent",
-        "designation":[
-          {
-            "language":"fr",
-            "value":"Consentement de patient"
-          }
-        ]
-      },
-      {
-        "code": "RE",
-        "display": "Sequencing Report",
-        "definition":"Sequencing report",
-        "designation":[
-          {
-            "language":"fr",
-            "value":"Rapport de séquençage"
-          }
-        ]
-      }
-    ]
-  }
+  "resourceType": "CodeSystem",
+  "id": "data-category",
+  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-category",
+  "version": "0.1.0",
+  "name": "data-category",
+  "title": "Data categories",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Data categories",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 1,
+  "concept": [
+    {
+      "code": "GENO",
+      "display": "Genomics",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Génomique"
+        }
+      ]
+    }
+  ]
+}

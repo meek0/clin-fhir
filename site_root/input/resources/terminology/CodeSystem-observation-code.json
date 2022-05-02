@@ -4,14 +4,14 @@
   "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
   "version": "0.1.0",
   "name": "observation-code",
-  "title": "observation code",
+  "title": "Observation codes",
   "status": "draft",
   "experimental": false,
   "publisher": "Ferlab.bio",
   "description": "Codes of observations in our system",
   "caseSensitive": true,
   "content": "complete",
-  "count": 4,
+  "count": 24,
   "concept": [
     {
       "code": "CGH",
