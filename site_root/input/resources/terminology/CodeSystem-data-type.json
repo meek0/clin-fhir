@@ -25,7 +25,7 @@
     },
     {
       "code": "SNV",
-      "display": "SNV Calls",
+      "display": "SNV",
       "designation": [
         {
           "language": "fr",
@@ -34,12 +34,12 @@
       ]
     },
     {
-      "code": "CNV",
-      "display": "CNV Calls",
+      "code": "GCNV",
+      "display": "Germline CNV",
       "designation": [
         {
           "language": "fr",
-          "value": "CNV"
+          "value": "CNV germinale"
         }
       ]
     },
