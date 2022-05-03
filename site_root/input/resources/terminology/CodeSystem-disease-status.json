@@ -1,0 +1,47 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "disease-status",
+  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status",
+  "version": "0.1.0",
+  "name": "disease-status",
+  "title": "Disease status",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Disease status",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "AFFE",
+      "display": "Affected",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Atteint"
+        }
+      ]
+    },
+    {
+      "code": "NAFF",
+      "display": "Non-affected",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Non-atteint"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknow",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Inconnu"
+        }
+      ]
+    }
+  ]
+}
