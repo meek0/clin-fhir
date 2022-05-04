@@ -44,12 +44,12 @@
       ]
     },
     {
-      "code": "QCRE",
-      "display": "Quality Control Report",
+      "code": "SSUP",
+      "display": "Sequencing Data Supplement",
       "designation": [
         {
           "language": "fr",
-          "value": "Rapport de controle de qualité"
+          "value": "Données de séquençage supplémentaires"
         }
       ]
     },
