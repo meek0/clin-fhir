@@ -11,89 +11,41 @@
   "description": "Codes of observations in our system",
   "caseSensitive": true,
   "content": "complete",
-  "count": 24,
+  "count": 25,
   "concept": [
     {
-      "code": "CGH",
-      "display": "CGH",
-      "definition": "Comparative genomic hybridization",
+      "code": "OBSG",
+      "display": "General Observation",
       "designation": [
         {
           "language": "fr",
-          "value": "Hybridation génomique comparative"
+          "value": "Observation générale"
         }
       ]
     },
     {
-      "code": "INDI",
+      "code": "INDIC",
       "display": "Indication",
-      "definition": "Diagnostic hypothesis",
       "designation": [
         {
           "language": "fr",
-          "value": "Hypothèse diagnostique"
+          "value": "Indication"
         }
       ]
     },
     {
       "code": "INVES",
       "display": "Investigation",
-      "definition": "Summary of the other investigations carried out",
       "designation": [
         {
           "language": "fr",
-          "value": "Résumé des autres investigations"
-        }
-      ]
-    },
-    {
-      "code": "PHENO",
-      "display": "Phenotype",
-      "definition": "Clinical sign observed in the patient ",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Signe clinique"
-        }
-      ]
-    },
-    {
-      "code": "ETHN",
-      "display": "Ethnicity",
-      "definition": "Patient ethnicity ",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Ethnicité du patient"
-        }
-      ]
-    },
-    {
-      "code": "CONS",
-      "display": "Consanguinity",
-      "definition": "Parent consanguinity",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "cosanguinité du patient"
-        }
-      ]
-    },
-    {
-      "code": "OBSG",
-      "display": "General Observation",
-      "definition": "General observation",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "observation générale"
+          "value": "Investigation"
         }
       ]
     },
     {
       "code": "BMUS",
-      "display": "Muscle Biopsy",
-      "definition": "Muscle biopsy",
+      "display": "Muscle biopsy",
       "designation": [
         {
           "language": "fr",
@@ -103,8 +55,7 @@
     },
     {
       "code": "BMET",
-      "display": "Metabolic Work-up",
-      "definition": "Metabolic work-up",
+      "display": "Metabolic work-up",
       "designation": [
         {
           "language": "fr",
@@ -114,8 +65,7 @@
     },
     {
       "code": "CKIN",
-      "display": "Serum Creatine Kinase",
-      "definition": "Serum creatine kinase",
+      "display": "Serum creatine kinase",
       "designation": [
         {
           "language": "fr",
@@ -125,19 +75,37 @@
     },
     {
       "code": "CAAP",
-      "display": "Plasma Amino Acid Chromatography",
-      "definition": "Plasma Amino Acid Chromatography",
+      "display": "Plasma amino acid chromatography",
       "designation": [
         {
           "language": "fr",
-          "value": "Chromatographie acides aminés plasmatiquest"
+          "value": "Chromatographie acides aminés plasmatiques"
+        }
+      ]
+    },
+    {
+      "code": "ACYL",
+      "display": "Acylcarnitines",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Acylcarnitines"
         }
       ]
     },
     {
       "code": "IRMC",
       "display": "Cerebral MRI",
-      "definition": "Cerebral magnetic resonance imaging (MRI)",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "IRM cérébrale"
+        }
+      ]
+    },
+    {
+      "code": "IRMM",
+      "display": "Muscle MRI",
       "designation": [
         {
           "language": "fr",
@@ -146,20 +114,8 @@
       ]
     },
     {
-      "code": "IRMM",
-      "display": "Muscle MRI",
-      "definition": "Muscle magnetic resonance imaging (MRI) ",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Statut de la maladie du patient"
-        }
-      ]
-    },
-    {
       "code": "SRMN",
       "display": "NMR Spectroscopy",
-      "definition": "NMR spectroscopy",
       "designation": [
         {
           "language": "fr",
@@ -169,8 +125,7 @@
     },
     {
       "code": "ECAR",
-      "display": "Echocardiography",
-      "definition": "Echocardiography",
+      "display": "Cardiac Ultrasound",
       "designation": [
         {
           "language": "fr",
@@ -181,7 +136,6 @@
     {
       "code": "EABD",
       "display": "Abdominal Ultrasound",
-      "definition": "Abdominal ultrasound",
       "designation": [
         {
           "language": "fr",
@@ -192,7 +146,6 @@
     {
       "code": "EEG",
       "display": "Electroencephalogram (EEG)",
-      "definition": "electroencephalogram (EEG)",
       "designation": [
         {
           "language": "fr",
@@ -203,18 +156,16 @@
     {
       "code": "EMG",
       "display": "Electromyography (EMG)",
-      "definition": "Electromyography (EMG)",
       "designation": [
         {
           "language": "fr",
-          "value": "Électromyographie (EMG)"
+          "value": "Electromyographie (EMG)"
         }
       ]
     },
     {
       "code": "OPHT",
       "display": "Ophthalmological Examination",
-      "definition": "Ophthalmological examination",
       "designation": [
         {
           "language": "fr",
@@ -223,9 +174,18 @@
       ]
     },
     {
+      "code": "CONS",
+      "display": "Consanguinity",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Consanguinité"
+        }
+      ]
+    },
+    {
       "code": "DSTA",
       "display": "Patient Disease Status",
-      "definition": "Patient disease status",
       "designation": [
         {
           "language": "fr",
@@ -236,7 +196,6 @@
     {
       "code": "CTGR",
       "display": "CTG Repeat Testing (Steinert Disease)",
-      "definition": "CTG repeat testing (Steinert Disease)",
       "designation": [
         {
           "language": "fr",
@@ -247,7 +206,6 @@
     {
       "code": "GCNR",
       "display": "GCN Repeat Testing (oculopharyngeal muscular dystrophy)",
-      "definition": "GCN repeat testing (oculopharyngeal muscular dystrophy)",
       "designation": [
         {
           "language": "fr",
@@ -258,7 +216,6 @@
     {
       "code": "TGDD",
       "display": "Deletions and Duplications Testing (Duchenne and Becker dystrophies)",
-      "definition": "Deletions and duplications testing (Duchenne and Becker dystrophies)",
       "designation": [
         {
           "language": "fr",
@@ -269,7 +226,6 @@
     {
       "code": "TSXF",
       "display": "Fragile X Syndrome Testing",
-      "definition": "Fragile X syndrome testing",
       "designation": [
         {
           "language": "fr",
@@ -294,6 +250,16 @@
         {
           "language": "fr",
           "value": "Père manquant"
+        }
+      ]
+    },
+    {
+      "code": "ETHN",
+      "display": "Ethnicity",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Ethnicité"
         }
       ]
     }
