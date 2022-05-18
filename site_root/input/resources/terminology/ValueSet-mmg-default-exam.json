@@ -1,0 +1,92 @@
+{
+  "resourceType": "ValueSet",
+  "id": "mmg-default-exam",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam",
+  "version": "0.1.0",
+  "name": "mmg-default-exam",
+  "title": "Muscle disease  default para-clinic exams",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Muscle disease  default para-clinic exams",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+        "concept": [
+          {
+            "code": "CKIN",
+            "display": "Serum creatine kinase",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Créatine kinase sérique"
+              }
+            ]
+          },
+          {
+            "code": "BMUS",
+            "display": "Muscle biopsy",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Biopsie musculaire"
+              }
+            ]
+          },
+          {
+            "code": "IRMM",
+            "display": "Muscle MRI",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "IRM musculaire"
+              }
+            ]
+          },
+          {
+            "code": "EMG",
+            "display": "Electromyography (EMG)",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Electromyographie (EMG)"
+              }
+            ]
+          },
+          {
+            "code": "CTGR",
+            "display": "CTG Repeat Testing (Steinert Disease)",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Test répétitions CTG (maladie de Steinert)"
+              }
+            ]
+          },
+          {
+            "code": "GCNR",
+            "display": "GCN Repeat Testing (oculopharyngeal muscular dystrophy)",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Test répétitions GCN (dystrophie musculaire oculopharyngée)"
+              }
+            ]
+          },
+          {
+            "code": "TGDD",
+            "display": "Deletions and Duplications Testing (Duchenne and Becker dystrophies)",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Test délétions et duplication (dystrophies Duchenne et Becker)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "date": "2020-08-13T10:49:27-04:00"
+}

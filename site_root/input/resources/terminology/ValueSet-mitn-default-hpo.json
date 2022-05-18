@@ -1,0 +1,152 @@
+{
+  "resourceType": "ValueSet",
+  "id": "mitn-default-hpo",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-hpo",
+  "version": "0.1.0",
+  "name": "mitn-default-hpo",
+  "title": "Nuclear Mitochondriopathies default clinical signs (HPO code)",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Category of Nuclear Mitochondriopathies default clinical signs (HPO code)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://purl.obolibrary.org/obo/hp.owl",
+        "concept": [
+          {
+            "code": "HP.0003128",
+            "display": "Lactic acidosis",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Acidose lactique"
+              }
+            ]
+          },
+          {
+            "code": "HP.0001263",
+            "display": "Global developmental delay",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Retard global de développement"
+              }
+            ]
+          },
+          {
+            "code": "HP.0001290",
+            "display": "Generalized hypotonia",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Hypotonie généralisée"
+              }
+            ]
+          },
+          {
+            "code": "HP.0001250",
+            "display": "Seizures",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Crise d'épilepsie"
+              }
+            ]
+          },
+          {
+            "code": "HP.0006965",
+            "display": "Acute necrotizing encephalopathy",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Encéphalopathie nécrosante aiguë"
+              }
+            ]
+          },
+          {
+            "code": "HP.0001251",
+            "display": "Ataxia",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Ataxie"
+              }
+            ]
+          },
+          {
+            "code": "HP.0006554",
+            "display": "Acute hepatic failure",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Insuffisance hépatique aiguë"
+              }
+            ]
+          },
+          {
+            "code": "HP.0006582",
+            "display": "Reye syndrome-like episodes",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Épisodes de type syndrome de Reye"
+              }
+            ]
+          },
+          {
+            "code": "HP.0001638",
+            "display": "Cardiomyopathy",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Cardiomyopathie"
+              }
+            ]
+          },
+          {
+            "code": "HP.0001488",
+            "display": "Bilateral ptosis",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Ptose bilatérale"
+              }
+            ]
+          },
+          {
+            "code": "HP.0000508",
+            "display": "Ptosis",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Ptose"
+              }
+            ]
+          },
+          {
+            "code": "HP.0001138",
+            "display": "Optic neuropathy",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Neuropathie optique"
+              }
+            ]
+          },
+          {
+            "code": "HP.0000590",
+            "display": "Progressive external ophthalmoplegia",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Ophtalmoplégie externe progressive"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "date": "2020-08-13T10:49:27-04:00"
+}
