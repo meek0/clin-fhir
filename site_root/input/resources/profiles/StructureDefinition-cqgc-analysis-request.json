@@ -96,20 +96,6 @@
         "isModifier": false
       },
       {
-        "id": "ServiceRequest.code",
-        "path": "ServiceRequest.code",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "binding": {
-          "strength": "required",
-          "description": "ServiceRequest codes",
-          "valueSet": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"
-        }
-      },
-      {
         "id": "ServiceRequest.extension:family-member",
         "path": "ServiceRequest.extension",
         "sliceName": "family-member",
@@ -134,14 +120,28 @@
         "max": 0
       },
       {
-        "id": "ServiceRequest.specimen",
-        "path": "ServiceRequest.specimen",
-        "max": 0
+        "id": "ServiceRequest.code",
+        "path": "ServiceRequest.code",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "ServiceRequest codes",
+          "valueSet": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"
+        }
       },
       {
         "id": "ServiceRequest.supportingInfo",
         "path": "ServiceRequest.supportingInfo",
         "min": 1
+      },
+      {
+        "id": "ServiceRequest.specimen",
+        "path": "ServiceRequest.specimen",
+        "max": 0
       }
     ]
   },
