@@ -130,7 +130,7 @@
         "binding": {
           "strength": "required",
           "description": "ServiceRequest codes",
-          "valueSet": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"
+          "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code"
         }
       },
       {
