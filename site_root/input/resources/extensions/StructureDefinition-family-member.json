@@ -13,7 +13,7 @@
   "context": [
     {
       "type": "element",
-      "expression": "Patient"
+      "expression": "ServiceRequest"
     }
   ],
   "type": "Extension",
@@ -59,7 +59,7 @@
         ]
       },
       {
-        "id": "Extension.extension:patent.url",
+        "id": "Extension.extension:parent.url",
         "path": "Extension.extension.url",
         "min": 1,
         "max": "1",
