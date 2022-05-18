@@ -41,7 +41,7 @@
                 "short": "request-statutReason",
                 "definition": "Captures the reason for the current state of the resource",
                 "min": 0,
-                "max": 1,
+                "max": "1",
                 "type": [
                     {
                         "code": "Extension",
@@ -62,7 +62,7 @@
                 "short": "Resident Supervisor",
                 "definition": "Refers to the supervisor of the resident practitioner",
                 "min": 0,
-                "max": 1,
+                "max": "1",
                 "type": [
                     {
                         "code": "Extension",
@@ -83,7 +83,7 @@
                 "short": "Procedure DirectedBy",
                 "definition": "Refers to the supervisor of the resident practitioner",
                 "min": 0,
-                "max": 1,
+                "max": "1",
                 "type": [
                     {
                         "code": "Extension",
@@ -99,7 +99,7 @@
                 "id": "ServiceRequest.basedOn",
                 "path": "ServiceRequest.basedOn",
                 "min": 1,
-                "max": 1
+                "max": "1"
             },
             {
                 "id": "ServiceRequest.code",
@@ -119,7 +119,7 @@
             {
                 "id": "ServiceRequest.supportingInfo",
                 "path": "ServiceRequest.supportingInfo",
-                "max": 0
+                "max": "0"
             }
         ]
     },
