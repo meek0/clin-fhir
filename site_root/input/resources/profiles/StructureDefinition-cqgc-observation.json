@@ -44,20 +44,6 @@
         "isModifier": false
       },
       {
-        "id": "Observation.code",
-        "path": "Observation.code",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "binding": {
-          "strength": "required",
-          "description": "Observations codes",
-          "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/observation-code"
-        }
-      },
-      {
         "id": "Observation.category",
         "path": "Observation.category",
         "type": [
@@ -73,8 +59,8 @@
         }
       },
       {
-        "id": "Observation.interpretation",
-        "path": "Observation.interpretation",
+        "id": "Observation.code",
+        "path": "Observation.code",
         "type": [
           {
             "code": "CodeableConcept"
@@ -82,8 +68,8 @@
         ],
         "binding": {
           "strength": "required",
-          "description": "Observations categories",
-          "valueSet": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+          "description": "Observations codes",
+          "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/observation-code"
         }
       },
       {
@@ -100,6 +86,20 @@
             "code": "string"
           }
         ]
+      },
+      {
+        "id": "Observation.interpretation",
+        "path": "Observation.interpretation",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Observations categories",
+          "valueSet": "http://hl7.org/fhir/ValueSet/observation-interpretation"
+        }
       }
     ]
   },
