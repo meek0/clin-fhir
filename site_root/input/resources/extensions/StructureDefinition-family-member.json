@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "family-relation",
+  "id": "family-member",
   "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member",
   "version": "0.1.0",
   "name": "family-member",
