@@ -106,19 +106,13 @@
                 "binding": {
                     "strength": "required",
                     "description": "ServiceRequest codes",
-                    "valueSet": "http://fhir.cqgc.ferlab.bio/CodeSystem/gene-panel-code"
+                    "valueSet": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"
                 }
             },
             {
                 "id": "ServiceRequest.basedOn",
                 "path": "ServiceRequest.basedOn",
                 "min": "1",
-                "max": "1"
-            },
-            {
-                "id": "ServiceRequest.specimen",
-                "path": "ServiceRequest.specimen",
-                "min": "0",
                 "max": "1"
             },
             {
