@@ -98,7 +98,7 @@
         "binding": {
           "strength": "required",
           "description": "Observations categories",
-          "valueSet": "http://hl7.org/fhir/ValueSet/observation-interpretation"
+          "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/observation-code"
         }
       }
     ]
