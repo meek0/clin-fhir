@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "cqgc-clinical-impression",
-  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-clinicai-impression",
+  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-clinical-impression",
   "version": "0.1.0",
   "name": "cqgc-clinical-impression",
   "title": "cqgc Clinical Impression",

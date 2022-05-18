@@ -1,6 +1,6 @@
 {
     "resourceType": "StructureDefinition",
-    "id": "cqgc-service-request",
+    "id": "cqgc-sequencing-request",
     "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-sequencing-request",
     "version": "0.1.0",
     "name": "cqgc-sequencing-request",

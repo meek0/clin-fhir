@@ -1,6 +1,6 @@
 {
   "resourceType": "CodeSystem",
-  "id": "variant-type",
+  "id": "cgh-abnormalities",
   "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities",
   "version": "0.1.0",
   "name": "cgh-abnormalities",

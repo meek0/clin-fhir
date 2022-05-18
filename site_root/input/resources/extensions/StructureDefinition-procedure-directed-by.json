@@ -1,6 +1,6 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "procedure-directedBy",
+  "id" : "procedure-directed-by",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
     "valueCode" : "pc"
@@ -9,7 +9,7 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
     "valueInteger" : 1
   }],
-  "url" : "http://hl7.org/fhir/StructureDefinition/procedure-directedBy",
+  "url" : "http://hl7.org/fhir/StructureDefinition/procedure-directed-by",
   "version" : "4.0.1",
   "name" : "directedBy",
   "title" : "directedBy",
