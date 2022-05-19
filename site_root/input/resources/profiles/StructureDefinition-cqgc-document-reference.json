@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "cqgc-observation",
+  "id": "cqgc-document-reference",
   "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-document-reference",
   "version": "0.1.0",
   "name": "cqgc-document-reference",
