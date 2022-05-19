@@ -86,20 +86,6 @@
             "code": "string"
           }
         ]
-      },
-      {
-        "id": "Observation.interpretation",
-        "path": "Observation.interpretation",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "binding": {
-          "strength": "required",
-          "description": "Observations categories",
-          "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/observation-code"
-        }
       }
     ]
   },
