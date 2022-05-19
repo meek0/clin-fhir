@@ -411,14 +411,6 @@
         }
       },
       {
-        "description": "Ferlab.bio StructureDefinition cqgc-document-reference, Base: DocumentReference",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio StructureDefinition/cqgc-document-reference",
-        "reference": {
-          "reference": "StructureDefinition/cqgc-document-reference"
-        }
-      },
-      {
         "description": "Ferlab.bio StructureDefinition procedure-directed-by, Base: Extension",
         "exampleBoolean": false,
         "name": "Ferlab.bio StructureDefinition/procedure-directed-by",
