@@ -40,6 +40,25 @@
         ],
         "mustSupport": true,
         "isModifier": false
+      },
+      {
+        "id": "Task.extension:sequencing-experiment",
+        "path": "Task.extension",
+        "sliceName": "sequencing-experiment",
+        "short": "Sequencing Experiment",
+        "definition": "Sequencing Experiment",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": false
       }
     ]
   },
