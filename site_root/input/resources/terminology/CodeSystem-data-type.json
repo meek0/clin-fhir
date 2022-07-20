@@ -44,6 +44,16 @@
       ]
     },
     {
+      "code": "GSV",
+      "display": "Germline SV,
+      "designation": [
+        {
+          "language": "fr",
+          "value": "SV germinale"
+        }
+      ]
+    },
+    {
       "code": "SSUP",
       "display": "Sequencing Data Supplement",
       "designation": [
