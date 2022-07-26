@@ -262,6 +262,16 @@
           "value": "Ethnicité"
         }
       ]
+    },
+    {
+      "code": "PHEN",
+      "display": "Clinical Sign (HPO)",
+      "designation": [
+          {
+              "language": "fr",
+              "value": "Signe clinique (HPO)"
+          }
+      ]
     }
   ]
 }
