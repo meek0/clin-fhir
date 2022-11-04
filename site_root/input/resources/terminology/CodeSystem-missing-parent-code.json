@@ -1,0 +1,36 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "missing-parent-code",
+  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/missing-parent-code",
+  "version": "0.1.0",
+  "name": "missing-parent-code",
+  "title": "Missing parent code",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Codes of parent is missing",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "TEMPORARY",
+      "display": "x",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "x en fr"
+        }
+      ]
+    },
+    {
+      "code": "un autre code si besoin",
+      "display": "y",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "y en fr"
+        }
+      ]
+    }
+  ]
+}
