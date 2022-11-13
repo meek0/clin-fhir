@@ -7,5 +7,4 @@ Clin Fhir Implementation Guide
 | Author | Contact |
 | ------ | ------ |
 Vincent Ferretti | [vferretti](https://github.com/vferretti)
-Emma Drieux | [Emma-Drieux](https://github.com/Emma-Drieux)
 Jeremy Costanza | [jecos](https://github.com/jecos)
