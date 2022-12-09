@@ -20,24 +20,24 @@
         "designation":[
           {
             "language":"fr",
-            "value":"Canadien Francais"
+            "value":"Canadien français"
           }
         ]
       },
       {
         "code": "EU",
-        "display": "European Caucasia",
+        "display": "European Caucasian",
         "definition":"Anyone from or whose ancestors originate from the European continent (excluding French Canadians).",
         "designation":[
           {
             "language":"fr",
-            "value":"Caucasien Européen"
+            "value":"Caucasien européen"
           }
         ]
       },
       {
         "code": "AFR",
-        "display": "African or Carabean",
+        "display": "African or Caribbean",
         "definition":"Person belonging to ethnic group with total or partial ancestry from any of the black racial groups of Africa.",
         "designation":[
           {
@@ -48,7 +48,7 @@
       },
       {
         "code": "LAT-AM",
-        "display": "Hispanic and Latino Americans",
+        "display": "Hispanic and Latino American",
         "definition":"Canadian or Quebecois who are descendants of people from Latin America",
         "designation":[
           {
