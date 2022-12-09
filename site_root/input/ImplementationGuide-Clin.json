@@ -483,11 +483,11 @@
         }
       },
       {
-        "description": "Ferlab.bio ValueSet nmit-default-exam",
+        "description": "Ferlab.bio ValueSet mitn-default-exam",
         "exampleBoolean": false,
-        "name": "Ferlab.bio ValueSet/nmit-default-exam",
+        "name": "Ferlab.bio ValueSet/mitn-default-exam",
         "reference": {
-          "reference": "ValueSet/nmit-default-exam"
+          "reference": "ValueSet/mitn-default-exam"
         }
       },
       {
