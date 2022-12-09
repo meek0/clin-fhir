@@ -15,42 +15,12 @@
         "system": "http://purl.obolibrary.org/obo/hp.owl",
         "concept": [
           {
-            "code": "HP:0410280",
-            "display": "Pediatric onset",
+            "code": "HP:0003577",
+            "display": "Congenital onset",
             "designation": [
               {
                 "language": "fr",
-                "value": "Apparition pédiatrique (<= 15 ans)"
-              }
-            ]
-          },
-          {
-            "code": "HP:0003593",
-            "display": "Infantile onset",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Apparition dans l'enfance (28 jours <= âge < 1 an)"
-              }
-            ]
-          },
-          {
-            "code": "HP:0003621",
-            "display": "Juvenile onset",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Apparition juvénile (5 ans <= âge <= 15 ans)"
-              }
-            ]
-          },
-          {
-            "code": "HP:0011463",
-            "display": "Childhood onset",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Apparition chez l'enfant (1 an <= âge < 5 ans)"
+                "value": "Apparition congénitale"
               }
             ]
           },
@@ -85,16 +55,6 @@
             ]
           },
           {
-            "code": "HP:0003577",
-            "display": "Congenital onset",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Apparition congénitale"
-              }
-            ]
-          },
-          {
             "code": "HP:0003623",
             "display": "Neonatal onset",
             "designation": [
@@ -105,22 +65,52 @@
             ]
           },
           {
+            "code": "HP:0003593",
+            "display": "Infantile onset",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Apparition dans l'enfance (28 jours <= âge < 1 an)"
+              }
+            ]
+          },
+          {
+            "code": "HP:0011463",
+            "display": "Childhood onset",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Apparition chez l'enfant (1 an <= âge < 5 ans)"
+              }
+            ]
+          },
+          {
+            "code": "HP:0003621",
+            "display": "Juvenile onset",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Apparition juvénile (5 ans <= âge <= 15 ans)"
+              }
+            ]
+          },
+          {
+            "code": "HP:0410280",
+            "display": "Pediatric onset",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Apparition pédiatrique (âge <= 15 ans)"
+              }
+            ]
+          },
+          {
             "code": "HP:0003581",
             "display": "Adult onset",
             "designation": [
               {
                 "language": "fr",
-                "value": "Apparition à l'âge adulte ( âge >= 16 ans)"
-              }
-            ]
-          },
-          {
-            "code": "HP:0003596",
-            "display": "Middle age onset",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Apparition à l'âge moyen (40 ans <= âge < 60 ans)"
+                "value": "Apparition à l'âge adulte (âge >= 16 ans)"
               }
             ]
           },
@@ -131,6 +121,16 @@
               {
                 "language": "fr",
                 "value": "Apparition chez le jeune adulte (16 ans <= âge < 40 ans)"
+              }
+            ]
+          },
+          {
+            "code": "HP:0003596",
+            "display": "Middle age onset",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Apparition à l'âge moyen (40 ans <= âge < 60 ans)"
               }
             ]
           },
