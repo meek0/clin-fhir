@@ -1,9 +1,9 @@
 {
   "resourceType": "ValueSet",
-  "id": "nmit-default-exam",
-  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/nmit-default-exam",
+  "id": "mitn-default-exam",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-exam",
   "version": "0.1.0",
-  "name": "nmit-default-exam",
+  "name": "mitn-default-exam",
   "title": "Nuclear Mitochondriopathies default para-clinic exams",
   "status": "draft",
   "experimental": false,
