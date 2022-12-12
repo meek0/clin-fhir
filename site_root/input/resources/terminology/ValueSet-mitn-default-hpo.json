@@ -15,7 +15,7 @@
         "system": "http://purl.obolibrary.org/obo/hp.owl",
         "concept": [
           {
-            "code": "HP.0003128",
+            "code": "HP:0003128",
             "display": "Lactic acidosis",
             "designation": [
               {
@@ -25,7 +25,7 @@
             ]
           },
           {
-            "code": "HP.0001263",
+            "code": "HP:0001263",
             "display": "Global developmental delay",
             "designation": [
               {
@@ -35,7 +35,7 @@
             ]
           },
           {
-            "code": "HP.0001290",
+            "code": "HP:0001290",
             "display": "Generalized hypotonia",
             "designation": [
               {
@@ -45,7 +45,7 @@
             ]
           },
           {
-            "code": "HP.0001250",
+            "code": "HP:0001250",
             "display": "Seizures",
             "designation": [
               {
@@ -55,7 +55,7 @@
             ]
           },
           {
-            "code": "HP.0006965",
+            "code": "HP:0006965",
             "display": "Acute necrotizing encephalopathy",
             "designation": [
               {
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "code": "HP.0001251",
+            "code": "HP:0001251",
             "display": "Ataxia",
             "designation": [
               {
@@ -75,7 +75,7 @@
             ]
           },
           {
-            "code": "HP.0006554",
+            "code": "HP:0006554",
             "display": "Acute hepatic failure",
             "designation": [
               {
@@ -85,7 +85,7 @@
             ]
           },
           {
-            "code": "HP.0006582",
+            "code": "HP:0006582",
             "display": "Reye syndrome-like episodes",
             "designation": [
               {
@@ -95,7 +95,7 @@
             ]
           },
           {
-            "code": "HP.0001638",
+            "code": "HP:0001638",
             "display": "Cardiomyopathy",
             "designation": [
               {
@@ -105,7 +105,7 @@
             ]
           },
           {
-            "code": "HP.0001488",
+            "code": "HP:0001488",
             "display": "Bilateral ptosis",
             "designation": [
               {
@@ -115,7 +115,7 @@
             ]
           },
           {
-            "code": "HP.0000508",
+            "code": "HP:0000508",
             "display": "Ptosis",
             "designation": [
               {
@@ -125,7 +125,7 @@
             ]
           },
           {
-            "code": "HP.0001138",
+            "code": "HP:0001138",
             "display": "Optic neuropathy",
             "designation": [
               {
@@ -135,7 +135,7 @@
             ]
           },
           {
-            "code": "HP.0000590",
+            "code": "HP:0000590",
             "display": "Progressive external ophthalmoplegia",
             "designation": [
               {
