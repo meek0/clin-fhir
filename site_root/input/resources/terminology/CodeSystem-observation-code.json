@@ -224,6 +224,16 @@
       ]
     },
     {
+      "code": "CGH",
+      "display": "Comparative Genomic Hybridization",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Hybridation génomique comparative"
+        }
+      ]
+    },
+    {
       "code": "TSXF",
       "display": "Fragile X Syndrome Testing",
       "designation": [
