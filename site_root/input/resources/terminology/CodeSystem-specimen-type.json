@@ -25,6 +25,17 @@
         ]
       },
       {
+        "code": "RNA",
+        "display": "RNA Sample",
+        "definition":"RNA sample",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Échantillon d'ARN"
+          }
+        ]
+      },
+      {
         "code": "NBL",
         "display": "Normal Blood Specimen",
         "definition":"Normal blood specimen",
