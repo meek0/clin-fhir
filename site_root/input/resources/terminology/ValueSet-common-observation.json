@@ -1,0 +1,92 @@
+{
+  "resourceType": "ValueSet",
+  "id": "common-observation",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/common-observation",
+  "version": "0.1.0",
+  "name": "common-observation",
+  "title": "Set of observations that are common to all analyses",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Set of observations that are common to all analyses",
+  "compose": {
+    "include": [
+      {
+        "system": "http://purl.obolibrary.org/obo/hp.owl",
+        "concept": [
+          {
+            "code": "OBSG",
+            "display": "General Observation",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Observation générale"
+              }
+            ]
+          },
+          {
+            "code": "INDIC",
+            "display": "Indication",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Indication"
+              }
+            ]
+          },
+          {
+            "code": "INVES",
+            "display": "Investigation",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Investigation"
+              }
+            ]
+          },
+          {
+            "code": "CONS",
+            "display": "Consanguinity",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Consanguinité"
+              }
+            ]
+          },
+          {
+            "code": "MFTH",
+            "display": "Missing Mother",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Mère manquante"
+              }
+            ]
+          },
+          {
+            "code": "MMTH",
+            "display": "Missing Father",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Père manquant"
+              }
+            ]
+          },
+          {
+            "code": "DSTA",
+            "display": "Patient Disease Status",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Statut de la maladie du patient"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "date": "2020-08-13T10:49:27-04:00"
+}

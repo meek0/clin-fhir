@@ -1,0 +1,26 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "missing-parent-status",
+  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/missing-parent-status",
+  "version": "0.1.0",
+  "name": "missing-parent-status",
+  "title": "Missing parent status",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "type d'absence pour un parent",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "TEMPORARY",
+      "display": "Temporary absent parent",
+      "designation": [
+          {
+              "language": "fr",
+              "value": "Parent absent temporairement"
+          }
+      ]
+    }
+  ]
+}

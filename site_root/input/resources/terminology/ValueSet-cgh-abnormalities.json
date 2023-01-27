@@ -1,0 +1,19 @@
+{
+    "resourceType": "ValueSet",
+    "id": "cgh-abnormalities",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/cgh-abnormalities",
+    "version": "0.1.0",
+    "name": "cgh-abnormalities",
+    "title": "CGH abnormalities",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "CGH abnormalities",
+    "compose": {
+      "include": [
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities"
+        }
+      ]
+    }
+  }

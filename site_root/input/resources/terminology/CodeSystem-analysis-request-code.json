@@ -1,20 +1,20 @@
 {
   "resourceType": "CodeSystem",
-  "id": "service-request-code",
-  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+  "id": "analysis-request-code",
+  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
   "version": "0.1.0",
-  "name": "service-request-code",
-  "title": "service request code",
+  "name": "analysis-request-code",
+  "title": "Analysis request code",
   "status": "draft",
   "experimental": false,
   "publisher": "Ferlab.bio",
-  "description": "Codes of service request in our system",
+  "description": "Gene panel requested for analysis",
   "caseSensitive": true,
   "content": "complete",
   "concept": [
     {
       "code": "MMG",
-      "display": "Maladies musculaires (Panel global)",
+      "display": "Global Muscular diseases (Global Panel)",
       "designation": [
         {
           "language": "fr",
@@ -23,18 +23,18 @@
       ]
     },
     {
-      "code": "DYSTM",
-      "display": "Dystrophies Musculaires",
+      "code": "DYSM",
+      "display": "Muscular Dystrophies",
       "designation": [
         {
           "language": "fr",
-          "value": "Dystrophies Musculaires"
+          "value": "Dystrophies musculaires"
         }
       ]
     },
     {
       "code": "RHAB",
-      "display": "Rhabdomyolyse",
+      "display": "Rhabdomyolysis",
       "designation": [
         {
           "language": "fr",
@@ -44,17 +44,17 @@
     },
     {
       "code": "MITN",
-      "display": "Mitochondriopathie nucléaire",
+      "display": "Nuclear Mitochondriopathies",
       "designation": [
         {
           "language": "fr",
-          "value": "Mitochondriopathie nucléaire"
+          "value": "Mitochondriopathies nucléaires"
         }
       ]
     },
     {
-      "code": "MYOPC",
-      "display": "Myopathies congénitales",
+      "code": "MYOC",
+      "display": "Congenital Myopathies",
       "designation": [
         {
           "language": "fr",
@@ -63,18 +63,18 @@
       ]
     },
     {
-      "code": "MYASC",
-      "display": "Myasthenias congénitales",
+      "code": "MYAC",
+      "display": "Congenital Myasthenia",
       "designation": [
         {
           "language": "fr",
-          "value": "Myasthenias congénitales"
+          "value": "Myasthénies congénitales"
         }
       ]
     },
     {
       "code": "HYPM",
-      "display": "Hyperthermie maligne",
+      "display": "Malignant Hyperthermia",
       "designation": [
         {
           "language": "fr",
@@ -83,12 +83,12 @@
       ]
     },
     {
-      "code": "DI",
-      "display": "Déficience intellectuelle (Trio)",
+      "code": "RGDI",
+      "display": "Global Developmental Delay / Intellectual Deficiency (Trio)",
       "designation": [
         {
           "language": "fr",
-          "value": "Déficience intellectuelle (Trio)"
+          "value": "Retard global de développement / Déficience intellectuelle (Trio)"
         }
       ]
     }

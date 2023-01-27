@@ -4,19 +4,228 @@
   "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
   "version": "0.1.0",
   "name": "observation-code",
-  "title": "observation code",
+  "title": "Observation codes",
   "status": "draft",
   "experimental": false,
   "publisher": "Ferlab.bio",
   "description": "Codes of observations in our system",
   "caseSensitive": true,
   "content": "complete",
-  "count": 4,
+  "count": 25,
   "concept": [
     {
+      "code": "OBSG",
+      "display": "General Observation",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Observation générale"
+        }
+      ]
+    },
+    {
+      "code": "INDIC",
+      "display": "Indication",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Indication"
+        }
+      ]
+    },
+    {
+      "code": "INVES",
+      "display": "Investigation",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Investigation"
+        }
+      ]
+    },
+    {
+      "code": "BMUS",
+      "display": "Muscle biopsy",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Biopsie musculaire"
+        }
+      ]
+    },
+    {
+      "code": "BMET",
+      "display": "Metabolic work-up",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Bilan métabolique"
+        }
+      ]
+    },
+    {
+      "code": "CKIN",
+      "display": "Serum creatine kinase",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Créatine kinase sérique"
+        }
+      ]
+    },
+    {
+      "code": "CAAP",
+      "display": "Plasma amino acid chromatography",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Chromatographie acides aminés plasmatiques"
+        }
+      ]
+    },
+    {
+      "code": "ACYL",
+      "display": "Acylcarnitines",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Acylcarnitines"
+        }
+      ]
+    },
+    {
+      "code": "IRMC",
+      "display": "Cerebral MRI",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "IRM cérébrale"
+        }
+      ]
+    },
+    {
+      "code": "IRMM",
+      "display": "Muscle MRI",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "IRM musculaire"
+        }
+      ]
+    },
+    {
+      "code": "SRMN",
+      "display": "NMR Spectroscopy",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Spectroscopie RMN"
+        }
+      ]
+    },
+    {
+      "code": "ECAR",
+      "display": "Cardiac Ultrasound",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Échographie cardiaque"
+        }
+      ]
+    },
+    {
+      "code": "EABD",
+      "display": "Abdominal Ultrasound",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Échographie abdominale"
+        }
+      ]
+    },
+    {
+      "code": "EEG",
+      "display": "Electroencephalogram (EEG)",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Électroencéphalogramme (EEG)"
+        }
+      ]
+    },
+    {
+      "code": "EMG",
+      "display": "Electromyography (EMG)",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Electromyographie (EMG)"
+        }
+      ]
+    },
+    {
+      "code": "OPHT",
+      "display": "Ophthalmological Examination",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Examen ophtalmologique"
+        }
+      ]
+    },
+    {
+      "code": "CONS",
+      "display": "Consanguinity",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Consanguinité"
+        }
+      ]
+    },
+    {
+      "code": "DSTA",
+      "display": "Patient Disease Status",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Statut de la maladie du patient"
+        }
+      ]
+    },
+    {
+      "code": "CTGR",
+      "display": "CTG Repeat Testing (Steinert Disease)",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Test répétitions CTG (maladie de Steinert)"
+        }
+      ]
+    },
+    {
+      "code": "GCNR",
+      "display": "GCN Repeat Testing (oculopharyngeal muscular dystrophy)",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Test répétitions GCN (dystrophie musculaire oculopharyngée)"
+        }
+      ]
+    },
+    {
+      "code": "TGDD",
+      "display": "Deletions and Duplications Testing (Duchenne and Becker dystrophies)",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Test délétions et duplication (dystrophies Duchenne et Becker)"
+        }
+      ]
+    },
+    {
       "code": "CGH",
-      "display": "cgh",
-      "definition": "Comparative genomic hybridization",
+      "display": "Comparative Genomic Hybridization",
       "designation": [
         {
           "language": "fr",
@@ -25,58 +234,53 @@
       ]
     },
     {
-      "code": "INDIC",
-      "display": "indications",
-      "definition": "Diagnostic hypothesis (s)",
+      "code": "TSXF",
+      "display": "Fragile X Syndrome Testing",
       "designation": [
         {
           "language": "fr",
-          "value": "Hypothèse(s) diagnostique"
+          "value": "Test syndrome de X fragile"
         }
       ]
     },
     {
-      "code": "INVES",
-      "display": "investigations",
-      "definition": "Clinical summary with all the investigations carried out in the context of the patient's pathology",
+      "code": "MMTH",
+      "display": "Missing Mother",
       "designation": [
         {
           "language": "fr",
-          "value": "Résumé du tableau clinique avec l’ensemble des investigations réalisées dans le cadre de la pathologie du patient"
+          "value": "Mère manquante"
         }
       ]
     },
     {
-      "code": "PHENO",
-      "display": "phenotype",
-      "definition": "Clinical sign observed in the patient - reported by the doctor following the physical examination or questioning of the patient",
+      "code": "MFTH",
+      "display": "Missing Father",
       "designation": [
         {
           "language": "fr",
-          "value": "Signe clinique relevé chez le patient - rapporté par le médecin a la suite de l'examen physique ou l'interrogatoire du patient"
+          "value": "Père manquant"
         }
       ]
     },
     {
-      "code": "ETH",
-      "display": "ethnicity",
-      "definition": "Concepts classifying people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
+      "code": "ETHN",
+      "display": "Ethnicity",
       "designation": [
         {
           "language": "fr",
-          "value": "Concepts qui classent les personnes vivant au Québec dans une catégorie d'humains ayant une histoire, une origine géographique ou une nationalité commune. Les codes ethniques utilisés pour représenter ces concepts sont basés sur une liste fournie par le centre de séquençage génomique"
+          "value": "Ethnicité"
         }
       ]
     },
     {
-      "code": "CONS",
-      "display": "consanguinity",
-      "definition": "Information if the parents are consanguineous",
+      "code": "PHEN",
+      "display": "Clinical Sign (HPO)",
       "designation": [
-        {
-          "language": "fr",
-          "value": "Information pour savoir si les parents sont consanguins"
-        }
+          {
+              "language": "fr",
+              "value": "Signe clinique (HPO)"
+          }
       ]
     }
   ]

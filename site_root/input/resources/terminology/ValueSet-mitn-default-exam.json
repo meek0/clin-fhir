@@ -1,0 +1,142 @@
+{
+  "resourceType": "ValueSet",
+  "id": "mitn-default-exam",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-exam",
+  "version": "0.1.0",
+  "name": "mitn-default-exam",
+  "title": "Nuclear Mitochondriopathies default para-clinic exams",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Nuclear Mitochondriopathies default para-clinic exams",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+        "concept": [
+          {
+            "code": "CAAP",
+            "display": "Plasma amino acid chromatography",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Chromatographie acides aminés plasmatiques"
+              }
+            ]
+          },
+          {
+            "code": "ACYL",
+            "display": "Acylcarnitines",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Acylcarnitines"
+              }
+            ]
+          },
+          {
+            "code": "IRMC",
+            "display": "Cerebral MRI",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "IRM cérébrale"
+              }
+            ]
+          },
+          {
+            "code": "CGH",
+            "display": "Comparative Genomic Hybridization",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Hybridation génomique comparative"
+              }
+            ]
+          },
+          {
+            "code": "SRMN",
+            "display": "NMR Spectroscopy",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Spectroscopie RMN"
+              }
+            ]
+          },
+          {
+            "code": "ECAR",
+            "display": "Cardiac Ultrasound",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Échographie cardiaque"
+              }
+            ]
+          },
+          {
+            "code": "EABD",
+            "display": "Abdominal Ultrasound",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Échographie abdominale"
+              }
+            ]
+          },
+          {
+            "code": "EEG",
+            "display": "Electroencephalogram (EEG)",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Électroencéphalogramme (EEG)"
+              }
+            ]
+          },
+          {
+            "code": "OPHT",
+            "display": "Ophthalmological Examination",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Examen ophtalmologique"
+              }
+            ]
+          },
+          {
+            "code": "BMET",
+            "display": "Metabolic work-up",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Bilan métabolique"
+              }
+            ]
+          },
+          {
+            "code": "BMUS",
+            "display": "Muscle biopsy",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Biopsie musculaire"
+              }
+            ]
+          },
+          {
+            "code": "EMG",
+            "display": "Electromyography (EMG)",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Electromyographie (EMG)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "date": "2020-08-13T10:49:27-04:00"
+}

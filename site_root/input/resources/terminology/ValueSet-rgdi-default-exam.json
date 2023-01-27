@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "rgdi-default-exam",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-exam",
+  "version": "0.1.0",
+  "name": "rgdi-default-exam",
+  "title": "Global developmental Delay / intellectual deficiency default para-clinical exams",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Global developmental Delay / intellectual deficiency default para-clinical exams",
+  "compose": {
+    "include": [
+      {
+        "system": "http://purl.obolibrary.org/obo/hp.owl",
+        "concept": [
+          {
+            "code": "CGH",
+            "display": "Comparative Genomic Hybridization",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Hybridation génomique comparative"
+              }
+            ]
+          },
+          {
+            "code": "TSXF",
+            "display": "Fragile X Syndrome Testing",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Test syndrome de X fragile"
+              }
+            ]
+          },
+          {
+            "code": "BMET",
+            "display": "Metabolic work-up",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Bilan métabolique"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "date": "2020-08-13T10:49:27-04:00"
+}

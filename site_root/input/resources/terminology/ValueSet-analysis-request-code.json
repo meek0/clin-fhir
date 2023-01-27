@@ -1,0 +1,19 @@
+{
+  "resourceType": "ValueSet",
+  "id": "analysis-request-code",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code",
+  "version": "0.1.0",
+  "name": "analysis-request-code",
+  "title": "Analysis request code ",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Codes of analysis request in our system",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"
+      }
+    ]
+  }
+}

@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "cqgc-service-request",
-  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-service-request",
+  "id": "cqgc-analysis-request",
+  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-request",
   "version": "0.1.0",
-  "name": "cqgc-service-request",
-  "title": "cqgc Service Request",
+  "name": "cqgc-analysis-request",
+  "title": "CQGC Genetic Analysis Service Request",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",
@@ -33,39 +33,20 @@
         }
       },
       {
-        "id": "ServiceRequest.extension:is-submitted",
+        "id": "ServiceRequest.extension:request-status-reason",
         "path": "ServiceRequest.extension",
-        "sliceName": "is-submitted",
-        "short": "Submission status of ServiceRequest",
-        "definition": "Whether the Service Request is submitted or not",
-        "min": 1,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-submitted"
-            ]
-          }
-        ],
-        "mustSupport": true,
-        "isModifier": false
-      },
-      {
-        "id": "ServiceRequest.extension:clinical-impression",
-        "path": "ServiceRequest.extension",
-        "sliceName": "clinical-impression",
+        "sliceName": "request-statusReason",
         "sliceIsConstraining": false,
-        "label": "clinical_impression",
-        "short": "Medical Consultation",
-        "definition": "Refers to the consultation from which the request results",
+        "label": "request-status-reason",
+        "short": "request-status-reason",
+        "definition": "Captures the reason for the current state of the resource",
         "min": 0,
         "max": "1",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression"
+              "http://hl7.org/fhir/StructureDefinition/request-status-reason"
             ]
           }
         ],
@@ -94,9 +75,9 @@
         "isModifier": false
       },
       {
-        "id": "ServiceRequest.extension:procedure-directedBy",
+        "id": "ServiceRequest.extension:procedure-directed-by",
         "path": "ServiceRequest.extension",
-        "sliceName": "procedure-directedBy",
+        "sliceName": "procedure-directed-by",
         "sliceIsConstraining": false,
         "label": "procedure_directedBy",
         "short": "Procedure DirectedBy",
@@ -107,12 +88,36 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/StructureDefinition/procedure-directedBy"
+              "http://hl7.org/fhir/StructureDefinition/procedure-directed-by"
             ]
           }
         ],
         "mustSupport": true,
         "isModifier": false
+      },
+      {
+        "id": "ServiceRequest.extension:family-member",
+        "path": "ServiceRequest.extension",
+        "sliceName": "family-member",
+        "short": "Family Member",
+        "definition": "Same family patients in a family analysis request (e.g. a trio)",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": false
+      },
+      {
+        "id": "ServiceRequest.basedOn",
+        "path": "ServiceRequest.basedOn",
+        "max": "0"
       },
       {
         "id": "ServiceRequest.code",
@@ -125,8 +130,18 @@
         "binding": {
           "strength": "required",
           "description": "ServiceRequest codes",
-          "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/service-request-code"
+          "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code"
         }
+      },
+      {
+        "id": "ServiceRequest.supportingInfo",
+        "path": "ServiceRequest.supportingInfo",
+        "min": 1
+      },
+      {
+        "id": "ServiceRequest.specimen",
+        "path": "ServiceRequest.specimen",
+        "max": "0"
       }
     ]
   },
