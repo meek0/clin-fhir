@@ -56,6 +56,17 @@
             "value":"Spécimen tumoral"
           }
         ]
+      }, 
+      {
+        "code": "NORMAL",
+        "display": "Normal Specimen",
+        "definition":"Normal specimen",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Spécimen de tissue normal"
+          }
+        ]
       }
     ]
   }
