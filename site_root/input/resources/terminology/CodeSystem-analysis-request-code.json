@@ -91,6 +91,16 @@
           "value": "Retard global de développement / Déficience intellectuelle (Trio)"
         }
       ]
+    },
+    {
+      "code": "RGDI+",
+      "display": "RGDI+",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "RGDI+"
+        }
+      ]
     }
   ]
 }
