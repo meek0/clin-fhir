@@ -72,6 +72,16 @@
           "value": "Index de données de séquençage"
         }
       ]
+    },
+    {
+      "code": "EXOR",
+      "display": "Exomiser Report",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Rapport Exomizer"
+        }
+      ]
     }
   ]
 }
