@@ -62,6 +62,26 @@
           "value": "Fichier d'archive TGZ"
         }
       ]
+    },
+    {
+      "code": "JSON",
+      "display": "JSON File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Fichier JSON"
+        }
+      ]
+    },
+    {
+      "code": "HTML",
+      "display": "HTML File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Fichier HTML"
+        }
+      ]
     }
   ]
 }
