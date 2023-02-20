@@ -52,6 +52,16 @@
           "value": "Analyse bioinformatique d'exomes germinales"
         }
       ]
+    },
+    {
+      "code": "TRBA",
+      "display": "Transcriptome Bioinformatic Analysis",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Analyse bioinformatique de transcriptomes"
+        }
+      ]
     }
   ]
 }
