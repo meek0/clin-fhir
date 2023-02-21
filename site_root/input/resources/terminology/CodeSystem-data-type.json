@@ -82,6 +82,16 @@
           "value": "Rapport Exomizer"
         }
       ]
+    },
+    {
+      "code": "OTHER",
+      "display": "Undefined Data Type",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Type de données indéfini"
+        }
+      ]
     }
   ]
 }

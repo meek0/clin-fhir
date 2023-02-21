@@ -82,6 +82,46 @@
           "value": "Fichier HTML"
         }
       ]
+    },
+    {
+      "code": "BW",
+      "display": "BW File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Fichier BW"
+        }
+      ]
+    },
+    {
+      "code": "BED",
+      "display": "BED File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Fichier BED"
+        }
+      ]
+    },
+    {
+      "code": "PNG",
+      "display": "PNG File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Fichier PNG"
+        }
+      ]
+    },
+    {
+      "code": "CSV",
+      "display": "CSV File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Fichier CSV"
+        }
+      ]
     }
   ]
 }
