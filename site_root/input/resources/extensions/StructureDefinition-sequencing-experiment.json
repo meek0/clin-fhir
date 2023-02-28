@@ -492,9 +492,47 @@
         ]
       },
       {
+        "id": "Extension.extension:protocol",
+        "path": "Extension.extension",
+        "sliceName": "protocol",
+        "short": "protocol",
+        "definition": "protocol",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Extension.extension:protocol.url",
+        "path": "Extension.extension.url",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "uri"
+          }
+        ],
+        "fixedUri": "protocol"
+      },
+      {
+        "id": "Extension.extension:protocol.valueString",
+        "path": "Extension.extension.valueString",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
         "id": "Extension.url",
         "path": "Extension.url",
-        "min": 1,
+        "min": 0,
         "max": "1",
         "type": [
           {
