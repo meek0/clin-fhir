@@ -74,12 +74,42 @@
       ]
     },
     {
-      "code": "REPORT",
-      "display": "Data Report",
+      "code": "EXOMIZER",
+      "display": "Exomizer Report",
       "designation": [
         {
           "language": "fr",
-          "value": "Rapport sur les données"
+          "value": "Rapport Exomizer"
+        }
+      ]
+    },
+    {
+      "code": "IGV",
+      "display": "IGV Track",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Track IGV"
+        }
+      ]
+    },
+    {
+      "code": "CNVVIZ",
+      "display": "CNV Visualization",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Visualization de CNVs"
+        }
+      ]
+    },
+    {
+      "code": "COVGENE",
+      "display": "Coverage by Gene Report",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Rapport de couverture par gène"
         }
       ]
     },
@@ -92,6 +122,18 @@
           "value": "Type de données indéfini"
         }
       ]
+    },
+    {
+      "code": "FUSG",
+      "display": "Gene fusion",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Fusion de gènes"
+        }
+      ]
     }
   ]
+}
+]
 }
