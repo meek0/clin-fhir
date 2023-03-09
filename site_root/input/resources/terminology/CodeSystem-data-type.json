@@ -124,6 +124,16 @@
       ]
     },
     {
+      "code": "QCRUN",
+      "display": "Sequencing Run QC Report",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Rapport de controle de qualité de la run de séquençage"
+        }
+      ]
+    },
+    {
       "code": "FUSG",
       "display": "Gene fusion",
       "designation": [
@@ -134,6 +144,4 @@
       ]
     }
   ]
-}
-]
 }
