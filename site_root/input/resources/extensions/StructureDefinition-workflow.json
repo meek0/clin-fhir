@@ -164,7 +164,7 @@
       {
         "id": "Extension.extension:genomeBuildVersion.url",
         "path": "Extension.extension.url",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "type": [
           {
@@ -176,7 +176,7 @@
       {
         "id": "Extension.extension:genomeBuildVersion.valueString",
         "path": "Extension.extension.valueString",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "type": [
           {
@@ -202,7 +202,7 @@
       {
         "id": "Extension.extension:gencodeVersion.url",
         "path": "Extension.extension.url",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "type": [
           {
@@ -214,7 +214,7 @@
       {
         "id": "Extension.extension:gencodeVersion.valueString",
         "path": "Extension.extension.valueString",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "type": [
           {
