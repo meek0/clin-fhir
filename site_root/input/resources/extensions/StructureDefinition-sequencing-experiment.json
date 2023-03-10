@@ -509,7 +509,7 @@
       {
         "id": "Extension.extension:protocol.url",
         "path": "Extension.extension.url",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "type": [
           {
@@ -521,7 +521,7 @@
       {
         "id": "Extension.extension:protocol.valueString",
         "path": "Extension.extension.valueString",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "type": [
           {
@@ -532,7 +532,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "type": [
           {
