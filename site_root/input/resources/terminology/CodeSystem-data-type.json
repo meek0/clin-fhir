@@ -74,12 +74,12 @@
       ]
     },
     {
-      "code": "EXOMIZER",
-      "display": "Exomizer Report",
+      "code": "EXOMISER",
+      "display": "Exomiser Report",
       "designation": [
         {
           "language": "fr",
-          "value": "Rapport Exomizer"
+          "value": "Rapport Exomiser"
         }
       ]
     },
