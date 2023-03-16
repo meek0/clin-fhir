@@ -84,6 +84,16 @@
       ]
     },
     {
+      "code": "TSV",
+      "display": "TSV File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Fichier TSV"
+        }
+      ]
+    },
+    {
       "code": "BW",
       "display": "BW File",
       "designation": [
