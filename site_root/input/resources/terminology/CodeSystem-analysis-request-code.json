@@ -111,6 +111,36 @@
           "value": "Polymalformation"
         }
       ]
+    },
+    {
+      "code": "TRATU",
+      "display": "Transcriptome",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Transcriptome"
+        }
+      ]
+    },
+    {
+      "code": "TUHEM",
+      "display": "Hematological malignancies predisposition",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Prédisposition hémopathies malignes"
+        }
+      ]
+    },
+    {
+      "code": "TUPED",
+      "display": "Pediatric cancer predisposition",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Prédisposition cancers pédiatriques"
+        }
+      ]
     }
   ]
 }
