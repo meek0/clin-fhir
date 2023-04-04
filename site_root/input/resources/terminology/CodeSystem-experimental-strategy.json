@@ -11,7 +11,7 @@
   "description": "Experimental strategies",
   "caseSensitive": true,
   "content": "complete",
-  "count": 2,
+  "count": 4,
   "concept": [
     {
       "code": "WXS",
@@ -36,13 +36,23 @@
       ]
     },
     {
-      "code": "TARS",
+      "code": "TGS",
       "display": "Targeted Sequencing",
       "definition": "Tarteted Sequencing",
       "designation": [
         {
           "language": "fr",
           "value": "Séquençage ciblé"
+        }
+      ]
+    },
+    {
+      "code": "WTS",
+      "display": "Whole Transcriptome Sequencing",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Séquençage de transcriptome complet"
         }
       ]
     }
