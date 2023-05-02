@@ -1,0 +1,46 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "analysis-request-code",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code",
+    "version": "0.1.0",
+    "name": "sequencing-request-code",
+    "title": "sequencing request codes",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "Sequencing request codes",
+    "caseSensitive": true,
+    "content": "complete",
+    "concept": [
+        {
+            "code": "75020",
+            "display": "Normal Exome Sequencing",
+            "designation": [
+                {
+                    "language": "fr",
+                    "value": "Séquençage d'exome normal"
+                }
+            ]
+        },
+        {
+            "code": "65241",
+            "display": "Tumoral Exome Sequencing",
+            "designation": [
+                {
+                    "language": "fr",
+                    "value": "Séquençage d'exome tumoral"
+                }
+            ]
+        },
+        {
+            "code": "65240",
+            "display": "Tumoral Trancriptome Sequencing ",
+            "designation": [
+                {
+                    "language": "fr",
+                    "value": "Séquençage de transcriptome tumoral"
+                }
+            ]
+        }
+    ]
+}
