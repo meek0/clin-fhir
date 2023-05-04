@@ -141,6 +141,16 @@
           "value": "Prédisposition cancers pédiatriques"
         }
       ]
+    },
+    {
+      "code": "EXTUM",
+      "display": "Tumoral Exome",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Exome Tumoral"
+        }
+      ]
     }
   ]
 }
