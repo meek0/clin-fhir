@@ -114,11 +114,11 @@
     },
     {
       "code": "TRATU",
-      "display": "Transcriptome",
+      "display": "Tumoral Transcriptome",
       "designation": [
         {
           "language": "fr",
-          "value": "Transcriptome"
+          "value": "Transcriptome tumoral"
         }
       ]
     },
