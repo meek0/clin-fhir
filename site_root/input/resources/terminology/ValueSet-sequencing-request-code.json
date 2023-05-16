@@ -1,6 +1,6 @@
 {
     "resourceType": "ValueSet",
-    "id": "analysis-request-code",
+    "id": "sequencing-request-code",
     "url": "http://fhir.cqgc.ferlab.bio/ValueSet/sequencing-request-code",
     "version": "0.1.0",
     "name": "sequencing-request-codes",
@@ -13,6 +13,9 @@
       "include": [
         {
           "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code"
+        },
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"
         }
       ]
     }

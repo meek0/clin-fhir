@@ -115,7 +115,6 @@
                     "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code"
                 }
             },
-
             {
                 "id": "ServiceRequest.supportingInfo",
                 "path": "ServiceRequest.supportingInfo",

@@ -1,6 +1,6 @@
 {
     "resourceType": "CodeSystem",
-    "id": "analysis-request-code",
+    "id": "sequencing-request-code",
     "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code",
     "version": "0.1.0",
     "name": "sequencing-request-code",
