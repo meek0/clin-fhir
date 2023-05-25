@@ -112,7 +112,7 @@
                 "binding": {
                     "strength": "required",
                     "description": "ServiceRequest codes",
-                    "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code"
+                    "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/sequencing-request-code"
                 }
             },
             {
