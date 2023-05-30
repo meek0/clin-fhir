@@ -62,6 +62,16 @@
           "value": "Analyse bioinformatique de transcriptomes"
         }
       ]
+    },
+    {
+      "code": "TEBA",
+      "display": "Tumoral Exome Bioinformatic Analysis",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Analyse bioinformatique d'exomes tumoraux"
+        }
+      ]
     }
   ]
 }

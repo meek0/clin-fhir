@@ -114,11 +114,11 @@
     },
     {
       "code": "TRATU",
-      "display": "Transcriptome",
+      "display": "Tumoral Transcriptome",
       "designation": [
         {
           "language": "fr",
-          "value": "Transcriptome"
+          "value": "Transcriptome tumoral"
         }
       ]
     },
@@ -139,6 +139,16 @@
         {
           "language": "fr",
           "value": "Prédisposition cancers pédiatriques"
+        }
+      ]
+    },
+    {
+      "code": "EXTUM",
+      "display": "Tumoral Exome",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Exome Tumoral"
         }
       ]
     }

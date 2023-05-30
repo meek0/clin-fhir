@@ -1,0 +1,22 @@
+{
+    "resourceType": "ValueSet",
+    "id": "sequencing-request-code",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/sequencing-request-code",
+    "version": "0.1.0",
+    "name": "sequencing-request-codes",
+    "title": "Sequencing request codes ",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "Sequencing request codes",
+    "compose": {
+      "include": [
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code"
+        },
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"
+        }
+      ]
+    }
+  }

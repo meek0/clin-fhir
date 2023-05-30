@@ -569,6 +569,38 @@
         "reference": {
           "reference": "ValueSet/disease-status"
         }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem missing-parent-status",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/missing-parent-status",
+        "reference": {
+          "reference": "CodeSystem/missing-parent-status"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem hp",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/hp",
+        "reference": {
+          "reference": "CodeSystem/hp"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem sequencing-request-code",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/sequencing-request-code",
+        "reference": {
+          "reference": "CodeSystem/sequencing-request-code"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet sequencing-request-code",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/sequencing-request-code",
+        "reference": {
+          "reference": "ValueSet/sequencing-request-code"
+        }
       }
     ]
   },
