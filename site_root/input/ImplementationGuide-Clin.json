@@ -579,14 +579,6 @@
         }
       },
       {
-        "description": "Ferlab.bio CodeSystem hp",
-        "exampleBoolean": false,
-        "name": "Ferlab.bio CodeSystem/hp",
-        "reference": {
-          "reference": "CodeSystem/hp"
-        }
-      },
-      {
         "description": "Ferlab.bio CodeSystem sequencing-request-code",
         "exampleBoolean": false,
         "name": "Ferlab.bio CodeSystem/sequencing-request-code",
