@@ -95,7 +95,7 @@
             ]
           },
           {
-            "code": "HP:0003581",
+            "code": "HP:0011462",
             "display": "Young Adult (>= 16 years and < 40 years)",
             "designation": [
               {
@@ -105,7 +105,7 @@
             ]
           },
           {
-            "code": "HP:0003581",
+            "code": "HP:0003596",
             "display": "Middle Age Adult (>= 40 years and < 60 years)",
             "designation": [
               {
@@ -115,7 +115,7 @@
             ]
           },
           {
-            "code": "HP:0003581",
+            "code": "HP:0003584",
             "display": "Old Age Adult (>= 60 years)",
             "designation": [
               {
