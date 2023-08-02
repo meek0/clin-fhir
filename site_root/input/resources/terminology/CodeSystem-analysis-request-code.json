@@ -151,6 +151,26 @@
           "value": "Exome Tumoral"
         }
       ]
+    },
+    {
+      "code": "SSOLID",
+      "display": "Solid Tumor (somatic)",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Tumeur solide (somatique)"
+        }
+      ]
+    },
+    {
+      "code": "SHEMA",
+      "display": "Leukemia (somatic)",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Leucémie (somatique)"
+        }
+      ]
     }
   ]
 }
