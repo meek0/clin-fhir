@@ -35,16 +35,6 @@
             ]
           },
           {
-            "code": "HP:0410280",
-            "display": "Pediatric (<= 15 years)",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Pédiatrique (<= 15 ans)"
-              }
-            ]
-          },
-          {
             "code": "HP:0003623",
             "display": "Neonatal (< 28 days)",
             "designation": [
@@ -76,21 +66,11 @@
           },
           {
             "code": "HP:0003621",
-            "display": "Juvenile (>= 5 years and <= 15 years)",
+            "display": "Juvenile (>= 5 years and < 16 years)",
             "designation": [
               {
                 "language": "fr",
-                "value": "Juvénile (>= 5 ans et <= 15 ans)"
-              }
-            ]
-          },
-          {
-            "code": "HP:0003581",
-            "display": "Adult (>= 16 years)",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Adulte (>= 16 ans)"
+                "value": "Juvénile (>= 5 ans et < 16 ans)"
               }
             ]
           },
@@ -106,17 +86,17 @@
           },
           {
             "code": "HP:0003596",
-            "display": "Middle Age Adult (>= 40 years and < 60 years)",
+            "display": "Middle Age (>= 40 years and < 60 years)",
             "designation": [
               {
                 "language": "fr",
-                "value": "Adulte d'âge moyen (>= 16 ans et < 60 ans)"
+                "value": "Adulte d'âge moyen (>= 40 ans et < 60 ans)"
               }
             ]
           },
           {
             "code": "HP:0003584",
-            "display": "Old Age Adult (>= 60 years)",
+            "display": "Old Adult (>= 60 years)",
             "designation": [
               {
                 "language": "fr",
