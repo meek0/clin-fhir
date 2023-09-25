@@ -86,7 +86,7 @@
           },
           {
             "code": "HP:0003596",
-            "display": "Middle Age (>= 40 years and < 60 years)",
+            "display": "Middle Age Adult (>= 40 years and < 60 years)",
             "designation": [
               {
                 "language": "fr",
@@ -96,11 +96,11 @@
           },
           {
             "code": "HP:0003584",
-            "display": "Old Adult (>= 60 years)",
+            "display": "Senior Adult (>= 60 years)",
             "designation": [
               {
                 "language": "fr",
-                "value": "Adulte agé (>= 60 ans)"
+                "value": "Adulte sénior (>= 60 ans)"
               }
             ]
           }
