@@ -171,6 +171,16 @@
           "value": "Leucémie (somatique)"
         }
       ]
+    },
+    {
+      "code": "SCID",
+      "display": "Severe Combined Immune Deficiency",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Déficit immunitaire combiné sévère"
+        }
+      ]
     }
   ]
 }
