@@ -25,11 +25,21 @@
     },
     {
       "code": "SNV",
-      "display": "SNV",
+      "display": "Germline SNV",
       "designation": [
         {
           "language": "fr",
-          "value": "SNV"
+          "value": "SNV germinal"
+        }
+      ]
+    },
+    {
+      "code": "SSNV",
+      "display": "Somatic SNV",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "SNV somatic"
         }
       ]
     },
@@ -44,12 +54,32 @@
       ]
     },
     {
+      "code": "SCNV",
+      "display": "Somatic CNV",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "CNV somatic"
+        }
+      ]
+    },
+    {
       "code": "GSV",
       "display": "Germline SV",
       "designation": [
         {
           "language": "fr",
           "value": "SV germinal"
+        }
+      ]
+    },
+    {
+      "code": "SSV",
+      "display": "Somatic SV",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "SV somatic"
         }
       ]
     },
