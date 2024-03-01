@@ -14,12 +14,22 @@
   "concept": [
     {
       "code": "TEMPORARY",
-      "display": "Temporary absent parent",
+      "display": "Temporary absence",
       "designation": [
-          {
-              "language": "fr",
-              "value": "Parent absent temporairement"
-          }
+        {
+          "language": "fr",
+          "value": "Absence temporaire"
+        }
+      ]
+    },
+    {
+      "code": "NEVER",
+      "display": "Permanent absence",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Absence définitive"
+        }
       ]
     }
   ]
