@@ -12,7 +12,29 @@
     "compose": {
       "include": [
         {
-          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities"
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities",
+          "concept": [
+            {
+              "code": "CNV0",
+              "display": "CNVs not explaining phenotypes",
+              "designation": [
+                {
+                  "language": "fr",
+                  "value": "CNVs n'expliquant pas le phénotype"
+                }
+              ]
+            },
+            {
+              "code": "CNV1",
+              "display": "CNVs explaining phenotypes",
+              "designation": [
+                {
+                  "language": "fr",
+                  "value": "CNV expliquant le phénotype"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
