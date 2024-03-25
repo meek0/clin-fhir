@@ -72,6 +72,16 @@
           "value": "Analyse bioinformatique d'exomes tumoraux"
         }
       ]
+    },
+    {
+      "code" :"TNEBA",
+      "display":"Tumor-Normal Exomes Bioinformatic Analysis",
+      "designation":[
+        {
+          "language":"fr",
+            "value":"Analyse bioinformatique des exomes tumoraux et normaux"
+        }
+      ]
     }
   ]
 }
