@@ -16,21 +16,21 @@
           "concept": [
             {
               "code": "CNV0",
-              "display": "CNVs not explaining phenotypes",
+              "display": "CNV that does not explain the phenotype",
               "designation": [
                 {
                   "language": "fr",
-                  "value": "CNVs n'expliquant pas le phénotype"
+                  "value": "CNV qui n'explique pas le phénotype"
                 }
               ]
             },
             {
               "code": "CNV1",
-              "display": "CNVs explaining phenotypes",
+              "display": "CNV that does explain the phenotype",
               "designation": [
                 {
                   "language": "fr",
-                  "value": "CNV expliquant le phénotype"
+                  "value": "CNV qui explique le phénotype"
                 }
               ]
             }
