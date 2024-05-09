@@ -1,0 +1,16 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "ramq",
+  "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/ramq",
+  "version": "0.1.0",
+  "name": "ramq",
+  "status": "active",
+  "experimental": true,
+  "publisher": "Ferlab",
+  "description": "Searches Person by ramq",
+  "code": "ramq",
+  "base": [ "Person" ],
+  "type": "string",
+  "expression": "Person.identifier.where(type.coding.code='JHN' and type.coding.system='http://terminology.hl7.org/CodeSystem/v2-0203').value",
+  "xpathUsage": "normal"
+}
