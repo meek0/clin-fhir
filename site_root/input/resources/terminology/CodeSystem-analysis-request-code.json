@@ -14,11 +14,11 @@
   "concept": [
     {
       "code": "MMG",
-      "display": "Global Muscular diseases (Global Panel)",
+      "display": "Global Muscular Diseases",
       "designation": [
         {
           "language": "fr",
-          "value": "Maladies musculaires (Panel global)"
+          "value": "Maladies musculaires globales"
         }
       ]
     },
@@ -84,7 +84,7 @@
     },
     {
       "code": "RGDI",
-      "display": "Global Developmental Delay / Intellectual Deficiency (Trio)",
+      "display": "Global Developmental Delay / Intellectual Disabilty (Trio)",
       "designation": [
         {
           "language": "fr",
@@ -124,7 +124,7 @@
     },
     {
       "code": "TUHEM",
-      "display": "Hematological malignancies predisposition",
+      "display": "Hematological Malignancies Predisposition",
       "designation": [
         {
           "language": "fr",
@@ -134,7 +134,7 @@
     },
     {
       "code": "TUPED",
-      "display": "Pediatric cancer predisposition",
+      "display": "Pediatric Cancer Predisposition",
       "designation": [
         {
           "language": "fr",
@@ -148,7 +148,7 @@
       "designation": [
         {
           "language": "fr",
-          "value": "Exome Tumoral"
+          "value": "Exome tumoral"
         }
       ]
     },
