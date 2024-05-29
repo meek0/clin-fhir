@@ -84,7 +84,7 @@
     },
     {
       "code": "RGDI",
-      "display": "Global Developmental Delay / Intellectual Disabilty (Trio)",
+      "display": "Global Developmental Delay / Intellectual Disability (Trio)",
       "designation": [
         {
           "language": "fr",
@@ -154,7 +154,7 @@
     },
     {
       "code": "SSOLID",
-      "display": "Solid Tumor (somatic)",
+      "display": "Solid Tumor (Somatic)",
       "designation": [
         {
           "language": "fr",
@@ -164,7 +164,7 @@
     },
     {
       "code": "SHEMA",
-      "display": "Leukemia (somatic)",
+      "display": "Leukemia (Somatic)",
       "designation": [
         {
           "language": "fr",
