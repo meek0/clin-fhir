@@ -16,7 +16,7 @@
         "concept": [
           {
             "code": "CKIN",
-            "display": "Serum creatine kinase",
+            "display": "Serum Creatine Kinase",
             "designation": [
               {
                 "language": "fr",
@@ -26,7 +26,7 @@
           },
           {
             "code": "BMUS",
-            "display": "Muscle biopsy",
+            "display": "Muscle Biopsy",
             "designation": [
               {
                 "language": "fr",
@@ -66,7 +66,7 @@
           },
           {
             "code": "GCNR",
-            "display": "GCN Repeat Testing (oculopharyngeal muscular dystrophy)",
+            "display": "GCN Repeat Testing (Oculopharyngeal Muscular Dystrophy)",
             "designation": [
               {
                 "language": "fr",
@@ -76,7 +76,7 @@
           },
           {
             "code": "TGDD",
-            "display": "Deletions and Duplications Testing (Duchenne and Becker dystrophies)",
+            "display": "Deletions and Duplications Testing (Duchenne and Becker Dystrophies)",
             "designation": [
               {
                 "language": "fr",
