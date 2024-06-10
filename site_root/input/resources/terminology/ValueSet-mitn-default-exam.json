@@ -16,7 +16,7 @@
         "concept": [
           {
             "code": "CAAP",
-            "display": "Plasma amino acid chromatography",
+            "display": "Plasma Amino Acid Chromatography",
             "designation": [
               {
                 "language": "fr",
@@ -106,7 +106,7 @@
           },
           {
             "code": "BMET",
-            "display": "Metabolic work-up",
+            "display": "Metabolic Work-Up",
             "designation": [
               {
                 "language": "fr",
@@ -116,7 +116,7 @@
           },
           {
             "code": "BMUS",
-            "display": "Muscle biopsy",
+            "display": "Muscle Biopsy",
             "designation": [
               {
                 "language": "fr",
