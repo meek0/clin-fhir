@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "name": "age-at-event",
   "title": "Age At Event",
-  "status": "draft",
+  "status": "active",
   "description": "Patient's age (in days since birth) at the time of medical consultation",
   "fhirVersion": "4.0.1",
   "kind": "complex-type",

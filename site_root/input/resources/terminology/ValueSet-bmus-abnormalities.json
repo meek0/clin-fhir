@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "name": "bmus-abnormalities",
   "title": "Muscle biopsy abnormalities",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "publisher": "Ferlab.bio",
   "description": "Category of mucle biopsy abnormalities (HPO code)",

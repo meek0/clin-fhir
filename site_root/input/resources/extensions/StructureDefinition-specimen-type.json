@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "name": "specimen-type",
   "title": "Specimen types",
-  "status": "draft",
+  "status": "active",
   "description": "Specimen type",
   "fhirVersion": "4.0.1",
   "kind": "complex-type",

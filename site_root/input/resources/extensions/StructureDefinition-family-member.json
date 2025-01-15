@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "name": "family-member",
   "title": "Family Member",
-  "status": "draft",
+  "status": "active",
   "description": "Same family patients in a family analysis request (e.g. trio)",
   "fhirVersion": "4.0.1",
   "kind": "complex-type",

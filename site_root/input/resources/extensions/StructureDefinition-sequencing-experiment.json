@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "name": "sequencing-experiment",
   "title": "Sequencing expriment",
-  "status": "draft",
+  "status": "active",
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,

@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "name": "resident-supervisor",
   "title": "Resident Supervisor",
-  "status": "draft",
+  "status": "active",
   "description": "Reference of the supervisor",
   "fhirVersion": "4.0.1",
   "kind": "complex-type",

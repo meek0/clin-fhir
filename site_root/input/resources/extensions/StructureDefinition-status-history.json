@@ -5,7 +5,7 @@
     "version": "0.1.0",
     "name": "status-history",
     "title": "Status history",
-    "status": "draft",
+    "status": "active",
     "description": "History of the status of the request",
     "fhirVersion": "4.0.1",
     "kind": "complex-type",

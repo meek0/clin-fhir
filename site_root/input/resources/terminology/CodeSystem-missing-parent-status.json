@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "name": "missing-parent-status",
   "title": "Missing parent status",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "publisher": "Ferlab.bio",
   "description": "type d'absence pour un parent",

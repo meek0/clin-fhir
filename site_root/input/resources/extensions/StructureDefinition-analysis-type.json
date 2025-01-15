@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "name": "analysis-type",
   "title": "Analysis types",
-  "status": "draft",
+  "status": "active",
   "description": "Type of the analysis",
   "fhirVersion": "4.0.1",
   "kind": "complex-type",

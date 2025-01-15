@@ -5,7 +5,7 @@
     "version": "0.1.0",
     "name": "cqgc-sequencing-request",
     "title": "CQGC Sequencing Service Request",
-    "status": "draft",
+    "status": "active",
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,

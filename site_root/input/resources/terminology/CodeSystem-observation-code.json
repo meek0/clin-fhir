@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "name": "observation-code",
   "title": "Observation codes",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "publisher": "Ferlab.bio",
   "description": "Codes of observations in our system",

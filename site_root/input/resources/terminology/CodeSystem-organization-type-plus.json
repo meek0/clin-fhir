@@ -5,7 +5,7 @@
     "version": "0.1.0",
     "name": "organization-type-plus",
     "title": "Organization type-plus",
-    "status": "draft",
+    "status": "active",
     "experimental": false,
     "publisher": "Ferlab.bio",
     "description": "The added values ​​(specific to our systems) which extend the CodeSystem provided by HL7",

@@ -5,7 +5,7 @@
     "version": "0.1.0",
     "name": "sequencing-request-codes",
     "title": "Sequencing request codes ",
-    "status": "draft",
+    "status": "active",
     "experimental": false,
     "publisher": "Ferlab.bio",
     "description": "Sequencing request codes",

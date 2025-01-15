@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "name": "analysis-request-code",
   "title": "Analysis request code",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "publisher": "Ferlab.bio",
   "description": "Gene panel requested for analysis",

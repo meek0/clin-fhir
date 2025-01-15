@@ -5,7 +5,7 @@
     "version": "0.1.0",
     "name": "age-at-onset",
     "title": "Age At Onset",
-    "status": "draft",
+    "status": "active",
     "description": "The age of appearance of the clinical sign (refers to an age group defined by a term HPO)",
     "fhirVersion": "4.0.1",
     "kind": "complex-type",

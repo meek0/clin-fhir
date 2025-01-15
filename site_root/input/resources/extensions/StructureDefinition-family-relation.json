@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "name": "family-relation",
   "title": "Family Relation",
-  "status": "draft",
+  "status": "active",
   "description": "Patient from the same family.",
   "fhirVersion": "4.0.0",
   "kind": "complex-type",

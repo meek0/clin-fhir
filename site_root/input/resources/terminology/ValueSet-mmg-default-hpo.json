@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "name": "mmg-default-hpo",
   "title": "Muscle disease  default clinical signs (HPO code)",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "publisher": "Ferlab.bio",
   "description": "Muscle disease  default clinical signs (HPO code)",

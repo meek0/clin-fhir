@@ -5,7 +5,7 @@
   "version": "http://purl.obolibrary.org/obo/hp/releases/2020-03-27/hp.owl",
   "name": "http://purl.obolibrary.org/obo/hp.owl",
   "title": "Human Phenotype Ontology",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "description": "Please see license of HPO at http://www.human-phenotype-ontology.org",
   "hierarchyMeaning": "is-a",

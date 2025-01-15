@@ -5,7 +5,7 @@
   "version": "0.2.0",
   "name": "age-at-onset",
   "title": "Age at Onset Codes",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "publisher": "Ferlab.bio",
   "description": "This value set includes age at onset codes from Human Phenotype Ontology.",

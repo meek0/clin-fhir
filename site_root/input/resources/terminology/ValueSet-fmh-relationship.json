@@ -5,7 +5,7 @@
     "version": "0.1.0",
     "name": "fmh-relationship",
     "title": "Family Member Relationship",
-    "status": "draft",
+    "status": "active",
     "experimental": false,
     "publisher": "Ferlab.bio",
     "description": "Values ​​assigned to relationship fields",
