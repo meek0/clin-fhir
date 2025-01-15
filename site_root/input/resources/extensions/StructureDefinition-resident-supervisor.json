@@ -8,7 +8,7 @@
   "status": "draft",
   "description": "Reference of the supervisor",
   "fhirVersion": "4.0.1",
-  "kind": "resource",
+  "kind": "complex-type",
   "abstract": false,
   "context": [ {
     "type": "element",
