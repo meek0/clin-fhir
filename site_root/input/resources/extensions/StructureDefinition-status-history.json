@@ -8,7 +8,7 @@
     "status": "draft",
     "description": "History of the status of the request",
     "fhirVersion": "4.0.1",
-    "kind": "resource",
+    "kind": "complex-type",
     "abstract": false,
     "context": [
       {
