@@ -1,0 +1,11 @@
+services:
+  clin-fhir:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      BASE_URL: http://host.docker.internal:8080/fhir
+      OAUTH_URL: http://host.docker.internal:8081/realms/clin/protocol/openid-connect/token
+      OAUTH_CLIENT_ID: clin-system
+      OAUTH_CLIENT_SECRET: localstacksecret
+      OAUTH_UMA_AUDIENCE: clin-acl

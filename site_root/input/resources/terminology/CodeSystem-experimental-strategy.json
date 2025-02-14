@@ -55,6 +55,17 @@
           "value": "Séquençage de transcriptome complet"
         }
       ]
+    },
+    {
+      "code": "TTS",
+      "display": "Targeted Transcriptome Sequencing",
+      "definition": "Targeted Transcriptome Sequencing",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Séquençage transcriptome ciblé"
+        }
+      ]
     }
   ]
 }
