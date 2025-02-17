@@ -181,16 +181,6 @@
           "value": "Déficit immunitaire combiné sévère"
         }
       ]
-    },
-    {
-      "code": "STMO",
-      "display": "Soft tissue and bone sarcoma",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Sarcome des tissus mous et osseux"
-        }
-      ]
     }
   ]
 }
