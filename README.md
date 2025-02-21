@@ -74,6 +74,6 @@ Launch the DAG with:
 {
     "fhir": "yes",
     "csv": "no",
-    "color": "blue"
+    "color": "<blue or green>"
 }
 ```
