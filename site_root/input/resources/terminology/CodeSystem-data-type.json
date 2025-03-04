@@ -84,32 +84,22 @@
       ]
     },
     {
+      "code": "SOMFU",
+      "display": "Somatic Fusion Dragen VCF",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Somatic Fusion Dragen VCF"
+        }
+      ]
+    },
+    {
       "code": "SSUP",
       "display": "Sequencing Data Supplement",
       "designation": [
         {
           "language": "fr",
           "value": "Données de séquençage supplémentaires"
-        }
-      ]
-    },
-    {
-      "code": "INDX",
-      "display": "Sequencing Data Index",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Index de données de séquençage"
-        }
-      ]
-    },
-    {
-      "code": "EXOMISER",
-      "display": "Exomiser Report",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Rapport Exomiser"
         }
       ]
     },
@@ -134,6 +124,16 @@
       ]
     },
     {
+      "code": "EXP",
+      "display": "Expression PNG",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Expression PNG"
+        }
+      ]
+    },
+    {
       "code": "COVGENE",
       "display": "Coverage by Gene Report",
       "designation": [
@@ -144,22 +144,152 @@
       ]
     },
     {
-      "code": "OTHER",
-      "display": "Undefined Data Type",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Type de données indéfini"
-        }
-      ]
-    },
-    {
       "code": "QCRUN",
       "display": "Sequencing Run QC Report",
       "designation": [
         {
           "language": "fr",
           "value": "Rapport de controle de qualité de la run de séquençage"
+        }
+      ]
+    },
+    {
+      "code": "EXOMISER",
+      "display": "Exomiser Report",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Rapport Exomiser"
+        }
+      ]
+    },
+    {
+      "code": "PFUSION",
+      "display": "Preliminary Fusion TSV",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Preliminary Fusion TSV"
+        }
+      ]
+    },
+    {
+      "code": "RNASEQ",
+      "display": "RNA SEQ",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "RNA SEQ"
+        }
+      ]
+    },
+    {
+      "code": "SRNASEQFCP",
+      "display": "Somatic RNA SEQ Fusion Candidate Preliminary",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Somatic RNA SEQ Fusion Candidate Preliminary"
+        }
+      ]
+    },
+    {
+      "code": "SRNASEQFCF",
+      "display": "Somatic RNA SEQ Fusion Candidate Final",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Somatic RNA SEQ Fusion Candidate Final"
+        }
+      ]
+    },
+    {
+      "code": "SGENEXPSF",
+      "display": "Somatic Gene Expression SF",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Somatic Gene Expression SF"
+        }
+      ]
+    },
+    {
+      "code": "FFUSION",
+      "display": "Final Fusion",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Final Fusion"
+        }
+      ]
+    },
+    {
+      "code": "MDALL",
+      "display": "Leukemia Classification by the MD-ALL Algorithm",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Leukemia Classification by the MD-ALL Algorithm"
+        }
+      ]
+    },
+    {
+      "code": "KMBCOR",
+      "display": "Somatic Targeted Analysis by the KM Algorithm",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Somatic Targeted Analysis by the KM Algorithm"
+        }
+      ]
+    },
+    {
+      "code": "KMFLT3",
+      "display": "Somatic Targeted Analysis by the KM Algorithm",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Somatic Targeted Analysis by the KM Algorithm"
+        }
+      ]
+    },
+    {
+      "code": "KMUBTF",
+      "display": "Somatic Targeted Analysis by the KM Algorithm",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Somatic Targeted Analysis by the KM Algorithm"
+        }
+      ]
+    },
+    {
+      "code": "KMNPM1",
+      "display": "Somatic Targeted Analysis by the KM Algorithm",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Somatic Targeted Analysis by the KM Algorithm"
+        }
+      ]
+    },
+    {
+      "code": "INDX",
+      "display": "Sequencing Data Index",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Index de données de séquençage"
+        }
+      ]
+    },
+    {
+      "code": "OTHER",
+      "display": "Undefined Data Type",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Type de données indéfini"
         }
       ]
     },
