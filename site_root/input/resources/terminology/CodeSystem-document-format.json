@@ -132,6 +132,16 @@
           "value": "Fichier CSV"
         }
       ]
+    },
+    {
+      "code": "PDF",
+      "display": "PDF File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Fichier PDF"
+        }
+      ]
     }
   ]
 }
