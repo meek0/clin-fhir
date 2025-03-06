@@ -103,6 +103,16 @@
                 "value": "Adulte sénior (>= 60 ans)"
               }
             ]
+          },
+          {
+            "code": "unknown",
+            "display": "Unknown",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Inconnu"
+              }
+            ]
           }
         ]
       }
