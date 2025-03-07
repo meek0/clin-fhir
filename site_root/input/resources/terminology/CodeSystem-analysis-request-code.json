@@ -144,21 +144,11 @@
     },
     {
       "code": "EXTUM",
-      "display": "Tumoral Exome",
+      "display": "Tumoral Analysis",
       "designation": [
         {
           "language": "fr",
-          "value": "Exome tumoral"
-        }
-      ]
-    },
-    {
-      "code": "SSOLID",
-      "display": "Solid Tumor (Somatic)",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Tumeur solide (somatique)"
+          "value": "Analyse tumorale"
         }
       ]
     },
