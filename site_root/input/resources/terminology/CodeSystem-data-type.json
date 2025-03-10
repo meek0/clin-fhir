@@ -85,11 +85,11 @@
     },
     {
       "code": "SOMFU",
-      "display": "Somatic Fusion Dragen VCF",
+      "display": "Somatic Fusion Dragen",
       "designation": [
         {
           "language": "fr",
-          "value": "Somatic Fusion Dragen VCF"
+          "value": "Dragen des fusions somatiques"
         }
       ]
     },
@@ -129,7 +129,7 @@
       "designation": [
         {
           "language": "fr",
-          "value": "Expression PNG"
+          "value": "PNG des expressions"
         }
       ]
     },
@@ -169,37 +169,37 @@
       "designation": [
         {
           "language": "fr",
-          "value": "Preliminary Fusion TSV"
+          "value": "TSV préliminaire des fusions"
         }
       ]
     },
     {
       "code": "RNASEQ",
-      "display": "RNA SEQ",
+      "display": "RNA Sequences",
       "designation": [
         {
           "language": "fr",
-          "value": "RNA SEQ"
+          "value": "Séquences d'ARN"
         }
       ]
     },
     {
       "code": "SRNASEQFCP",
-      "display": "Somatic RNA SEQ Fusion Candidate Preliminary",
+      "display": "Somatic RNA Sequences Fusion Candidate Preliminary",
       "designation": [
         {
           "language": "fr",
-          "value": "Somatic RNA SEQ Fusion Candidate Preliminary"
+          "value": "Fichier préliminaire des candidats de fusion de séquences d'ARN somatique"
         }
       ]
     },
     {
       "code": "SRNASEQFCF",
-      "display": "Somatic RNA SEQ Fusion Candidate Final",
+      "display": "Somatic RNA Sequences Fusion Candidate Final",
       "designation": [
         {
           "language": "fr",
-          "value": "Somatic RNA SEQ Fusion Candidate Final"
+          "value": "Fichier final des candidats de fusion de séquences d'ARN somatique"
         }
       ]
     },
@@ -209,7 +209,7 @@
       "designation": [
         {
           "language": "fr",
-          "value": "Somatic Gene Expression SF"
+          "value": "Expression génique somatique SF"
         }
       ]
     },
@@ -219,7 +219,7 @@
       "designation": [
         {
           "language": "fr",
-          "value": "Final Fusion"
+          "value": "Final des fusions"
         }
       ]
     },
@@ -229,7 +229,7 @@
       "designation": [
         {
           "language": "fr",
-          "value": "Leukemia Classification by the MD-ALL Algorithm"
+          "value": "Classification de la leucémie par l'algorithme MD-ALL"
         }
       ]
     },
@@ -239,7 +239,7 @@
       "designation": [
         {
           "language": "fr",
-          "value": "Somatic Targeted Analysis by the KM Algorithm"
+          "value": "Analyse ciblée somatique par l'algorithme KM"
         }
       ]
     },
@@ -249,7 +249,7 @@
       "designation": [
         {
           "language": "fr",
-          "value": "Somatic Targeted Analysis by the KM Algorithm"
+          "value": "Analyse ciblée somatique par l'algorithme KM"
         }
       ]
     },
@@ -259,7 +259,7 @@
       "designation": [
         {
           "language": "fr",
-          "value": "Somatic Targeted Analysis by the KM Algorithm"
+          "value": "Analyse ciblée somatique par l'algorithme KM"
         }
       ]
     },
@@ -269,7 +269,7 @@
       "designation": [
         {
           "language": "fr",
-          "value": "Somatic Targeted Analysis by the KM Algorithm"
+          "value": "Analyse ciblée somatique par l'algorithme KM"
         }
       ]
     },
