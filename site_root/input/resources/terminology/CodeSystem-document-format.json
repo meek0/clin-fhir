@@ -142,6 +142,16 @@
           "value": "Fichier PDF"
         }
       ]
+    },
+    {
+      "code": "TXT",
+      "display": "Text File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Fichier texte"
+        }
+      ]
     }
   ]
 }
