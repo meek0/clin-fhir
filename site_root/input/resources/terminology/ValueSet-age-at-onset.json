@@ -15,6 +15,16 @@
         "system": "http://purl.obolibrary.org/obo/hp.owl",
         "concept": [
           {
+            "code": "unknown",
+            "display": "Unknown",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Inconnu"
+              }
+            ]
+          },
+          {
             "code": "HP:0030674",
             "display": "Antenatal",
             "designation": [
@@ -101,16 +111,6 @@
               {
                 "language": "fr",
                 "value": "Adulte sénior (>= 60 ans)"
-              }
-            ]
-          },
-          {
-            "code": "unknown",
-            "display": "Unknown",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Inconnu"
               }
             ]
           }
