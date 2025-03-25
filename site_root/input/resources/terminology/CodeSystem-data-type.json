@@ -85,11 +85,11 @@
     },
     {
       "code": "SOMFU",
-      "display": "Somatic Fusion Dragen",
+      "display": "Somatic Fusion Dragen VCF",
       "designation": [
         {
           "language": "fr",
-          "value": "Dragen des fusions somatiques"
+          "value": "VCF Dragen des fusions somatiques"
         }
       ]
     },
