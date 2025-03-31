@@ -192,6 +192,17 @@
         }
       ],
       "definition": "This test is indicated for patients presenting with a major congenital anomaly suggestive of a monogenic disease (e.g. cerebellar anomaly, radial anomalies of the upper limbs, complex cardiac malformation, etc.), a major congenital anomaly in the presence of dysmorphism, or 2 or more major congenital anomalies. In the context of this test and according to the CDC's definition, a major anomaly is defined as a structural abnormality present before birth that has significant medical, social, or cosmetic consequences. Typically, it requires medical intervention, as opposed to a minor anomaly."
+    },
+    {
+      "code": "FETALANOM",
+      "display": "Fetal anomalies",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Anomalies fœtales"
+        }
+      ],
+      "definition": "This test is indicated for fetuses with one of the following presentations: 1) multisystem involvement in the presence of 2 or more major congenital anomalies, 2) non-immune hydrops fetalis, 3) intra-uterin growth retardation in the presence of a major congenital anomaly, 4) an isolated major congenital anomaly suggestive of a monogenic disorder, for which a molecular diagnosis could have an impact on the management of the pregnancy or the child at birth. In the context of this test and according to the CDC definition, a major anomaly is defined as a structural abnormality present before birth that results in significant medical, social, or cosmetic consequences. Typically, it requires medical intervention, as opposed to a minor anomaly."
     }
   ]
 }

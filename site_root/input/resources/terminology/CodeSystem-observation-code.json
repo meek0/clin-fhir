@@ -291,6 +291,16 @@
           "value": "Analyse CNV pan-génomique"
         }
       ]
-    }
+    },
+          {
+            "code": "QFPCR",
+            "display": "Rapid detection of fetal aneuploidies (QF-PCR)",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Détection rapide des aneuploïdies (QF-PCR)"
+              }
+            ]
+          }
   ]
 }

@@ -1,0 +1,242 @@
+{
+  "resourceType": "ValueSet",
+  "id": "fetalanom-default-hpo",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/fetalanom-default-hpo",
+  "version": "0.1.0",
+  "name": "fetalanom-default-hpo",
+  "title": "Fetal anomalies default clinical signs (HPO code)",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Fetal anomalies default clinical signs (HPO code)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://purl.obolibrary.org/obo/hp.owl",
+        "concept": [
+          {
+            "code": "HP:0000252",
+            "display": "Microcephaly",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Microcéphalie"
+              }
+            ]
+          },
+          {
+            "code": "HP:0000256",
+            "display": "Macrocephaly",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Macrocéphalie"
+              }
+            ]
+          },
+          {
+            "code": "HP:0000175",
+            "display": "Cleft palate",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Fente palatine"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001320",
+            "display": "Cerebellar vermis hypoplasia",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Hypoplasie du vermis cérébelleux"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001305",
+            "display": "Dandy-Walker malformation",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Malformation de Dandy-Walker"
+              }
+            ]
+          },
+          {
+            "code": "HP:0002539",
+            "display": "Cortical dysplasia",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Dysplasie du cortex cérébral"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001710",
+            "display": "Conotruncal heart defects",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie conotroncale"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001750",
+            "display": "Single ventricle",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Coeur univentriculaire"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001642",
+            "display": "Pulmonic stenosis",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Sténose pulmonaire"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001629",
+            "display": "Ventricular septal defect",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Communication interventriculaire"
+              }
+            ]
+          },
+          {
+            "code": "HP:0002032",
+            "display": "Esophageal atresia",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Atrésie de l'oesophage"
+              }
+            ]
+          },
+          {
+            "code": "HP:0000104",
+            "display": "Renal agenesis",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Agénésie rénale"
+              }
+            ]
+          },
+          {
+            "code": "HP:0004719",
+            "display": "Hyperechogenic kidneys",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Reins hyperéchogènes"
+              }
+            ]
+          },
+          {
+            "code": "HP:0000047",
+            "display": "Hypospadias",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Hypospadias"
+              }
+            ]
+          },
+          {
+            "code": "HP:0002652",
+            "display": "Skeletal dysplasia",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Dysplasie squelettique"
+              }
+            ]
+          },
+          {
+            "code": "HP:0100258",
+            "display": "Preaxial polydactyly",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Polydactylie pré-axiale"
+              }
+            ]
+          },
+          {
+            "code": "HP:0100259",
+            "display": "Postaxial polydactyly",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Polydactylie post-axiale"
+              }
+            ]
+          },
+          {
+            "code": "HP:0410049",
+            "display": "Abnormal radial ray morphology",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie du rayon radial"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001511",
+            "display": "Intrauterine growth retardation",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Retard de croissance intra-utérin"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001520",
+            "display": "Large for gestational age",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Macrosomie"
+              }
+            ]
+          },
+          {
+            "code": "HP:0002804",
+            "display": "Arthrogryposis multiplex congenita",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Arthrogrypose multiple congénitale"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001789",
+            "display": "Hydrops fetalis",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anasarque foetal"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "date": "2025-03-31T10:49:27-04:00"
+}
