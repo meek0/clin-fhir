@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "id": "fetalanom-default-exam",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/fetalanom-default-exam",
+  "version": "0.1.0",
+  "name": "fetalanom-default-exam",
+  "title": "Fetal anomalies default para-clinical exams",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Fetal anomalies default para-clinical exams",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+        "concept": [
+          {
+            "code": "CNVPG",
+            "display": "Genomic CNV analysis",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Analyse CNV pan-génomique"
+              }
+            ]
+          },
+          {
+            "code": "QFPCR",
+            "display": "Rapid detection of fetal aneuploidies (QF-PCR)",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Détection rapide des aneuploïdies (QF-PCR)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "date": "2025-03-31T11:49:27-04:00"
+}
