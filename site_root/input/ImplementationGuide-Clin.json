@@ -475,6 +475,14 @@
         }
       },
       {
+        "description": "Ferlab.bio ValueSet malfor-default-hpo",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/malfor-default-hpo",
+        "reference": {
+          "reference": "ValueSet/malfor-default-hpo"
+        }
+      },
+      {
         "description": "Ferlab.bio ValueSet analysis-request-code",
         "exampleBoolean": false,
         "name": "Ferlab.bio ValueSet/analysis-request-code",
@@ -488,6 +496,14 @@
         "name": "Ferlab.bio ValueSet/mitn-default-exam",
         "reference": {
           "reference": "ValueSet/mitn-default-exam"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet malfor-default-exam",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/malfor-default-exam",
+        "reference": {
+          "reference": "ValueSet/malfor-default-exam"
         }
       },
       {
