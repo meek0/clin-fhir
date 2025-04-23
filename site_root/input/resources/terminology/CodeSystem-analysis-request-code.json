@@ -203,6 +203,190 @@
         }
       ],
       "definition": "This test is indicated for fetuses with one of the following presentations: 1) multisystem involvement in the presence of 2 or more major congenital anomalies, 2) non-immune hydrops fetalis, 3) intra-uterin growth retardation in the presence of a major congenital anomaly, 4) an isolated major congenital anomaly suggestive of a monogenic disorder, for which a molecular diagnosis could have an impact on the management of the pregnancy or the child at birth. In the context of this test and according to the CDC definition, a major anomaly is defined as a structural abnormality present before birth that results in significant medical, social, or cosmetic consequences. Typically, it requires medical intervention, as opposed to a minor anomaly."
+    },
+    {
+      "code": "DPSO",
+      "display": "Superoxide production defect",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Défaut de production de superoxyde"
+        }
+      ]
+    },
+    {
+      "code": "EIDC",
+      "display": "Inherited complement errors",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Erreurs innées du complément"
+        }
+      ]
+    },
+    {
+      "code": "EIDI",
+      "display": "Inborn errors of immunity",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Erreurs innées de l'immunité"
+        }
+      ],
+      "definition": "Primary immunodeficiency (aka innate errors of immunity; IEI) disorders are genetic conditions that cause defects in the immune system, leading to increased susceptibility to infections and other health problems. These disorders are caused by mutations in genes that are essential for immune system function. They are primarily caused by genetic mutations that affect various components of the immune system, including B cells, T cells, and phagocytes."
+    },
+    {
+      "code": "EIII",
+      "display": "Inherited errors of intrinsic immunity",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Erreurs innées de l'immunité intrinsèque"
+        }
+      ]
+    },
+    {
+      "code": "EPIL",
+      "display": "Epilepsy without intellectual disability",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Epilepsie sans déficience intellectuelle"
+        }
+      ],
+      "definition": "Epilepsy is a neurodevelopmental disorder characterized by recurrent, unprovoked seizures. These seizures are caused by abnormal electrical activity in the brain. The condition can vary widely in terms of severity, frequency, and type of seizures experienced. Epilepsy can be either isolated or, as is often the case in pediatrics, comorbid with developmental delay and intellectual disability (ID)."
+    },
+    {
+      "code": "EXNOR",
+      "display": "Normal paired exome material",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Exome matériel normal (pairé)"
+        }
+      ]
+    },
+    {
+      "code": "HDIP",
+      "display": "Hypogammaglobulinemia and primary immune dysregulation",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Hypogammaglobulinémie et dysrégulation immunitaire primitive"
+        }
+      ]
+    },
+    {
+      "code": "HLEB",
+      "display": "Lymphohistiocytic hemophagocytosis and chronic active Epstein-Barr virus infection",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Hémophagocytose lymphohistiocytaire et à l'infection chronique active au virus Epstein Barr"
+        }
+      ]
+    },
+    {
+      "code": "HLH",
+      "display": "Hemophagocytic lymphohistiocytosis",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Hémophagocytose lymphohistiocytaire"
+        }
+      ],
+      "definition": "Hemophagocytic lymphohistiocytosis (HLH) is a devastating, hyper-inflammatory condition that results in multi-organ failure and death. The systemic inflammation that characterizes the disease results from the inappropriate and dysregulated activation of natural killer (NK) cells, CD8+ cytotoxic T-cells, and macrophages. The disease is classified as either primary (resulting from inherited genetic mutations) or secondary (an inappropriate host response to infection, malignancy, or autoimmune disease). Patients with primary disease present early in childhood, whereas those with secondary disease present as adults with an associated acute illness, most commonly sepsis or a hematologic malignancy. Treatment is focused on immunosuppression coupled with cytotoxic chemotherapy, without which large proportions of patients inevitably die (https://www.ncbi.nlm.nih.gov/books/NBK557776/)."
+    },
+    {
+      "code": "MAI",
+      "display": "Autoinflammatory diseases",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Maladies auto-inflammatoires"
+        }
+      ]
+    },
+    {
+      "code": "MSMD",
+      "display": "Mendelian Susceptibility to Mycobacterial Diseases",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Syndrome de prédisposition mendélienne aux infections mycobactériennes (MSMD)"
+        }
+      ]
+    },
+    {
+      "code": "NPC",
+      "display": "Congenital neutropenia",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Neutropénie congénitale"
+        }
+      ]
+    },
+    {
+      "code": "PGDI",
+      "display": "Global immunodeficiency panel",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Panel global déficit immunitaire"
+        }
+      ]
+    },
+    {
+      "code": "RETINO",
+      "display": "Retinopathy",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Rétinopathies"
+        }
+      ]
+    },
+    {
+      "code": "SHIGE",
+      "display": "Hyper-IgE syndrome",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Syndrome d'hyper-IgE"
+        }
+      ]
+    },
+    {
+      "code": "SLA",
+      "display": "Amyotrophic lateral sclerosis",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Sclérose latérale amyotrophique"
+        }
+      ]
+    },
+    {
+      "code": "SURD",
+      "display": "Hearing loss",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Surdité"
+        }
+      ]
+    },
+    {
+      "code": "VEOIBD",
+      "display": "Very Early Onset Intestinal Bowl Disease",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Maladie inflammatoire de l’intestin très précoce"
+        }
+      ],
+      "definition": "Very Early Onset Inflammatory Bowel Disease (VEO-IBD) is defined as Inflammatory Bowel Disease (IBD) diagnosed before the age of 6. It's a less common form of IBD, with a higher likelihood of being caused by a genetic defect or underlying immunodeficiency compared to IBD diagnosed at older ages."
     }
   ]
 }
