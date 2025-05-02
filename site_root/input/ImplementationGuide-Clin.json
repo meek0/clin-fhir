@@ -483,11 +483,11 @@
         }
       },
       {
-        "description": "Ferlab.bio ValueSet fetalanom-default-hpo",
+        "description": "Ferlab.bio ValueSet fean-default-hpo",
         "exampleBoolean": false,
-        "name": "Ferlab.bio ValueSet/fetalanom-default-hpo",
+        "name": "Ferlab.bio ValueSet/fean-default-hpo",
         "reference": {
-          "reference": "ValueSet/fetalanom-default-hpo"
+          "reference": "ValueSet/fean-default-hpo"
         }
       },
       {
