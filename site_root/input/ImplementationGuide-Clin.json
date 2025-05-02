@@ -515,11 +515,11 @@
         }
       },
       {
-        "description": "Ferlab.bio ValueSet fetalanom-default-exam",
+        "description": "Ferlab.bio ValueSet fean-default-exam",
         "exampleBoolean": false,
-        "name": "Ferlab.bio ValueSet/fetalanom-default-exam",
+        "name": "Ferlab.bio ValueSet/fean-default-exam",
         "reference": {
-          "reference": "ValueSet/fetalanom-default-exam"
+          "reference": "ValueSet/fean-default-exam"
         }
       },
       {
