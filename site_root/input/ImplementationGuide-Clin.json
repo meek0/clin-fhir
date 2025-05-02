@@ -483,6 +483,14 @@
         }
       },
       {
+        "description": "Ferlab.bio ValueSet polym-default-hpo",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/polym-default-hpo",
+        "reference": {
+          "reference": "ValueSet/polym-default-hpo"
+        }
+      },
+      {
         "description": "Ferlab.bio ValueSet fetalanom-default-hpo",
         "exampleBoolean": false,
         "name": "Ferlab.bio ValueSet/fetalanom-default-hpo",
@@ -512,6 +520,14 @@
         "name": "Ferlab.bio ValueSet/malfor-default-exam",
         "reference": {
           "reference": "ValueSet/malfor-default-exam"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet polym-default-exam",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/polym-default-exam",
+        "reference": {
+          "reference": "ValueSet/polym-default-exam"
         }
       },
       {

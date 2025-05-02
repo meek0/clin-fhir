@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "id": "polym-default-exam",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/polym-default-exam",
+  "version": "0.1.0",
+  "name": "polym-default-exam",
+  "title": "Polymalformation default para-clinical exams",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Polymalformation default para-clinical exams",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+        "concept": [
+          {
+            "code": "CNVPG",
+            "display": "Genomic CNV analysis",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Analyse CNV pan-génomique"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "date": "2050-03-31T10:49:27-04:00"
+}
