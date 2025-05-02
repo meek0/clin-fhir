@@ -1,9 +1,9 @@
 {
   "resourceType": "ValueSet",
-  "id": "fetalanom-default-hpo",
-  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/fetalanom-default-hpo",
+  "id": "fean-default-hpo",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/fean-default-hpo",
   "version": "0.1.0",
-  "name": "fetalanom-default-hpo",
+  "name": "fean-default-hpo",
   "title": "Fetal anomalies default clinical signs (HPO code)",
   "status": "active",
   "experimental": false,
