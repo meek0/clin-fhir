@@ -194,7 +194,7 @@
       "definition": "This test is indicated for patients presenting with a major congenital anomaly suggestive of a monogenic disease (e.g. cerebellar anomaly, radial anomalies of the upper limbs, complex cardiac malformation, etc.), a major congenital anomaly in the presence of dysmorphism, or 2 or more major congenital anomalies. In the context of this test and according to the CDC's definition, a major anomaly is defined as a structural abnormality present before birth that has significant medical, social, or cosmetic consequences. Typically, it requires medical intervention, as opposed to a minor anomaly."
     },
     {
-      "code": "FETALANOM",
+      "code": "FEAN",
       "display": "Fetal anomalies",
       "designation": [
         {

@@ -1,9 +1,9 @@
 {
   "resourceType": "ValueSet",
-  "id": "fetalanom-default-exam",
-  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/fetalanom-default-exam",
+  "id": "fean-default-exam",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/fean-default-exam",
   "version": "0.1.0",
-  "name": "fetalanom-default-exam",
+  "name": "fean-default-exam",
   "title": "Fetal anomalies default para-clinical exams",
   "status": "active",
   "experimental": false,
