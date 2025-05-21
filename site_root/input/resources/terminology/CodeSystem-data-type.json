@@ -164,6 +164,16 @@
       ]
     },
     {
+      "code": "EXOMISER_CNV",
+      "display": "Exomiser Report (CNV)",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Rapport Exomiser (CNV)"
+        }
+      ]
+    },
+    {
       "code": "PFUSION",
       "display": "Preliminary Fusion TSV",
       "designation": [
