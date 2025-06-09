@@ -155,21 +155,21 @@
     },
     {
       "code": "EXOMISER",
-      "display": "Exomiser Report",
+      "display": "Exomiser SNV Report",
       "designation": [
         {
           "language": "fr",
-          "value": "Rapport Exomiser"
+          "value": "Rapport SNV Exomiser"
         }
       ]
     },
     {
       "code": "EXOMISER_CNV",
-      "display": "Exomiser Report (CNV)",
+      "display": "Exomiser CNV Report",
       "designation": [
         {
           "language": "fr",
-          "value": "Rapport Exomiser (CNV)"
+          "value": "Rapport CNV Exomiser"
         }
       ]
     },
