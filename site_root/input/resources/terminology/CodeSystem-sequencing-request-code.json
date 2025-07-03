@@ -41,6 +41,16 @@
                     "value": "Séquençage de transcriptome tumoral"
                 }
             ]
+        },
+        {
+            "code": "75022",
+            "display": "Normal Genome Sequencing",
+            "designation": [
+                {
+                    "language": "fr",
+                    "value": "Séquençage du génome normal"
+                }
+            ]
         }
     ]
 }
