@@ -376,6 +376,16 @@
         }
       ],
       "definition": "Very Early Onset Inflammatory Bowel Disease (VEO-IBD) is defined as Inflammatory Bowel Disease (IBD) diagnosed before the age of 6. It's a less common form of IBD, with a higher likelihood of being caused by a genetic defect or underlying immunodeficiency compared to IBD diagnosed at older ages."
+    },
+    {
+      "code": "GENOR",
+      "display": "Normal Genome",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Génome Normal"
+        }
+      ]
     }
   ]
 }
