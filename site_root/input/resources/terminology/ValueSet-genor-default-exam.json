@@ -12,7 +12,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"
       }
     ]
   },
