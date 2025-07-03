@@ -13,7 +13,6 @@
     "include": [
       {
         "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-        "concept": []
       }
     ]
   },
