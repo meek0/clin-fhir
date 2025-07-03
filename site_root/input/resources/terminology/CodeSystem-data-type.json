@@ -312,6 +312,56 @@
           "value": "Fusion de gènes"
         }
       ]
+    },
+    {
+      "code": "HLA",
+      "display": "HLA caller results",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Résultats de l'appel des allèles HLA"
+        }
+      ]
+    },
+    {
+      "code": "PAC",
+      "display": "Paralog Calling",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Appel de variants dans les gènes paralogues"
+        }
+      ]
+    },
+    {
+      "code": "PEC",
+      "display": "Ploidy estimation per chromosome",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Estimation de la ploïdie par chromosome"
+        }
+      ]
+    },
+    {
+      "code": "ROH",
+      "display": "Runs of homozygosity",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Segments d’homozygotie"
+        }
+      ]
+    },
+    {
+      "code": "STR",
+      "display": "Tandem repeat calls",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Appel de répétions en tandem"
+        }
+      ]
     }
   ]
 }
