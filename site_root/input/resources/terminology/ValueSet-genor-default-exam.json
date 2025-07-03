@@ -1,9 +1,9 @@
 {
   "resourceType": "ValueSet",
-  "id": "mitn-default-exam",
-  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-exam",
+  "id": "genor-default-exam",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/genor-default-exam",
   "version": "0.1.0",
-  "name": "mitn-default-exam",
+  "name": "genor-default-exam",
   "title": "Nuclear Mitochondriopathies default para-clinic exams",
   "status": "active",
   "experimental": false,
