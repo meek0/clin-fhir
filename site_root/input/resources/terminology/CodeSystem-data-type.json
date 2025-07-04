@@ -315,7 +315,7 @@
     },
     {
       "code": "HLA",
-      "display": "HLA caller results",
+      "display": "HLA Caller Results",
       "designation": [
         {
           "language": "fr",
@@ -335,7 +335,7 @@
     },
     {
       "code": "PEC",
-      "display": "Ploidy estimation per chromosome",
+      "display": "Ploidy Estimation per Chromosome",
       "designation": [
         {
           "language": "fr",
@@ -345,7 +345,7 @@
     },
     {
       "code": "ROH",
-      "display": "Runs of homozygosity",
+      "display": "Runs of Homozygosity",
       "designation": [
         {
           "language": "fr",
@@ -355,7 +355,7 @@
     },
     {
       "code": "STR",
-      "display": "Tandem repeat calls",
+      "display": "Tandem Repeat Calls",
       "designation": [
         {
           "language": "fr",
