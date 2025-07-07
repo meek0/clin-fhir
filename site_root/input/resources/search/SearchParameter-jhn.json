@@ -1,0 +1,16 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "jhn",
+  "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/jhn",
+  "version": "0.1.0",
+  "name": "jhn",
+  "status": "active",
+  "experimental": true,
+  "publisher": "Ferlab",
+  "description": "Searches Person by jhn.",
+  "code": "jhn",
+  "base": [ "Person" ],
+  "type": "string",
+  "expression": "Person.identifier.value",
+  "xpathUsage": "normal"
+}
