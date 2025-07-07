@@ -23,7 +23,7 @@ integration tests.
     ```shell
     scripts/build.sh
     ```
-   
+
 3. Setup the Python virtual environment
 
     ```shell
@@ -31,7 +31,7 @@ integration tests.
     ```
 
 4. Install Jekyll following these [instructions](https://learn.cloudcannon.com/jekyll/install-jekyll-on-linux/)
-   
+
 ### 3. Validate the model
 
 ```shell
@@ -50,7 +50,7 @@ And then to generate the IG :
 java -jar scripts/publisher.jar -ig site_root/ig.ini -tx n/a
 ```
 
-### 5. Publishing the model 
+### 5. Publishing the model
 
 ```shell
 fhirutil publish --base_url <FHIR_API_BASE_URL> --username <USERNAME> --password <PWD>
@@ -63,4 +63,17 @@ docker run -e OAUTH_CLIENT_ID=client_id \
  --base_url https://fhir-green.qa.clin.ferlab.bio/fhir \
  --oauth-url https://auth.qa.clin.ferlab.bio/auth/realms/clin/protocol/openid-connect/token \
  --oauth-uma-audience clin-acl
+```
+
+#### 5.1 Publish the model to QA
+
+https://jobs.qa.cqgc.hsj.rtss.qc.ca/dags/etl_import_fhir/grid
+
+```shell
+Launch the DAG with:
+{
+    "fhir": "yes",
+    "csv": "no",
+    "color": "<blue or green>"
+}
 ```
