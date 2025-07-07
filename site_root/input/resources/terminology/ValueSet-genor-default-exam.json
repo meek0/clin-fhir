@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "genor-default-exam",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/genor-default-exam",
+  "version": "0.1.0",
+  "name": "genor-default-exam",
+  "title": "Nuclear Mitochondriopathies default para-clinic exams",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Nuclear Mitochondriopathies default para-clinic exams",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"
+      }
+    ]
+  },
+  "date": "2025-07-03T10:49:27-04:00"
+}

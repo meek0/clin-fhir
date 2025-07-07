@@ -1,0 +1,112 @@
+{
+  "resourceType": "ValueSet",
+  "id": "genor-default-hpo",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/genor-default-hpo",
+  "version": "0.1.0",
+  "name": "genor-default-hpo",
+  "title": "Normal genome default clinical signs (HPO code)",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Normal genome default clinical signs (HPO code)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://purl.obolibrary.org/obo/hp.owl",
+        "concept": [
+          {
+            "code": "HP:0000252",
+            "display": "Microcephaly",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Microcéphalie"
+              }
+            ]
+          },
+          {
+            "code": "HP:0000750",
+            "display": "Delayed speech and language development",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Retard développemental du langage et de la parole"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001250",
+            "display": "Seizure",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Epilépsie"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001252",
+            "display": "Hypotonia",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Hypotonie musculaire"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001263",
+            "display": "Global developmental delay",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Retard de développement global"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001290",
+            "display": "Generalized hypotonia",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Hypotonie généralisée"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001319",
+            "display": "Neonatal hypotonia",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Hypotonie néonatale"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001508",
+            "display": "Failure to thrive",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Retard de croissance post-natal"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001511",
+            "display": "Intrauterine growth retardation",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Retard de croissance intra-utérin"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "date": "2025-07-03T10:49:27-04:00"
+}
