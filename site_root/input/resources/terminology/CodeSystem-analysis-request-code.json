@@ -93,16 +93,6 @@
       ]
     },
     {
-      "code": "RGDI+",
-      "display": "RGDI+",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "RGDI+"
-        }
-      ]
-    },
-    {
       "code": "POLYM",
       "display": "Polymalformation postnatal context",
       "designation": [
@@ -367,7 +357,7 @@
       ]
     },
     {
-      "code": "VEOIBD",
+      "code": "VEOIB",
       "display": "Very Early Onset Intestinal Bowl Disease",
       "designation": [
         {
