@@ -339,6 +339,14 @@
         }
       },
       {
+        "description": "Ferlab.bio StructureDefinition project, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/project",
+        "reference": {
+          "reference": "StructureDefinition/project"
+        }
+      },
+      {
         "description": "Ferlab.bio StructureDefinition sequencing-experiment, Base: Extension",
         "exampleBoolean": false,
         "name": "Ferlab.bio StructureDefinition/sequencing-experiment",

@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "id": "project-code",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/project-code",
+  "version": "0.1.0",
+  "name": "project-code",
+  "title": "Research Project",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code":"Care4Rare-Expand",
+            "display":"Care4Rare-Expand"
+          }
+        ]
+      }
+    ]
+  }
+}
