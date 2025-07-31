@@ -8,7 +8,7 @@
   "status": "active",
   "experimental": false,
   "publisher": "Ferlab.bio",
-  "description": "",
+  "description": "This patient (or their parents) has consented to participate in a research project.",
   "compose": {
     "include": [
       {
