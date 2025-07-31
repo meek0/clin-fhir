@@ -1,7 +1,7 @@
 {
-  "resourceType": "ValueSet",
+  "resourceType": "CodeSystem",
   "id": "project-code",
-  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/project-code",
+  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/project-code",
   "version": "0.1.0",
   "name": "project-code",
   "title": "Research Project",
@@ -9,11 +9,13 @@
   "experimental": false,
   "publisher": "Ferlab.bio",
   "description": "This patient (or their parents) has consented to participate in a research project.",
-  "compose": {
-    "include": [
-      {
-        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/project-code"
-      }
-    ]
-  }
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 1,
+  "concept": [
+    {
+      "code": "Care4Rare-Expand",
+      "display": "Care4Rare-Expand"
+    }
+  ]
 }
