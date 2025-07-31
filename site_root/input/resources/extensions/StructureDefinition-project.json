@@ -69,7 +69,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSetUri": "http://fhir.cqgc.ferlab.bio/ValueSet/project-code"
+          "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/project-code"
         }
       },
       {
