@@ -587,6 +587,14 @@
         }
       },
       {
+        "description": "Ferlab.bio CodeSystem project-code",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/project-code",
+        "reference": {
+          "reference": "CodeSystem/project-code"
+        }
+      },
+      {
         "description": "Ferlab.bio CodeSystem disease-status",
         "exampleBoolean": false,
         "name": "Ferlab.bio CodeSystem/disease-status",
@@ -600,6 +608,14 @@
         "name": "Ferlab.bio CodeSystem/cgh-abnormalities",
         "reference": {
           "reference": "CodeSystem/cgh-abnormalities"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet project-code",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/project-code",
+        "reference": {
+          "reference": "ValueSet/project-code"
         }
       },
       {
