@@ -115,6 +115,25 @@
         "isModifier": false
       },
       {
+        "id": "ServiceRequest.extension:project",
+        "path": "ServiceRequest.extension",
+        "sliceName": "project",
+        "short": "Research Project",
+        "definition": "This patient (or their parents) has consented to participate in a research project.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.cqgc.ferlab.bio/StructureDefinition/project"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": false
+      },
+      {
         "id": "ServiceRequest.basedOn",
         "path": "ServiceRequest.basedOn",
         "max": "0"
