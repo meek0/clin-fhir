@@ -236,16 +236,6 @@
       "definition": "Epilepsy is a neurodevelopmental disorder characterized by recurrent, unprovoked seizures. These seizures are caused by abnormal electrical activity in the brain. The condition can vary widely in terms of severity, frequency, and type of seizures experienced. Epilepsy can be either isolated or, as is often the case in pediatrics, comorbid with developmental delay and intellectual disability (ID)."
     },
     {
-      "code": "EXNOR",
-      "display": "Normal paired exome material",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Exome matériel normal (pairé)"
-        }
-      ]
-    },
-    {
       "code": "HDIP",
       "display": "Hypogammaglobulinemia and primary immune dysregulation",
       "designation": [
@@ -303,16 +293,6 @@
         {
           "language": "fr",
           "value": "Neutropénie congénitale"
-        }
-      ]
-    },
-    {
-      "code": "PGDI",
-      "display": "Global immunodeficiency panel",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Panel global déficit immunitaire"
         }
       ]
     },
