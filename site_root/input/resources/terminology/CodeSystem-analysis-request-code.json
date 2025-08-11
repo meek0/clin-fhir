@@ -94,7 +94,7 @@
     },
     {
       "code": "POLYM",
-      "display": "Polymalformation postnatal context",
+      "display": "Polymalformation Postnatal Context",
       "designation": [
         {
           "language": "fr",
@@ -174,7 +174,7 @@
     },
     {
       "code": "FEAN",
-      "display": "Fetal anomalies",
+      "display": "Fetal Anomalies",
       "designation": [
         {
           "language": "fr",
@@ -185,7 +185,7 @@
     },
     {
       "code": "DPSO",
-      "display": "Superoxide production defect",
+      "display": "Superoxide Production Defect",
       "designation": [
         {
           "language": "fr",
@@ -195,7 +195,7 @@
     },
     {
       "code": "EIDC",
-      "display": "Inherited complement errors",
+      "display": "Inherited Complement Errors",
       "designation": [
         {
           "language": "fr",
@@ -205,7 +205,7 @@
     },
     {
       "code": "EIDI",
-      "display": "Inborn errors of immunity",
+      "display": "Inborn Errors of Immunity",
       "designation": [
         {
           "language": "fr",
@@ -216,7 +216,7 @@
     },
     {
       "code": "EIII",
-      "display": "Inherited errors of intrinsic immunity",
+      "display": "Inherited Errors of Intrinsic Immunity",
       "designation": [
         {
           "language": "fr",
@@ -226,7 +226,7 @@
     },
     {
       "code": "EPIL",
-      "display": "Epilepsy without intellectual disability",
+      "display": "Epilepsy Without Intellectual Disability",
       "designation": [
         {
           "language": "fr",
@@ -237,7 +237,7 @@
     },
     {
       "code": "HDIP",
-      "display": "Hypogammaglobulinemia and primary immune dysregulation",
+      "display": "Hypogammaglobulinemia and Primary Immune Dysregulation",
       "designation": [
         {
           "language": "fr",
@@ -247,7 +247,7 @@
     },
     {
       "code": "HLEB",
-      "display": "Lymphohistiocytic hemophagocytosis and chronic active Epstein-Barr virus infection",
+      "display": "Lymphohistiocytic Hemophagocytosis and Chronic Active Epstein-Barr Virus Infection",
       "designation": [
         {
           "language": "fr",
@@ -257,7 +257,7 @@
     },
     {
       "code": "HLH",
-      "display": "Hemophagocytic lymphohistiocytosis",
+      "display": "Hemophagocytic Lymphohistiocytosis",
       "designation": [
         {
           "language": "fr",
@@ -268,7 +268,7 @@
     },
     {
       "code": "MAI",
-      "display": "Autoinflammatory diseases",
+      "display": "Autoinflammatory Diseases",
       "designation": [
         {
           "language": "fr",
@@ -288,7 +288,7 @@
     },
     {
       "code": "NPC",
-      "display": "Congenital neutropenia",
+      "display": "Congenital Neutropenia",
       "designation": [
         {
           "language": "fr",
@@ -308,7 +308,7 @@
     },
     {
       "code": "SHIGE",
-      "display": "Hyper-IgE syndrome",
+      "display": "Hyper-IgE Syndrome",
       "designation": [
         {
           "language": "fr",
@@ -318,7 +318,7 @@
     },
     {
       "code": "SLA",
-      "display": "Amyotrophic lateral sclerosis",
+      "display": "Amyotrophic Lateral Sclerosis",
       "designation": [
         {
           "language": "fr",
@@ -328,7 +328,7 @@
     },
     {
       "code": "SURD",
-      "display": "Hearing loss",
+      "display": "Hearing Loss",
       "designation": [
         {
           "language": "fr",
