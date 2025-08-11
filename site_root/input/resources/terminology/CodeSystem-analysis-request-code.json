@@ -349,11 +349,11 @@
     },
     {
       "code": "GENOR",
-      "display": "Normal Genome",
+      "display": "Whole Genome Sequencing - Non-Specific",
       "designation": [
         {
           "language": "fr",
-          "value": "Génome normal"
+          "value": "Séquençage du génome entier - non spécifique"
         }
       ]
     }
