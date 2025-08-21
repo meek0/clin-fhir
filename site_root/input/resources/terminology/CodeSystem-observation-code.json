@@ -292,15 +292,45 @@
         }
       ]
     },
-          {
-            "code": "QFPCR",
-            "display": "Rapid detection of fetal aneuploidies (QF-PCR)",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Détection rapide des aneuploïdies (QF-PCR)"
-              }
-            ]
-          }
+    {
+      "code": "QFPCR",
+      "display": "Rapid detection of fetal aneuploidies (QF-PCR)",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Détection rapide des aneuploïdies (QF-PCR)"
+        }
+      ]
+    },
+    {
+      "code": "LPWGS",
+      "display": "CNV (Microarray/LP-WGS)",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "CNV (micropuce/LP-WGS)"
+        }
+      ]
+    },
+    {
+      "code": "PG",
+      "display": "Gene Panel",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Panel de gènes"
+        }
+      ]
+    },
+    {
+      "code": "LP",
+      "display": "Lymphocyte Phenotyping",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Phénotypage lymphocytaire"
+        }
+      ]
+    }
   ]
 }
