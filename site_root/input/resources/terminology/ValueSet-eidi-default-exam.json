@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "eidi-default-exam",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/eidi-default-exam",
+  "version": "0.1.0",
+  "name": "eidi-default-exam",
+  "title": "Nuclear Mitochondriopathies default para-clinic exams",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Nuclear Mitochondriopathies default para-clinic exams",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+        "concept": [
+          {
+            "code": "LPWGS",
+            "display": "CNV (Microarray/LP-WGS)",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "CNV (micropuce/LP-WGS)"
+              }
+            ]
+          },
+          {
+            "code": "PG",
+            "display": "Gene Panel",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Panel de gènes"
+              }
+            ]
+          },
+          {
+            "code": "LP",
+            "display": "Lymphocyte Phenotyping",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Phénotypage lymphocytaire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "date": "2025-08-21T10:49:27-04:00"
+}

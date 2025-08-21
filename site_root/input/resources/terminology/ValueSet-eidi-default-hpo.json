@@ -1,0 +1,337 @@
+{
+  "resourceType": "ValueSet",
+  "id": "eidi-default-hpo",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/eidi-default-hpo",
+  "version": "0.1.0",
+  "name": "eidi-default-hpo",
+  "title": " Inborn errors of immunity default clinical signs (HPO code)",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "Inborn errors of immunity default clinical signs (HPO code)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://purl.obolibrary.org/obo/hp.owl",
+        "concept": [
+          {
+            "code": "HP:0011100",
+            "display": "Miscellaneous - Intestinal atresia",
+            "designation": [
+              { "language": "fr", "value": "Divers - Atrésie intestinale" }
+            ]
+          },
+          {
+            "code": "HP:0002960",
+            "display": "Miscellaneous - Autoimmunity",
+            "designation": [
+              { "language": "fr", "value": "Divers - Auto-immunité" }
+            ]
+          },
+          {
+            "code": "HP:0002206",
+            "display": "Miscellaneous - Pulmonary fibrosis",
+            "designation": [
+              { "language": "fr", "value": "Divers - Fibrose pulmonaire" }
+            ]
+          },
+          {
+            "code": "HP:0001263",
+            "display": "Miscellaneous - Global developmental delay",
+            "designation": [
+              { "language": "fr", "value": "Divers - Retard de développement global" }
+            ]
+          },
+          {
+            "code": "HP:0005575",
+            "display": "Miscellaneous - Hemolytic-uremic syndrome",
+            "designation": [
+              { "language": "fr", "value": "Divers - Syndrome hémolytique et urémique" }
+            ]
+          },
+          {
+            "code": "HP:0001878",
+            "display": "Haematological - Hemolytic anemia",
+            "designation": [
+              { "language": "fr", "value": "Hématologique - Anémie hémolytique" }
+            ]
+          },
+          {
+            "code": "HP:0001888",
+            "display": "Haematological - Lymphopenia",
+            "designation": [
+              { "language": "fr", "value": "Hématologique - Lymphopénie" }
+            ]
+          },
+          {
+            "code": "HP:0001875",
+            "display": "Haematological - Neutropenia",
+            "designation": [
+              { "language": "fr", "value": "Hématologique - Neutropénie" }
+            ]
+          },
+          {
+            "code": "HP:0001876",
+            "display": "Haematological - Pancytopenia",
+            "designation": [
+              { "language": "fr", "value": "Hématologique - Pancytopénie" }
+            ]
+          },
+          {
+            "code": "HP:0001873",
+            "display": "Haematological - Thrombocytopenia",
+            "designation": [
+              { "language": "fr", "value": "Hématologique - Thrombopénie" }
+            ]
+          },
+          {
+            "code": "HP:0004432",
+            "display": "Immunodeficiency - Agammaglobulinemia",
+            "designation": [
+              { "language": "fr", "value": "Immunodéficience - Agammaglobulinémie" }
+            ]
+          },
+          {
+            "code": "HP:0005339",
+            "display": "Immunodeficiency - Abnormality of complement system",
+            "designation": [
+              { "language": "fr", "value": "Immunodéficience - Anomalie du système du complément" }
+            ]
+          },
+          {
+            "code": "HP:0004315",
+            "display": "Immunodeficiency - Decreased circulating IgG level",
+            "designation": [
+              { "language": "fr", "value": "Immunodéficience - Baisse des IgG sériques" }
+            ]
+          },
+          {
+            "code": "HP:0004430",
+            "display": "Immunodeficiency - Severe combined immunodeficiency",
+            "designation": [
+              { "language": "fr", "value": "Immunodéficience - Déficit immunitaire combiné sévère" }
+            ]
+          },
+          {
+            "code": "HP:0004313",
+            "display": "Immunodeficiency - Decreased antibody level in blood",
+            "designation": [
+              { "language": "fr", "value": "Immunodéficience - Hypogammaglobulinémie" }
+            ]
+          },
+          {
+            "code": "HP:0005374",
+            "display": "Immunodeficiency - Cellular immunodeficiency",
+            "designation": [
+              { "language": "fr", "value": "Immunodéficience - Immmunodéficience cellulaire" }
+            ]
+          },
+          {
+            "code": "HP:0005363",
+            "display": "Immunodeficiency - Humoral immunodeficiency",
+            "designation": [
+              { "language": "fr", "value": "Immunodéficience - Immunodéficience humorale partielle" }
+            ]
+          },
+          {
+            "code": "HP:0003212",
+            "display": "Immunodeficiency - Increased IgE level",
+            "designation": [
+              { "language": "fr", "value": "Immunodéficience - Taux d'IgE augmenté" }
+            ]
+          },
+          {
+            "code": "HP:0410243",
+            "display": "Immunodeficiency - Abnormal IgM level",
+            "designation": [
+              { "language": "fr", "value": "Immunodéficience - Taux d'IgM anormal" }
+            ]
+          },
+          {
+            "code": "HP:0002728",
+            "display": "Infections - Chronic mucocutaneous candidiasis",
+            "designation": [
+              { "language": "fr", "value": "Infections - Candidose cutanéo-muqueuse chronique" }
+            ]
+          },
+          {
+            "code": "HP:0032101",
+            "display": "Infections - Unusual infection",
+            "designation": [
+              { "language": "fr", "value": "Infections - Infection inhabituelle" }
+            ]
+          },
+          {
+            "code": "HP:0002719",
+            "display": "Infections - Recurrent infections",
+            "designation": [
+              { "language": "fr", "value": "Infections - Infections récurrentes" }
+            ]
+          },
+          {
+            "code": "HP:0100806",
+            "display": "Infections - Sepsis",
+            "designation": [
+              { "language": "fr", "value": "Infections - Sepsis" }
+            ]
+          },
+          {
+            "code": "HP:0200043",
+            "display": "Infections - Verrucae",
+            "designation": [
+              { "language": "fr", "value": "Infections - Verrue" }
+            ]
+          },
+          {
+            "code": "HP:0001369",
+            "display": "Inflammation - Arthritis",
+            "designation": [
+              { "language": "fr", "value": "Inflammation - Arthrite" }
+            ]
+          },
+          {
+            "code": "HP:0002583",
+            "display": "Inflammation - Colitis",
+            "designation": [
+              { "language": "fr", "value": "Inflammation - Colite" }
+            ]
+          },
+          {
+            "code": "HP:0032323",
+            "display": "Inflammation - Periodic fever",
+            "designation": [
+              { "language": "fr", "value": "Inflammation - Fièvre périodique" }
+            ]
+          },
+          {
+            "code": "HP:0012156",
+            "display": "Inflammation - Hemophagocytosis",
+            "designation": [
+              { "language": "fr", "value": "Inflammation - Hématophagocytose" }
+            ]
+          },
+          {
+            "code": "HP:0000554",
+            "display": "Inflammation - Inflammation of one or all portions of the uveal tract",
+            "designation": [
+              { "language": "fr", "value": "Inflammation - Inflammation d'une ou de toutes les parties de l'uvée" }
+            ]
+          },
+          {
+            "code": "HP:0002725",
+            "display": "Inflammation - Systemic lupus erythematosus",
+            "designation": [
+              { "language": "fr", "value": "Inflammation - Lupus érythémateux disséminé" }
+            ]
+          },
+          {
+            "code": "HP:0009071",
+            "display": "Inflammation - Inflammatory myopathy",
+            "designation": [
+              { "language": "fr", "value": "Inflammation - Myopathie inflammatoire" }
+            ]
+          },
+          {
+            "code": "HP:0012647",
+            "display": "Inflammation - Abnormal inflammatory response",
+            "designation": [
+              { "language": "fr", "value": "Inflammation - Réponse inflammatoire anormale" }
+            ]
+          },
+          {
+            "code": "HP:0032154",
+            "display": "Inflammation - Aphthous ulcer",
+            "designation": [
+              { "language": "fr", "value": "Inflammation - Ulcère aphteux" }
+            ]
+          },
+          {
+            "code": "HP:0002633",
+            "display": "Inflammation - Vasculitis",
+            "designation": [
+              { "language": "fr", "value": "Inflammation - Vascularite" }
+            ]
+          },
+          {
+            "code": "HP:0001022",
+            "display": "Skin and appendages - Albinism",
+            "designation": [
+              { "language": "fr", "value": "Peau et phanères - Albinisme" }
+            ]
+          },
+          {
+            "code": "HP:0001595",
+            "display": "Skin and appendages - Abnormality of the hair",
+            "designation": [
+              { "language": "fr", "value": "Peau et phanères - Anomalie des cheveux/poils" }
+            ]
+          },
+          {
+            "code": "HP:0000924",
+            "display": "Skin and appendages - Abnormality of the skeletal system",
+            "designation": [
+              { "language": "fr", "value": "Peau et phanères - Anomalie du système squelettique" }
+            ]
+          },
+          {
+            "code": "HP:0010720",
+            "display": "Skin and appendages - Abnormal hair pattern",
+            "designation": [
+              { "language": "fr", "value": "Peau et phanères - Anormalité de la distribution des cheveux" }
+            ]
+          },
+          {
+            "code": "HP:0000968",
+            "display": "Skin and appendages - Ectodermal dysplasia",
+            "designation": [
+              { "language": "fr", "value": "Peau et phanères - Dysplasie ectodermique" }
+            ]
+          },
+          {
+            "code": "HP:0000964",
+            "display": "Skin and appendages - Eczema",
+            "designation": [
+              { "language": "fr", "value": "Peau et phanères - Eczéma" }
+            ]
+          },
+          {
+            "code": "HP:0000988",
+            "display": "Skin and appendages - Skin rash",
+            "designation": [
+              { "language": "fr", "value": "Peau et phanères - Exanthème" }
+            ]
+          },
+          {
+            "code": "HP:0008404",
+            "display": "Skin and appendages - Nail dystrophy",
+            "designation": [
+              { "language": "fr", "value": "Peau et phanères - Onychodystrophie" }
+            ]
+          },
+          {
+            "code": "HP:0011002",
+            "display": "Skin and appendages - Osteopetrosis",
+            "designation": [
+              { "language": "fr", "value": "Peau et phanères - Ostéopétrose" }
+            ]
+          },
+          {
+            "code": "HP:0011362",
+            "display": "Skin and appendages - Abnormal hair quantity",
+            "designation": [
+              { "language": "fr", "value": "Peau et phanères - Quantité de cheveux anormale" }
+            ]
+          },
+          {
+            "code": "HP:0000164",
+            "display": "Skin and appendages - Any abnormality of the teeth",
+            "designation": [
+              { "language": "fr", "value": "Peau et phanères - Toute anomalie des dents" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "date": "2025-08-21T10:49:27-04:00"
+}
