@@ -152,6 +152,16 @@
           "value": "Fichier texte"
         }
       ]
+    },
+    {
+      "code": "XLSX",
+      "display": "Excel File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Fichier Excel"
+        }
+      ]
     }
   ]
 }
