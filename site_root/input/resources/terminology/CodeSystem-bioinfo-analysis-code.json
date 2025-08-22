@@ -54,6 +54,16 @@
       ]
     },
     {
+      "code": "PEBA",
+      "display": "Pseudogene Bioinformatic Analysis",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Analyse bioinformatique de pseudogènes"
+        }
+      ]
+    },
+    {
       "code": "TRBA",
       "display": "Transcriptome Bioinformatic Analysis",
       "designation": [
