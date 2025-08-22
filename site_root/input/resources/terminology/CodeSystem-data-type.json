@@ -24,6 +24,16 @@
       ]
     },
     {
+      "code": "ALIRPG",
+      "display": "Aligned Reads from Variants Non-Repetitive Regions Report",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Fragments alignés pour les variants annotés provenant de régions non répétées"
+        }
+      ]
+    },
+    {
       "code": "SNV",
       "display": "Germline SNV",
       "designation": [
@@ -40,6 +50,16 @@
         {
           "language": "fr",
           "value": "SNV somatic"
+        }
+      ]
+    },
+    {
+      "code": "SNVPG",
+      "display": "Germline SNV from Variants Non-Repetitive Regions Report",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Variants SNV germinales annotés provenant de régions non répétées"
         }
       ]
     },
@@ -360,6 +380,36 @@
         {
           "language": "fr",
           "value": "Appel de répétions en tandem"
+        }
+      ]
+    },
+    {
+      "code": "NORM_VEPPG",
+      "display": "Annotated Variants from Non-Repetitive Regions (Legacy Batch) VCF File",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Fichier VCF des variants annotés provenant de régions non répétées (ancien traitement par lot)"
+        }
+      ]
+    },
+    {
+      "code": "NRRV",
+      "display": "Annotated Variants from Non-Repetitive Regions Report",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Rapport de variants annotés provenant de régions non répétées"
+        }
+      ]
+    },
+    {
+      "code": "PHENOVAR",
+      "display": "Phenovar Detailed Results",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Résultats détaillés de Phenovar"
         }
       ]
     }
